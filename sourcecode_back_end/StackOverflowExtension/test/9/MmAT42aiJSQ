@@ -1,0 +1,5 @@
+Simple example that shows how to fix the following error
+Interop type 'ApplicationClass' cannot be embedded. Use the applicable interface instead.
+
+More info
+http://howtodomssqlcsharpexcelaccess.blogspot.ca/2013/07/vbnet-how-to-fix-error-interop-type.html

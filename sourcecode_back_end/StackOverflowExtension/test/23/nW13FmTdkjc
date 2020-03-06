@@ -1,0 +1,40 @@
+Download Java Source Code: http://www.luv2code.com/?p=992
+
+In this video you will learn how to connect to MySQL with Java and NetBeans.
+
+Please subscribe to this channel :-)
+- https://www.youtube.com/user/luv2codetv?sub_confirmation=1
+
+Video Transcript
+Time - 00:00
+Hi, this is Chad (shod) with luv2code.com. In this video, you will learn how to connect to MySQL with Java and NetBeans. 
+
+Time - 00:10
+Let's go over the development process. The first thing we'll do is review the database tables, then we'll download and add MySQL database driver to NetBeans, then we'll actually create the Java code.
+
+Time - 00:25
+Let's look at our database and see what data we have. We'll move to the MySQL workbench tool. See that we have a table called Employees and then we'll do a select star from that table and we'll see that we have three employees currently in our database.
+
+Time - 00:46
+Now I'll create a simple NetBeans project. I'll go to the File menu, I'll select new Project. Make sure the Java application is selected and click next. For the project name, I'll give it jdbcdemo, I'll click Finish. Now what I'll do is I'll add a new Java Class. I'll select the project, I'll right click, I'll select New Java Class. For the name of the class I'll enter demo and hit finish. Now I have a basic Java Class ready to go.
+
+Time - 01:26
+I will show you how to download the MySQL database driver and add it to your NetBeans project. First thing we have to do is visit the MySQL website at dev.mysql.com. On this page, we'll choose the dropdown and we'll select the platform independent. We'll choose the second entry here, the ZIP Archive and we'll click the download button. On the next page right near the bottom, we'll say no thanks, just start my download. Then we'll save it to our local system. 
+
+Time - 02:07
+Now let's move over to our Finder window on our file system and find the actual file that we just downloaded and I want to uncompressed it because right now it's a ZIP. I'll double click it, this will expand it or extract it. I'll look at it through list view. Now I have this new directory with the artifacts and there's a MySQL connector Java bin.jar, that's the actual JDBC driver that we'll use.
+
+Time - 02:35
+Now we need to copy this file to the NetBeans project directory. I'll right click, I'll select copy then I'll switch over to NetBeans, I'll click the files tab and I'll select my project and I'll right click and I'll say paste. Even though the file is copied over, we still need to tell NetBeans that this a JAR library that we'll use on our project. What I'll do know is I'll click on the projects tab, I'll go to libraries and I'll choose add library and now I'll navigate to that NetBeans project directory where I actually have the file stored. Jbdcdemo and MySQL connector Java bin and I'll select choose. Then I'll expand this library's folder and we'll see that now this MySQL Java driver is part of this NetBeans project. 
+
+Time - 03:37
+Now let's start with the coding. The first thing I need to do is import Java to SQL package and then I'll drop in code for this main map it and then I'll walk through the code and show you how it works. This is our main map it, the main routine for the application. Then we have variables for the connection statement and result set. We also have the user id and password that we'll use. 
+
+Time - 04:03
+Then the first step is getting a connection to a database. We'll use the URL, the user id and the password. Then we go through and we create a statement object. Then we use this statement object to execute SQL query, select star from employees, then we'll process the result set and we'll simply print out the last name of the employee along with the first name. We have our accession handler and then we also clean up our resources at the end once we're done.
+
+Time - 04:42
+Then to actually run the application, we will right click, select run file and at the bottom we have our output. We have our three employees that were listed in the database and our Java program was able to access it successfully. Great. 
+
+Time - 04:59
+Okay so this wraps up our video. You learned how to use NetBeans to connect to a MySQL database. Please subscribe to our channel to view more videos on Java, click thumbs up to like our video. Also visit our website luv2code.com to download the Java source code used in this video.

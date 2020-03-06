@@ -1,0 +1,4 @@
+    if not a:
+      print(&quot;List is empty&quot;)
+
+Using the implicit booleanness of the empty list `a` is quite pythonic.

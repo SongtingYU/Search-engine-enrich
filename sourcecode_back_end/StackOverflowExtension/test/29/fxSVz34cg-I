@@ -1,0 +1,38 @@
+General principles[edit]
+
+youtube keyword seo
+
+Java,Pascal,Ada,Python,PHP,C#,Javascript,C++,C,Objective-C,R,Swift,Matlab,Ruby,Visual Basic,VBA,Scala,Perl,lua,Go,Delphi,Haskell,programming,language,programmer,tutorial,learn,beginner,expert,teguh wiharko,netbeans,eclipse,student,lecturer,mysql,oracle,mariadb,sql server,express,encryption,rsa,dsa,m5,sha,
+
+Date and time values are ordered from the largest to smallest unit of time: year, month (or week), day, hour, minute, second, and fraction of second. The lexicographical order of the representation thus corresponds to chronological order, except for date representations involving negative years. This allows dates to be naturally sorted by, for example, file systems.
+Each date and time value has a fixed number of digits that must be padded with leading zeros.
+Representations can be done in one of two formats – a basic format with a minimal number of separators or an extended format with separators added to enhance human readability.[5] The standard notes that "The basic format should be avoided in plain text."[6] The separator used between date values (year, month, week, and day) is the hyphen, while the colon is used as the separator between time values (hours, minutes, and seconds). For example, the 6th day of the 1st month of the year 2009 may be written as "2009-01-06" in the extended format or simply as "20090106" in the basic format without ambiguity.
+For reduced accuracy,[7] any number of values may be dropped from any of the date and time representations, but in the order from the least to the most significant. For example, "2004-05" is a valid ISO 8601 date, which indicates May (the fifth month) 2004. This format will never represent the 5th day of an unspecified month in 2004, nor will it represent a time-span extending from 2004 into 2005.
+If necessary for a particular application, the standard supports the addition of a decimal fraction to the smallest time value in the representation.
+Dates[edit]
+April 2016
+Wk Mo Tu We Th Fr Sa Su
+(13) 28 29 30 31 1 2 3
+(14) 4 5 6 7 8 9 10
+(15) 11 12 13 14 15 16 17
+(16) 18 19 20 21 22 23 24
+(17) 25 26 27 28 29 30 1
+The standard uses the Gregorian calendar, which serves as an international standard for civil use.[8]
+
+ISO 8601 fixes a reference calendar date to the Gregorian calendar of 20 May 1875 as the date the Convention du Mètre (Metre Convention) was signed in Paris. However, ISO calendar dates before the Convention are still compatible with the Gregorian calendar all the way back to the official introduction of the Gregorian calendar on 1582-10-15. Earlier dates, in the proleptic Gregorian calendar, may be used by mutual agreement of the partners exchanging information. The standard states that every date must be consecutive, so usage of the Julian calendar would be contrary to the standard (because at the switchover date, the dates would not be consecutive).
+
+Years[edit]
+YYYY
+±YYYYY
+ISO 8601 prescribes, as a minimum, a four-digit year [YYYY] to avoid the year 2000 problem. It therefore represents years from 0000 to 9999, year 0000 being equal to 1 BC and all others AD. However, years prior to 1583 are not automatically allowed by the standard. Instead "values in the range [0000] through [1582] shall only be used by mutual agreement of the partners in information interchange."[9]
+
+To represent years before 0000 or after 9999, the standard also permits the expansion of the year representation but only by prior agreement between the sender and the receiver.[10] An expanded year representation [±YYYYY] must have an agreed-upon number of extra year digits beyond the four-digit minimum, and it must be prefixed with a + or − sign[11] instead of the more common AD/BC (or BCE/CE) notation; by convention 1 BC is labelled +0000, 2 BC is labeled -0001, and so on.[12]
+
+Calendar dates[edit]
+YYYY-MM-DD or YYYYMMDD
+YYYY-MM (but not YYYYMM)
+Calendar date representations are in the form shown in the box to the right. [YYYY] indicates a four-digit year, 0000 through 9999. [MM] indicates a two-digit month of the year, 01 through 12. [DD] indicates a two-digit day of that month, 01 through 31. For example, "5 April 1981" may be represented as either "1981-04-05"[5] in the extended format or "19810405" in the basic format.
+
+The standard also allows for calendar dates to be written with reduced accuracy.[7] For example, one may write "1981-04" to mean "1981 April", and one may simply write "1981" to refer to that year or "19" to refer to the century from 1900 to 1999 inclusive. Although the standard allows both the YYYY-MM-DD and YYYYMMDD formats for complete calendar date representations, if the day [DD] is omitted then only the YYYY-MM format is allowed. By disallowing dates of the form YYYYMM, the standard avoids confusion with the truncated representation YYMMDD (still often used).
+
+source: https://en.wikipedia.org/wiki/ISO_8601

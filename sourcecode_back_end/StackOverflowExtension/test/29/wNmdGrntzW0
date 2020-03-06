@@ -1,0 +1,32 @@
+Speedtest Python:
+
+#!/usr/bin/python
+import os
+import sys
+from datetime import datetime
+import time
+
+def test():
+        a = os.popen("speedtest-cli --simple").read()
+        date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        lines = a.split('\n')
+        result = str(date) + "\t" +  a.replace('\n', '\t')
+        print result
+        #save the data to file for local network plotting
+        out_file = open('data.csv', 'a')
+        out_file.write(result)
+        out_file.close()
+        return
+
+if __name__ == '__main__':
+   while True:
+        test()
+        time.sleep(180)
+
+If you liked this content, please share it with your friends on Twitter, Facebook, Google+, or by messenger pigeon. 
+
+Ways to contact Jordan (me):
+My Tech Channel: http://youtube.com/TwilDotTV
+Google+: http://gplus.to/twil
+Twitter: http://twitter.com/TWILdotTV
+Facebook: http://facebook.com/twildottv

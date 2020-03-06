@@ -1,0 +1,2 @@
+While doing a discharge test on a small USB power bank, I discovered that even though the booster circuit cuts out when the lithium cell's voltage drops to about 3V, the load can still draw current through the boost inductor and diode.  As such, if you leave a load connected to a USB power bank that has run low, it may still drain the lithium cell down below it's safe discharge level and damage the cell.
+So the moral of the story is to avoid leaving loads connected to USB power banks for long periods of time.

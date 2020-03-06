@@ -1,0 +1,13 @@
+Look at the [subprocess module][1] in the stdlib:
+
+    from subprocess import call
+    call([&quot;ls&quot;, &quot;-l&quot;])
+
+The advantage of subprocess vs system is that it is more flexible (you can get the stdout, stderr, the &quot;real&quot; status code, better error handling, etc...). I think os.system is deprecated, too, or will be:
+
+https://docs.python.org/2/library/subprocess.html#replacing-older-functions-with-the-subprocess-module
+
+For quick/dirty/one time scripts, `os.system` is enough, though.
+
+
+  [1]: https://docs.python.org/2/library/subprocess.html

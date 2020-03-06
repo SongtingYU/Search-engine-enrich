@@ -1,0 +1,47 @@
+Roblox University Quizzes Answers Guide Playlist: https://www.youtube.com/playlist?list=PLuSJQRivthptAGIQ56KGqtIhn1B2Gkdh7
+
+Questions and Answers:
+
+1) Q - What does the anchor tool do?
+    A - Prevents a part from moving when the game is running
+
+2) Q - What is not true about the Explorer?
+    A - It is not important to understand when scripting.
+
+3) Q - Which is the correct way to turn on a PointLight using a script?
+    A - light.Enabled = true
+
+4) Q - What will wait(5) do in a script?
+    A - Pauses a script for 5 seconds
+
+5) Q - Which is the correct way to make a variable for a model in the Workspace called "Boat"?
+    A - local boat = game.Workspace.Boat
+
+6) Q - When does a function run?
+    A - As soon as the function is called
+
+7) Q- Which is a correct way to define a new function?
+    A - function myFunction()
+
+8) Q - What is a correct way to print the phrase "ROBLOX is so cool!"?
+    A - print("ROBLOX is cool!")
+
+9) Q - Which is a correct way to bind a function called onHit to Touch event?
+    A - myPart.Touched:connect(onHit)
+
+10) Q - Which is a correct way to loop through all of the things in Workspace?
+      A - for_, object in pairs(game.Workspace:GetChildren())
+
+11) Q - What is a correct way to check if the name of an object is "Dog"?
+      A - if object.Name == "Dog" then
+
+12) Q - Which of the following is a correct way to copy a model called Car and assign it to the variable?
+A - local car = game.ServerStorage.Car:Clone()
+
+Game Link: http://www.roblox.com/ROBLOX-University-place?id=176201574
+
+Game Info: Welcome to ROBLOX U! View our lesson series at www.ROBLOX.com/events/ROBLOXU. Once you have finished the lessons enter this game, find a classroom and sit down to test your knowledge!  Prizes will be awarded to those who successfully complete all four tests for each course.
+
+Design contribution by Lept and Voile.
+
+~{EmperorNightBlaze}~

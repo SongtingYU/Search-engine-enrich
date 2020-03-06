@@ -1,0 +1,49 @@
+Basic R online course 
+Lecture 11 - Date/Time
+
+Commands and Concepts
+* Retrieving the system time
+* Date
+* time
+* POSIXt
+* Adding and subtracting time
+* strptime
+* date/time exercise
+
+R function for retrieving weather data:
+http://agroclimate.org/R-Course/getWeather.R
+Just copy and paste the code on R.
+
+Class project: R library for climate change analysis using CRONOS weather data
+http://agroclimate.org/R-Course/Online%20R%20class%20project.doc
+
+My linkedin profile
+http://www.linkedin.com/pub/tiago-zortea/51/463/2a5
+
+Course links
+Lecture 1 - Overview of the online basic R tutorial - http://youtu.be/Ups49fkux5A
+Lecture 1.1 Optional - Why should I learn R - http://youtu.be/eORsF1FRssk
+Lecture 2 - What is going to be covered - http://youtu.be/T86nz40YaU0
+Lecture 3 - Getting started (installation) - http://youtu.be/bBcMCzqAwHE
+Lecture 4 - Basic data manipulation - http://youtu.be/Wk3vEyQP5Uw
+Lecture 5 - Basic data manipulation 2 - http://youtu.be/EJhC3xLfxdw
+Lecture 6 - Data manipulation exercise solving - http://youtu.be/Uuh5Bh3IDPQ
+Lecture 7 - Data types - http://youtu.be/93ovbFOMblQ
+Lecture 8 - Data types 2 - http://youtu.be/6NtnzgSLCpY
+Lecture 9 - Import and export data with R - http://youtu.be/fnke98HoSFs
+Lecture 10 - Characters - http://youtu.be/A0Qv7szwkkw
+Lecture 11 - Date/Time - http://youtu.be/lSLMHKKdQpY
+Lecture 12 - Date/Time exercise solving - http://youtu.be/Px_ghIREOg0
+Lecture 13 - Vectors - http://youtu.be/WM7gvWYAH-8
+Lecture 14 - Conditional statements - http://youtu.be/zSDsC7ZV61o
+Lecture 15 - Vectors and conditional statements exercise - http://youtu.be/SD96GtBonXU
+Lecture 16 - Matrices - http://youtu.be/9xqlMVlCSbU
+Lecture 17 - Looping structures in R - http://youtu.be/dxVFxBOVsXA
+Lecture 18 - Loops exercise solving - http://youtu.be/VhbAKXD0lTs
+Lecture 19 - Functions - http://youtu.be/c1B5TOiSNSE
+Lecture 20 - Plot and Graphs - http://youtu.be/N_ow5_a14K8
+Lecture 21 - Advanced data processing - http://youtu.be/cDYTQXC5KVM
+Lecture 22 - Project final code overview - http://youtu.be/zkEUQxoIyjk
+Lecture 23 - R packages and closing remarks - http://youtu.be/OB5VlLRq4mc
+Lecture 24 - (Optional) Efficient work environment - http://youtu.be/mPmO30nGOwk
+Lecture 25 - (Optional) Examples of R usage in my work - http://youtu.be/lHavpSPqXpo

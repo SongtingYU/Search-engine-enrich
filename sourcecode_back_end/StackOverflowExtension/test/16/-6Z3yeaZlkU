@@ -1,0 +1,9 @@
+In this Visual Basic .NET tutorial, I will be demonstrating how to easily add, retrieve, and delete data from a VB List array. I'll also be showing you various looping methods used to access the collection data and return it to a ListBox.
+
+TUTORIAL FEATURES:
+Collections - List Of String, List Of Integer
+Loops - For Each, For X = (Index Count), List.ForEach method
+Form Controls - TextBox, ListBox, Button
+Subs & Variables
+
+TIP JAR: http://www.aardaerimus.com/tipjar.asp

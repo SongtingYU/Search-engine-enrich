@@ -1,0 +1,63 @@
+Bitcoin donations are welcome: 1GGV3gbJeA83FWmz9hDfPri8EuqcUtodXy
+
+Mike's SAS Tutorials - Special Topic Lesson 4 - Working with SAS Datetime Data
+
+This video series is intended to help you learn how to program using SAS for your statistical needs. This special topic lesson introduces the SAS date format and clarifies how to work with it. SAS has it's own methods of working with dates so using date data in SAS isn't intuitive. However, I will show that it is relatively simple once you understand the basic concepts.
+
+Helpful Notes:
+
+1. The yearcutoff option on the options statement specifies which century 2 digit years belong to.
+
+2. The mmddyy10. format applies the mm/dd/yyyy format to date data so it is intuitive and meaningful.
+
+3. The year() and month() functions allow you to extract and manipulate the year or month from a date value. You can also use the day() function to extract and manipulate the day of the date.
+
+4. The 'ddMONyyyy'd format allows you compare date data to specific dates.
+
+Today's Code: (Note that the less than, and greater than symbols were omitted because those characters are not allowed in YouTube video descriptions)
+
+* Specifying the yearcutoff option in the options statement is important 
+  to clarify which century the data refers to!;
+options yearcutoff=1925 nodate pageno=1 linesize=80 pagesize=60;
+
+* Create initial dataset. Note the use of date informat on input statement!;
+data dates;
+  input Event date mmddyy10.;
+  cards;
+  1 01/31/17
+  2 11/20/84
+  3 03/15/25
+  4 01/31/95
+  5 02/14/00
+  6 06/15/00
+  ;
+run;
+
+* When you run the contents procedure, you can see the 
+  date data is stored as a number (num type);
+proc contents data=dates; run;
+
+* SAS Dates are stored in SAS data sets using a weird format;
+* To see the date in a meaningful way, use specified formats;
+proc print data=dates;
+  var date;
+  format date mmddyy10.;
+run;
+
+data dates2; set dates;
+  * Using the Year() function;
+  if year(date) x 2000 then century = "20th";
+  else if year(date) x 2000 then century = "21st";
+
+  * Using the Month() function;
+  if month(date) x 6 then half_year = 1;
+  else if month(date) x 6 then half_year = 2;
+
+  * Comparing dates to specific dates;
+  if date x '11SEP2001'd then pre_911 = "Yes";
+  else if date x '11SEP2001'd then pre_911 = "No";
+run;
+
+proc print data=dates2;
+  format date mmddyy10.;
+run;

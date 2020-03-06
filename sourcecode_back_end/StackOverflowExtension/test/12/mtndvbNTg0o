@@ -1,0 +1,1 @@
+This is a modeling program that performs CSG operations on implicit surfaces. The evaluation of the surfaces is being done using the marching and dividing cubes algorithms. The application was implemented in openGL and runs on the GPU.

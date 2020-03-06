@@ -1,0 +1,8 @@
+Python: Built-in Functions - Built-in Functions
+class dict(**kwarg)
+class dict(mapping, **kwarg)
+class dict(iterable, **kwarg)
+dir([object])
+help([object])
+divmod(a, b)
+sum(iterable[, start])

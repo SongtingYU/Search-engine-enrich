@@ -1,0 +1,18 @@
+In this video, we will take a look at a common conditional statement in Python:
+if __name__ == '__main__':
+
+This conditional is used to check whether a python module is being run directly or being imported.
+
+
+If you enjoy these videos and would like to support my channel, I would greatly appreciate any assistance through my Patreon account:
+https://www.patreon.com/coreyms
+
+If you would like to see additional ways in which you can support the channel, you can check out my support page:
+http://coreyms.com/support/
+
+You can find me on:
+My website - http://coreyms.com/
+Facebook - https://www.facebook.com/CoreyMSchafer
+Twitter - https://twitter.com/CoreyMSchafer
+Google Plus - https://plus.google.com/+CoreySchafer44/posts
+Tumblr - https://www.tumblr.com/blog/mycms

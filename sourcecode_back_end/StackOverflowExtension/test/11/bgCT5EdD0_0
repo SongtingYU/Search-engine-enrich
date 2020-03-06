@@ -1,0 +1,24 @@
+C#, SQL Server, WCF, MVC and ASP .NET video tutorials for beginners
+http://www.youtube.com/user/kudvenkat/playlists
+
+Exceptions are unforeseen errors that happen within the logic of an application. For example, when reading a file, a number of exception conditions can occur.
+1. The file might not exist
+2. You may not have permissions to access the file
+
+When an exception occurs and if it is not handled, then, that exception is called as an, unhandled exception. An unhandled exception is displayed to the user using an "yellow screen of death". Displaying the screen of death is bad for 2 reasons
+1. The error messages are cryptic and may not make any sense to the end user
+2. The exception information may be useful for a hacker, to hack into your application
+
+Exception handling using - try-catch 
+try - Wrap the code in a try block that could possibly cause an exception. If a statement in the try block causes an exception, the control will be immediately transferred to the catch block.
+
+catch - catches the exception and tries to correct the error and/or handles the exception
+
+finally - Used to free resources. Finally block is guaranteed to execute irrespective of whether an exception has occurred or not
+
+throw - Used to raise an exception
+
+
+The base class for all exceptions is the Exception class. Specific exceptions should be caught, before catching the general parent exception.
+
+In this session we discussed about handling errors using try/catch blocks. In a later video session we will discuss about, how exceptions are generally handled in a real time asp.net application.

@@ -1,0 +1,2 @@
+Many tutorials show you how to create symbolic links but not so many take you through removing them. You will see in the video how we can remove symbolic links to directories using Centos 7. The danger is that you need to avoid deleting the target so do take care when practicing.
+Additionally you can find my video courses on Pluralsight: http://pluralsight.com/training/Authors/Details/andrew-mallett and take time to see my own site http://www.theurbanpenguin.com

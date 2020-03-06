@@ -1,0 +1,13 @@
+Simple steps for troubleshooting a Van Air Prep 40 air dryer.
+
+1. Turn the power off to the dryer.   Make sure inlet block valve to dryer is open.  Both towers should come up to full line pressure.
+
+2. You can test the pneumatic operation of the dryer by manually overriding control solenoid valves SV1 and SV2.   The manual override button is right on the electrical coil of each control solenoid valve.   To override, push down on the white disc and hold.  
+
+Many people believe when the purge exhaust valves are not functioning properly, it is a problem with the Inlet Transfer Valve.  However, the Inlet Transfer Valve is designed not to be able to change positions unless there is nearly equal pressure in both towers, even if it is told to pneumatically or electrically.
+
+3. Turn the power on to the dryer and monitor it for 20 to 30 minutes.   You should see the dryer switching towers every five minutes.
+
+4. If the dryer is not switch towers you will get a failure to switch alarm.  This can be caused by a purge exhaust valve not opening or closing properly, to high of purge air flow, purge exhaust muffler restricted, or a bad pressure switch.
+
+5. SV1 and SV2 are normally closed solenoid valves.   They can be tested by turning power off to dryer.  Disconnect pilot line going to inlet transfer valve at each solenoid valve one at a time.  There should not be any control air pressure coming out the disconnected port.   Once you override that solenoid valve you should see full line pressure coming out that port.  If control air pressure is coming out that port without the valve being overridden that control valve needs to be replaced.

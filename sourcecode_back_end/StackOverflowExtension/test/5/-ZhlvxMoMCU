@@ -1,0 +1,16 @@
+http://learn-share.net/programming-basics-course/
+Programming Course. The Basics of Programming.
+#20 Breaking The Code
+
+Learn to code.
+
+A function is the idea of taking a block of code, whether one line, 10 lines or 100, wrapping it up, and giving it a name. So you can call it later, and then you can treat that block of code has one thing.
+
+Now the way we create them in java_script, is that we take the code we want to enclose, whether is one line or 100, we surround it with curly braces to create a code block, to say where this functions starts, and where ends.
+
+What ever is inside of this code block, is it was called the body of the function.
+Now we need to say what function this is, we need to give a name. So we first add the word, function, and because we could have a dozen of them, we have to give a unit name. And this part like variables is up to us. 
+
+So could be, create message, hide menu, animate image, explode space ship, calculate score, but let just call this one, my function.
+
+...

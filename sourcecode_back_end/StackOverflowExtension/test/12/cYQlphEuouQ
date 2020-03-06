@@ -1,0 +1,14 @@
+Just a quick fix WITH tutorial on how to resolve the recent empty server lists some of you are having, let me know if you have any additional questions or comments. 
+
+I did not come up with this fix as stated in the video, any damage done to your system is on you, and I hold no responsibility. With that being said, here is the actual commands as stated in the video.
+
+COMMAND Prompt as Admin:
+ipconfig /flushdns press enter
+ipconfig /registerdns press enter
+ipconfig /release press enter
+ipconfig /renew press enter
+netsh winsock reset press enter
+restart your computer
+
+Thanks again for watching!!
+LIKE/COMMENT/SUBSCRIBE

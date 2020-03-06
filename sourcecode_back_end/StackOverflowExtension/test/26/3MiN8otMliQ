@@ -1,0 +1,1 @@
+By default, Rails will render a static error file when an exception occurs in production. Here you will learn how to fully customize this behavior and render dynamic error pages.

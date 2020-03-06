@@ -1,0 +1,42 @@
+originals from youtube.com/brooklynmobile
+
+# EXPORT MOVIES TO SEQUENCE OF INDIVIDUAL FRAMES
+# ffmpeg -i yourmovie.avi -sameq ../Outputdir/frame%4d.jpg
+# names the frames as frame0001.jpg, frame0002.jpg, etc.
+# for long movies use %5d.jpg
+
+# AUDIO EXTRACTION
+# ffmpeg -i movieA.mp4 movieAsound.wav
+# ffmpeg -i movieB.mp4 movieBsound.wav
+# AUDIO MIX
+# sox -m movieAsound.wav movieBsound.wav mixedsound.mp3
+
+#choose directories or prefixes.
+DA="g";
+DB="h";
+# for four digit numbers with leading zeroes, counter needs to start as five digit #
+# then remove the left most digit.
+counter=10000
+#for f in $DF/*.jpeg; do
+for f in ${DA}*.jpg; do
+let "counter+=1"
+# SIN SLICES
+convert ${DA}${counter:1}.jpg ${DB}${counter:1}.jpg /Users/danielpaluska/OneMinutePerDay/wave_gradient64.png -compose over -composite ./slice${counter:1}.jpg 
+
+
+done
+
+DATETIME=`date +%Y%m%d%H%M%S`
+#ffmpeg -r 30 -sameq -i blur%04d.jpg ../blur$DATETIME.mp4
+
+ffmpeg -r 60 -sameq -i slice%04d.jpg ../slice$DATETIME.mp4
+
+
+# ADD AUDIO TO MOVIE
+# ffmpeg -i moviewithoutsound.mp4 -sameq -i sound.mp3 -ab 192k movwithsound.mp4
+
+
+
+#OTHER STUFF
+# make gradient waves
+# convert -size 640x480 gradient:  -evaluate sin 8  wave_gradient.png

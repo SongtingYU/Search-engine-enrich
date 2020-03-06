@@ -1,0 +1,9 @@
+Download Excel File: http://people.highline.edu/mgirvin/ExcelIsFun.htm
+See 5 formulas and timing results for counting unique list of numbers in a column with numbers, empty cells and text. Array formula that does not require Ctrl + Shift + Enter that uses the functions:
+1. SUM, IF and FREQUENCY
+2. SUM, SIGN and FREQUENCY (thanks to Leonid Koyfman from YouTube)
+3. SUMPRODUCT, FREQUENCY, comparative array operation, math array operation
+4. SUM, FREQUENCY, comparative array operation, math array operation (Amazingly it does not require Ctrl + Shift + Enter.
+5. SUMPRODUCT, COUNTIF and ISNUMBER
+6. Timing Results for each formula
+7. Shout Out to Our Online Excel Team: Have you ever seen a formula like this: =SUM(--(FREQUENCY(A2:A15,A2:A15) Greater Than0)) that does not require Ctrl + Shift + Enter!?!?!?

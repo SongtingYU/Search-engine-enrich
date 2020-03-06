@@ -1,0 +1,5 @@
+HTTP status codes are an important way for a server to indicate the status of a request to a client. In this video we explore how we can utilise various status codes to indicate various errors to a client. For example when a client is requesting a resource that the server cannot find then the server should ideally return 404 status code. 
+
+Next we look at HTTP methods. HTTP methods like GET, PUT, POST and DELETE are common way for a client to indicate what it intends the server to do with the request.
+
+Express provides an easy API to provide an implementation for handling HTTP methods and responding with a specific HTTP status code to a request.

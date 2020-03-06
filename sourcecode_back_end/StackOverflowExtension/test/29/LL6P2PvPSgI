@@ -1,0 +1,9 @@
+Chapters 10 and 11 from the MySQL certification study guide
+ISBN: 0672328127 0-672-32812-7
+College of San Mateo, Instructor Bob Timlin.
+MySQL Expressions: TRUNCATE, CONCAT, UPPER, LOWER, math functions, datetime/temporal functions.  CASE WHEN, IF Function.
+pattern matching with LIKE.  The IN and BETWEEN clauses.
+Range functions such as LEAST, GREATEST, INTERVAL, String functions, CONCAT, CONCAT_WS.
+
+Chapter 11: INSERT, REPLACE, UPDATE, DELETE, TRUNCATE, LIMIT
+duplicate keys,

@@ -1,0 +1,10 @@
+This video illustrates how to insert values into table using Visual studio 2010 window forms | GUI.
+This video contains following procedure.
+1)Create a connection between a database and Visual studio 2010.
+2)Opening the connection. 
+3)Writing the SQL query and executing it to insert values into the table.
+4)Display a message box showing how many records have been inserted.
+5)Closing the connection.
+I have used ADO.NET concept to insert values using Windows forms GUI.
+Connect with Author on LinkedIn: in.linkedin.com/in/mdnaseer
+Our Website: http://goo.gl/Np6yLJ

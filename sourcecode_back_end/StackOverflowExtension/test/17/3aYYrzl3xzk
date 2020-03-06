@@ -1,0 +1,53 @@
+NEED TO LEARN JAVA - 5 FREE JAVA VIDEO COURSES - CLICK HERE - https://goo.gl/7i95F8
+
+---
+Download Java Source Code: http://www.luv2code.com/?p=915
+Take the FULL course: http://goo.gl/042JWo
+SUBSCRIBE to this channel: http://goo.gl/EV6Kwv
+Website: http://www.luv2code.com
+
+---
+
+Website: http://www.luv2code.com
+YouTube: http://goo.gl/EV6Kwv
+Twitter: http://goo.gl/ALMzLG
+Facebook: http://goo.gl/8pDRdA
+
+View more videos on my “Eclipse Playlist”: http://goo.gl/R3p3m8
+---
+
+In this video tutorial, I will show you how to add JAR files to an Eclipse project. I will discuss the following topics:
+• JAR refresher
+• Adding a JAR file
+• Using Classes from JAR file
+
+
+---
+
+Video Transcript
+Time - 00:00
+Hi, this is Chad (shod) with luv2code.com. Welcome back to another tutorial on Eclipse. In this video you will learn how to add JAR files to an Eclipse project. I will cover the following topics: JAR refresher, Adding a JAR file and using classes from JAR file. Let's get started. 
+
+Time - 00:23
+You can use JAR files to add functionality to your application. There are Java libraries available that are created by 3rd party groups. The most popular is OpenSource Software. The Java libraries are packaged as JAR files. A JAR file is basically a collection of compressed Java class files. 
+
+Time - 00:40
+In this example, I want to add a StopWatch functionality to my application. When the application is running I would like to find our how long does a certain section of code take to run. Apache Commons provides the StopWatch class. This class had methods to start and stop and you can manage via your code. The documentation for the StopWatch class is available here at Apache's website. 
+
+Time - 01:03
+I've created a very simple Eclipse project that only has one class right now. It has a main method that will display the word running then it will perform a lengthy process which is basically a call to this method here, that just does a sleep for 3 seconds and then will print out finished. What I'd like to do is add some real StopWatch functionality to this application. 
+
+Time - 01:21
+The first thing I need to do is I need to download the JAR file from the Apache website. Let me move over to my browser and I have a bookmark set up for it now but basically you want to go to this URL, commons.apache.org/proper/commons-lang/. Once you're at this site, there's a link here for download. I select download then I move down to binaries and I choose the binary that I want. I choose commonslangbin.zip. This will ask me to save it to my file system. I'll go and select yes and I will save to my local file system. I can go look at my downloads directory and I'll see that this file is now been downloaded to my local file system. 
+
+Time - 02:02
+I have the file, now I need to extract it, so I just double-click, extract this file, now we have this directory and it has this one file here that I want, commonslang.jar. I copy this file and paste it over in my Eclipse project. First, I start to right-click, I'll select copy, move over to the Eclipse project, I move to the root folder of the project, and I'll right-click and select paste. Now we have this file in our project. At this point, Eclipse is not aware that this is a JAR file that we're going to use in our program. We must explicitly tell Eclipse that this is a new Java library for our project. We can accomplish this with the following steps. 
+
+Time - 02:43
+I can right-click on my project, choose properties, then I can move over to Java Build Path and then I can select the tab for Libraries. This is where we add additional JARs or additional libraries to our project. Here I'll select the option Add JARs and I will expand the folder here for our project and I select this JAR file commonslang.jar. That's the same one that we copied over earlier. I'll hit okay and I'll select okay. Now that we have the Commons Lang JAR file added to our project, I want to make use of the StopWatch class that's defining that JAR file. What I'll do here is I create a new instance of the StopWatch. 
+
+Time - 03:27
+Here I have StopWatch, mystopwatch, it was a new StopWatch. But note here, Eclipse has the red underline saying that, "Hey, there's a problem." It can't resolve the type. If I simply float over that, notice it gives you a list of quick fix options. These quick fix options is basically where Eclipse will go and try to figure out how to solve your problem. I like the first option that it give me here, that's import StopWatch, that's defined in org.apache.commons.lang3.time. Hey, that's correct. I select this option and then if I move to the top, we'll see that Eclipse added the import statement for me automatically and the error message have gone away, very nice. 
+
+
+[snip] click the Transcript tab for complete transcript.

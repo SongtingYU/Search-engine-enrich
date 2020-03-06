@@ -1,0 +1,21 @@
+In this video you will learn how to create An Excel file with datetime on each package execution. This is important when we want to run our package multiple times in a days and 
+don't want to append the data to already existing Excel File. 
+
+The video will cover following Items
+How to Load Data from SQL Server Table to Excel Sheet
+How to use Data Conversion Transformation to Convert SQL Data To Excel Data Types
+How to use OLE DB Source and Excel Destination in SSIS Package
+How to use Variables in SSIS Package
+How to Write Expressions to get Datetime in SSIS Package
+How to use variable in Excel Connection Manager to provide File Name with Datetime
+How to use DelayValidation property in SSIS Package to ignore prevalidation in SSIS Package
+
+link to the post:
+http://sqlage.blogspot.com/2015/03/how-to-create-excel-file-with-datetime.html
+
+Expressions used in the SSIS Package to Create Excel file with Date Time:
+@[User::DestinationFolder]+"RegionalCustomer_"+Replace(Replace(Substring((DT_WSTR,30)GETDATE(),1,16),":","_"),"-","_")+".xlsx"
+
+
+To Follow Step by Step this SSIS video tutorial By Tech Brothers
+http://www.techbrothersit.com/2014/12/ssis-videos.html

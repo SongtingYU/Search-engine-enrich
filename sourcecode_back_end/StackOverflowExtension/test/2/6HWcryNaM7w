@@ -1,0 +1,11 @@
+In different occasions I met people that were keying monthly or on a regular bases receivable transactions/invoices for same customer having same amount and under same contractual conditions.
+Even if is not quite same amount but all the other information (customer, lines details) are similar you can successfully use the Copy To functionality in Oracle eBS Accounts Receivables.
+Steps included:
+Step 1 - Find the invoice / transaction you want to copy
+Step 2 - Copy same invoice using Daily option
+Step 3 - Copy same invoice using Monthly option
+Step 4 - Copy same invoice using Annually option
+Step 5 - Review generated transactions - output file
+Step 6 - Review generated transactions - workbench
+
+For more interesting post visit us on http://oracle-ebs-hands-on.blogspot.com  

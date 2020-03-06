@@ -1,0 +1,7 @@
+<p>Actually, this is not a design flaw, and it is not because of internals, or performance.<br />
+It comes simply from the fact that functions in Python are first-class objects, and not only a piece of code.</p>
+
+<p>As soon as you get to think into this way, then it completely makes sense: a function is an object being evaluated on its definition; default parameters are kind of "member data" and therefore their state may change from one call to the other - exactly as in any other object.</p>
+
+<p>In any case, Effbot has a very nice explanation of the reasons for this behavior in <a href="http://effbot.org/zone/default-values.htm">Default Parameter Values in Python</a>.<br />
+I found it very clear, and I really suggest reading it for a better knowledge of how function objects work.</p>

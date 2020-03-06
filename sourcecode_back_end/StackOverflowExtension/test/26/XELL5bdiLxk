@@ -1,0 +1,30 @@
+How To Catch Multiple Exceptions At Once In C#. 
+
+Please visit http://www.technomark.in/Catch-Multiple-Exceptions-At-Once.aspx for more information.
+
+Here we explain how to Catch Multiple Exceptions At Once.
+
+Try catch block is used for managing exceptions in Asp.Net.
+
+Normally catch (Exception ex) will handle any type of error.
+
+Means any Exception will first come in catch (Exception ex) region.
+
+Whether it is a Null Exception or any other type of error, it first comes at catch (Exception ex).
+
+We can handle multiple Exceptions inside this catch (Exception ex).
+
+Suppose we are expecting NullReferenceException and DivideByZeroException in a try Block.
+
+Here we check whether the type of error is NullReferenceException or DivideByZeroException.
+
+If yes, write the error message to LOG and Database.
+
+if (ex is NullReferenceException || ex is DivideByZeroException)
+
+If it is any other type of error, apply throw function.
+
+So here we have seen how to Catch Multiple Exceptions At Once In Asp.Net.
+
+
+Catch Multiple Exceptions At Once In Asp Net, How To Catch Multiple Exceptions At Once In C#, Exceptions In Asp Net, Multiple Exceptions In C#, Catch Multiple Exceptions, Catch Exceptions, Asp.Net, C#, Try Catch Block, If statement

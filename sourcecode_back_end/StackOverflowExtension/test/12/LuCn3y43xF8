@@ -1,0 +1,6 @@
+בחלק זה נלמד כיצד מבצעים המרה בין טיפוסי משתנים:
+- Implicit Conversion
+- Explicit Conversion
+כיצד מבצעים המרה של מחרוזת לטיפוס אחר ע"י שימוש ב:
+- Parse
+- TryParse

@@ -1,0 +1,22 @@
+Pythonパイソン、入門（8）、ディレクトリのファイル一覧取得、ｈｔｍｌ拡張子のあるファイルの一覧
+
+import glob, os.path
+files = glob.glob('test/*.html') # *.htmlと指定できる、正規表現もOK
+# ディレクトリかファイルがないときのために　len(files) == 0としてチェックをいれましょう。
+for c in files:
+ print c #フルパスとファイル名による出力
+ print os.path.basename(c) #ファイル名のみ
+
+import os 
+files = os.listdir('test') # ワイルドカード指定等が出来ない
+ for c in files:
+ print c
+
+
+参考サイト
+・ファイル・ディレクトリ取得
+http://www.drunk-boarder.com/blog/pythondir/
+#指定パスが存在するかどうか確かめる,など、実際の入力コードがあります。
+
+・
+http://www.gesource.jp/programming/python/code/0001.html

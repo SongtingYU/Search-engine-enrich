@@ -1,0 +1,2 @@
+In Informatica you can create OS profile for each user. It gives you an option to set default informatica root dirs against each user. To create a os profile you need to login into admin console.
+Sometime you get OS profile error. The reason is a user does not have permission to use user profile.

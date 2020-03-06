@@ -1,0 +1,26 @@
+Date / Time data types in Access
+
+Size: 8 Bytes.
+
+Date format building blocks, that can be assembled in any desired combination.
+
+d: shows the day: ie. 8, 12
+dd: shows day with leading zero: ie. 08, 12
+ddd: shows weekday in short form: ie. Mo, Tu
+dddd: shows weekday in full: ie. Monday, Tuesday
+
+m: shows the month: ie. 3, 11
+mm: shows month with leading zero: ie.  03, 11
+mmm. shows month name in short form: ie. Mar, Nov
+mmmm: shows month name in full: ie. March, November
+
+yy: shows year without century: ie.: 98, 15
+yyyy: shows year with century: ie.: 1998, 2015
+
+These building blocks can be separated by any character.
+Input, however, is always the same, separated by a point.
+
+ie.: for 1.3.1974
+ddd dd.mm.yy.................Fr 01.03.74
+dddd d. mmm yyyy........Friday 1. March 1974
+mmmm yyyy...................March 1974

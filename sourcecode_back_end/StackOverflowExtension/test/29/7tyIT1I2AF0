@@ -1,0 +1,12 @@
+Finally! A useful Raspberry Pi project!
+
+#!/usr/bin/python
+import time
+import datetime
+import Adafruit_CharLCD as LCD
+lcd = LCD.Adafruit_CharLCDPlate()
+lcd.clear()
+print 'Press Ctrl-C to quit.'
+while True:
+        lcd.message(time.strftime("%m/%d/%Y\n%I:%M:%S\n"))
+        time.sleep(0.1)

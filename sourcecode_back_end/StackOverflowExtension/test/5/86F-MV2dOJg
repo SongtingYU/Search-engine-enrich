@@ -1,0 +1,57 @@
+To Learn or Teach Linux visit www.theskillpedia.com, A Marketplace for Learners and Trainers. For Corporate Training Requirements Visit My Website www.rnsangwan.com
+
+Slides Contents
+Using Positional Parameters
+Positional parameters are special variables that hold the command-line arguments to the script.
+The positional parameters are available are $1, $2, $3, etc. These  are normally assigned to more meaningful variable names to improve clarity.
+$* holds all command-line arguments.
+The variable $0 is reserved and specifies the program name as it was executed on the command line. 
+Variables above $9 require special handling and so they must be enclosed in curly braces
+All positional parameters are read only variables.
+Handling Parameters with Spaces
+Bash expects space-delimited parameters
+Causes problem when parameters have spaces
+Example : script.sh “arg 1” “arg 2”
+$* contains “arg” “1” “arg” “2”
+Solution: for VAR; do …; done
+Automatically assigns VAR with $1, $2, etc..
+Handles spaces in parameters gracefully.
+VAR would be set to “arg 1”, then “arg 2”
+Handling Filenames with Spaces
+Bash mis-interprets spaces in filenames
+Space treated as filename-delimiter by default
+“my file” interpreted as two files: my and file
+IFS environment variable can be used to specify an alternate or no delimiter.
+Always reset after changing
+OLD_IFS=$IFS #Backup old delimiter
+IFS=$ echo #Set empty delimiter
+#Do Stuff
+IFS=$OLD_IFS #Restore IFS
+Using functions in shell scripts
+Shell scripts may include shell functions.
+Shell functions may improve program readability. They also help to remove repetitious code from the scripts.
+Shell functions must be declared before they are used.
+If there is a section of shell code that is trying to accomplish the same task and it is five or more lines long then it is good candidate for being put in a separate function. This is known as functional decomposition and will improve the program readability.
+If there are a piece of shell code that you are likely to use again then it is also good candidate for being put in a separate function. This is called code reuse.
+Shell functions must be declared in the shell script before they may be used. This can be done by including the function before it gets called in the script or by sourcing another shell script using the keyword ‘source’  or the . operator.
+Using functions, continued
+Arguments may be passed to a shell function by using their own set of positional parameters $1, $2 etc.
+myFunction $filename 
+The value of $filename will be available as $1 inside the body of myFunction.
+Functions may return the values by using the ‘return’ keyword which sets the value of the special variable $?.
+local  make the variables unavailable outside the function. This is called information hiding and is useful for keeping function compartmentalized. In addition it will prevent us from accidentally overwriting a global variables.
+Functions may return vales using the return keyword which sets the value of the special variable $?.
+Scripting at the command line
+Scripts can be typed at the bash prompt.
+If/else/for/while statements cause extended prompt
+Can also separate lines with semicolon
+Define functions for code reuse
+Store common functions in ~/.bashrc
+Bash built-in “fc” for long commands
+Default editor is vi or $EDITOR
+Shell Script debugging
+In order to debug a shell script invoke the shell interpreter with debug options  or change the shebang to include the debug options.
+$bash –x script_name
+$bash –v script_name
+#!/bin/bash –x
+#!/bin/bash -v

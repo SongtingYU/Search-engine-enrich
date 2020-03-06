@@ -1,0 +1,10 @@
+In this video, I present an example of a multiple regression analysis of website visit duration data using both quantitative and qualitative variables. Variables used include gender, browser, mobile/non-mobile, and years of education. Gender and mobile each require a single dummy variable, while browser requires several dummy variables. I also present models that include interactions between the dummy variables and years of education to analyze intercept effects, slope effects, and fully interacted models. In short, I cover:
+
+- multiple category qualitative variables
+- dummy variables
+- intercept effects
+- slope effects
+- dummy interactions
+
+I hope you find it useful! Please let me know if you have any questions!
+--Dr. D.

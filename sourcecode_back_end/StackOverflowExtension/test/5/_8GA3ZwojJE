@@ -1,0 +1,5 @@
+1. Special variables have a predefined and special meaning in Perl.
+      
+2. These variables are denoted by usual variable indicator such as $, @, % along with punctuation characters. 
+
+ For Example: $_, $!, $@

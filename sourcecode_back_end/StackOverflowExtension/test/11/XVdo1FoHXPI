@@ -1,0 +1,7 @@
+Here is a trick to create a Shortcut for Elevated Command Prompt.
+
+Elevated Command Prompt : Its a mode where you can perform some additional tasks with Administrator Privileges. Some of the commands never works in normal mode, so we have to use this mode in order to run those commands.
+
+Generally we have to go to the CMD and then Right Click on it and then Click on "Run As Administrator". But instead, you can create a shortcut for it and place it on your Desktop so that you can just double click on the short cut and it opens the elevated command prompt.
+
+The following feature was introduced in Windows Vista.

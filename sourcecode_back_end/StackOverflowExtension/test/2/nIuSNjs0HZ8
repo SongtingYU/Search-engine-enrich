@@ -1,0 +1,11 @@
+Symbolic links are used to create references on an SSD to folders that are actually located on another drive. This will need to be done on most hackintoshes, and it ensures compatibility with apps and OSX features. 
+
+WARNING - BACK UP YOUR FILES FIRST!
+
+Terminal Commands - be sure to replace the file names and locations with your own:
+
+sudo rm -rf ~/FOLDER/
+
+ln -s /Volumes/YOURHARDDRIVE/FOLDER/ ~/FOLDER
+
+Replace "FOLDER" and "YOURHARDDRIVE" with the names of the folder you're targeting, and the name of your hard drive.

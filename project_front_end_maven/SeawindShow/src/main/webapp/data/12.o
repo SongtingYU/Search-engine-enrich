@@ -1,0 +1,5 @@
+<pre><code>if not a:
+  print("List is empty")
+</code></pre>
+
+<p>Using the implicit booleanness of the empty list <code>a</code> is quite pythonic.</p>

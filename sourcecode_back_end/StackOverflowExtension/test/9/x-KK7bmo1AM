@@ -1,0 +1,5 @@
+Source Code: http://goo.gl/DRcyr
+
+In this tutorial, I show you how to embed and reference an external .NET assembly (dll) inside of your own Windows Form Application.  This is useful if you want to ship an application that relies on external libraries, but you only want to ship one executable file.
+
+Follow me on Twitter - http://goo.gl/kY1ZV

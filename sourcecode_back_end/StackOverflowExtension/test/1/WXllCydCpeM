@@ -1,0 +1,19 @@
+Tutorial 3 - Predefined Shapes - Ellipses / Circles
+Shows the basics of Ellipses / Circles to create Arcs and Segments. Two example drawings - Who nibbled the pie and Radiation warning sign.
+
+Ellipse Tool (F5)
+ -Integer Ratio (Hold Ctrl)
+ -Centre start point (Hold Shift)
+
+Edit Paths (F2)
+ -Create Arc (Drag Inside)
+ -Create Segment (Drag Ouside)
+
+Select & Transform Objects (F1)
+ -Resize (Click Once)
+ -Rotate / Skew (Click Twice)
+
+Example 1 - Who Nibbled the Pie?
+ -Duplicate (Ctrl D)
+
+Example 2 - Radiation Symbol

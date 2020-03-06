@@ -1,0 +1,14 @@
+<p>When the Python interpreter reads a source file, it executes all of the code found in it.  </p>
+
+<p>Before executing the code, it will define a few special variables.  For example, if the python interpreter is running that module (the source file) as the main program, it sets the special <code>__name__</code> variable to have a value <code>"__main__"</code>.  If this file is being imported from another module, <code>__name__</code> will be set to the module's name.</p>
+
+<p>In the case of your script, let's assume that it's executing as the main function, e.g. you said something like</p>
+
+<pre><code>python threading_example.py
+</code></pre>
+
+<p>on the command line.  After setting up the special variables, it will execute the <code>import</code> statement and load those modules.  It will then evaluate the <code>def</code> block, creating a function object and creating a variable called <code>myfunction</code> that points to the function object.  It will then read the <code>if</code> statement and see that <code>__name__</code> does equal <code>"__main__"</code>, so it will execute the block shown there.</p>
+
+<p>One of the reasons for doing this is that sometimes you write a module (a <code>.py</code> file) where it can be executed directly.  Alternatively, it can also be imported and used in another module.  By doing the main check, you can have that code only execute when you want to run the module as a program and not have it execute when someone just wants to import your module and call your functions themselves.</p>
+
+<p>See <a href="http://ibiblio.org/g2swap/byteofpython/read/module-name.html">this page</a> for some extra details.</p>

@@ -1,0 +1,3 @@
+There will often be occasions where you may need to catch more than one exception. You can have multiple catch statements with each one specifying a single exception class and then a code block for handling the exception. This could lead to a lot of redundant code. With a multi-catch statement you can catch multiple exceptions in the same statement.
+A multi-catch statement looks like this:
+catch ( NullPointerException | IndexOutOfBoundsException | InvalidArgumentException e) { ... }

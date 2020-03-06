@@ -1,0 +1,3 @@
+Interested in learning Blender? Visit https://cgcookie.com/flow/introduction-to-blender/ and join the Introduction to Blender flow to get started.
+
+The filebrowser now allows you to view the contents of subdirectories up to three levels in a flat view. This also works for the contents of .blend files with options to filter based on data block type. For objects, groups, scenes and materials you now can generate previews that will show up when linking or appending.

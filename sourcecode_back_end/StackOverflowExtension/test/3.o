@@ -1,0 +1,33 @@
+<p>Yes, it was <a href="https://mail.python.org/pipermail/python-dev/2005-September/056846.html">added</a> in version 2.5.<br>
+The syntax is:</p>
+
+<pre><code>a if condition else b
+</code></pre>
+
+<p>First <code>condition</code> is evaluated, then either <code>a</code> or <code>b</code> is returned based on the <a href="https://en.wikipedia.org/wiki/Boolean_data_type">Boolean</a> value of <code>condition</code><br>
+If <code>condition</code> evaluates to <em>True</em> <code>a</code> is returned, else <code>b</code> is returned. </p>
+
+<p>For example:</p>
+
+<pre><code>&gt;&gt;&gt; 'true' if True else 'false'
+'true'
+&gt;&gt;&gt; 'true' if False else 'false'
+'false'
+</code></pre>
+
+<p>Keep in mind that it's frowned upon by some Pythonistas for several reasons:</p>
+
+<ul>
+<li>The order of the arguments is different from many other languages (such as C, Ruby, Java, etc.), which may lead to bugs when people unfamiliar with Python's "surprising" behaviour use it (they may reverse the order).</li>
+<li>Some find it "unwieldy", since it goes contrary to the normal flow of thought (thinking of the condition first and then the effects).</li>
+<li>Stylistic reasons.</li>
+</ul>
+
+<p>If you're having trouble remembering the order, then remember that if you read it out loud, you (almost) say what you mean. For example, <code>x = 4 if b &gt; 8 else 9</code> is read aloud as <code>x will be 4 if b is greater than 8 otherwise 9</code>.</p>
+
+<p>Official documentation:</p>
+
+<ul>
+<li><a href="https://docs.python.org/3/reference/expressions.html#conditional-expressions">Conditional expressions</a></li>
+<li><a href="https://docs.python.org/3.3/faq/programming.html#is-there-an-equivalent-of-c-s-ternary-operator">Is there an equivalent of C’s ”?:” ternary operator?</a></li>
+</ul>

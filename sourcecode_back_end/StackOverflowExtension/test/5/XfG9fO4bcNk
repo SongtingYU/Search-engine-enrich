@@ -1,0 +1,1 @@
+A custom MATLAB function script can be incorporated into a Simulink diagram with an "Interpretted MATLAB Function" block. This brief tutorial demonstrates a simple example with a couple inputs and outputs.

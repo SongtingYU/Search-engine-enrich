@@ -1,0 +1,15 @@
+MIT grad shows a surefire way to find the domain of any function. To skip ahead: 1) For POLYNOMIAL only, skip to time 0:45. 2) For FRACTION only, skip to time 1:44. 3) For SQUARE ROOT only, skip to 5:08. 4) For SQUARE ROOT ON BOTTOM of Fraction, skip to 8:44. 5) For SQUARE ROOT ON TOP of Fraction, skip to 10:09.
+
+For Domain, you just need to watch out for Square Roots and/or Fractions!
+
+If your function is...
+
+1) a POLYNOMIAL (no square roots or fractions), i.e. f(x) = x^2 + 3x + 1, domain is "all real numbers."
+
+2) a FRACTION (w/ no square root), i.e. f(x) = (2x+1)/(x^2+5x+6). Set bottom "not equal" to zero. Solve for x.
+
+3) a SQUARE ROOT (w/ no fraction), i.e. f(x) = sqrt(x+1). Set part under root "greater than or equal to zero".
+
+4) a FRACTION w/ A SQUARE ROOT ON BOTTOM, i.e. f(x) = (x^2+2x+3)/(sqrt(x+1)). Set part under root "greater than zero." Solve the inequality. NOTE THE DIFFERENCE: You must set it greater than zero, not "greater than OR EQUAL TO zero" because we can't have zero (or square root of zero) in the denominator.
+
+5) a FRACTION w/ A SQUARE ROOT ON TOP, i.e. f(x) = (sqrt(x+1))/(x^2+4), i) Set the bottom "not equal to" zero & solve; ii) Set what's under the root "greater than or equal to zero" & solve; iii) Take intersection of your two solutions.

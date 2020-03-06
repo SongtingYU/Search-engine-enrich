@@ -1,0 +1,15 @@
+GSBmE MATLAB Introduction
+Video Tutorial 2: Scalars, Vectors, Matrices, Concatenation, Indexing, Colon operator, NaN, Inf, eps, i, j, pi, +  -  *  /  ^  .*  ./  .^  Character arrays (strings), Cell arrays, Clearing variables, Saving and loading data files.
+** Jump to topic in video:
+0:15 Jump to 'Scalar variables'
+1:00 Jump to 'Vectors'
+2:15 Jump to 'Matrices'
+5:37 Jump to 'Colon operator (:)'
+7:29 Jump to 'Concatenation'
+9:29 Jump to 'Special variables'
+11:23 Jump to 'Scalar operators (+ - * / ^)'
+11:49 Jump to 'Vector operators (+ - * .* ./ .^)'
+14:49 Jump to 'Character arrays (strings)'
+15:38 Jump to 'Cell arrays'
+17:16 Jump to 'Clearing variables (deleting)'
+17:41 Jump to 'Saving and loading data (.mat) files'

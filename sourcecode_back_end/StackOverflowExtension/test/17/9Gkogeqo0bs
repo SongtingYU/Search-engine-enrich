@@ -1,0 +1,26 @@
+Windows 10 tips and tricks : How to Remove OneDrive ICON from Notifications Permanently on Windows 10
+
+Commands used!
+taskkill /f /im OneDrive.exe
+if you’re using 32-bit Windows 10
+%SystemRoot%\System32\OneDriveSetup.exe /uninstall
+if you’re using 64-bit Windows 10
+%SystemRoot%\SysWOW64\OneDriveSetup.exe /uninstall
+
+Thanks for watching..!!!
+Do Like, Share, Comment & Subscribe For More..!!
+
+►Subscribe◄
+https://www.youtube.com/channel/UCJwF01DkM40YpmAJMuTB9mA?sub_confirmation=1
+
+Watch our other videos also...!!
+https://www.youtube.com/channel/UCJwF01DkM40YpmAJMuTB9mA/videos
+
+►Explore Our Playlists: 
+https://www.youtube.com/channel/UCJwF01DkM40YpmAJMuTB9mA/playlists
+
+►Checkout Topniso-A Borsof Channel :
+https://www.youtube.com/channel/UCJFQcwmkg_ocghkLHIolCOA?sub_confirmation=1
+
+►Join Us Now:
+https://www.facebook.com/borsof/

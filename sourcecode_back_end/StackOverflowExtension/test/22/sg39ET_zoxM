@@ -1,0 +1,11 @@
+The myth of Java EE as a cumbersome platform is easily dispelled in this session, which aims to create a working application, from a blank repository to a live cloud deployment, in real time. It:
+
+Covers tools that bootstrap project creation, freeing you from mucking around with Maven POM boilerplate
+Generates a domain model and reverse-engineers JPA entities from it
+Automatically creates the scaffolding for tests that run in a real Java EE container, launched from the IDE
+Pushes it all to production on a public site
+Using a variety of projects from the JBoss Community adhering to and building upon open standards, this presentation can create real enterprise apps in the time it takes other sessions to click through some slides. Let's get building!
+
+Presenter: Andrew Rubinger
+
+Bio: Andrew Rubinger is an advocate for and speaker on Testable Enterprise Java development, author of upcoming "Continuous Enterprise Development in Java" and "Enterprise JavaBeans 3.1" from O'Reilly Media. JBoss Core Developer and Technical Lead of the ShrinkWrap project. Proudly employed by JBoss / Red Hat.

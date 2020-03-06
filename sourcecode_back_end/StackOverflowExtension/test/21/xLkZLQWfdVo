@@ -1,0 +1,5 @@
+Different versions of Kolmogorov complexity and a priori probability: a gentle introduction 
+Alexander Shen (LIRMM, Montpellier)
+February 01, 2016
+
+Abstract: The informal idea – the complexity is the minimal number of bits needed to describe the object – has several different implementations. They are not only technical differences, but all they are there for a reason: we may consider binary strings (both as objects and descriptions) as self-contained objects or as partial information about infinite objects (that fixes some prefix of an infinite sequences). We will try to explain basic results about different versions of complexity and their relation to the notion of the a priori probability.

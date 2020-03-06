@@ -1,0 +1,1 @@
+This step covers a very nuanced point. All rows past 1 need to get their required arguments by plugging something into a dictionary. I changed that something to the column index, for which I need to expose an internal index through Python enumerate function. No counters!

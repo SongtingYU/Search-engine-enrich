@@ -1,0 +1,5 @@
+<p>You can use the <a href="https://docs.python.org/reference/expressions.html#membership-test-details"><code>in</code> operator</a>:</p>
+
+<pre><code>if "blah" not in somestring: 
+    continue
+</code></pre>

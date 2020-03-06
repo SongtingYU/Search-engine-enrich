@@ -1,0 +1,52 @@
+Complete Guide to Variables if you need more information visit our website at - http://learnpythontutorial.com/complete-guide-to-python-variables-python-tutorial/
+
+In an earlier Python tutorial, we introduced how to assign a variable in Python but as you know we like to go very deep into Python here at Learn Python Tutorial and we are going to very deep into Python variables.What is really cool about Python is creating a variable is so simple it confuses some programmers coming from other languages.
+
+Python Variables Are So Simple
+Let's start by making a simple variable that contains an integer - var = 2. Here is why Python variables are so damn easy! First we do not have to tell Python that var is a variable like other languages and we do not need to tell Python that var is going to contain an integer. If you have been working on other programming languages you may be thinking what, how and why? This is because Python determines variables and types at runtime so there is no need to declare this information before time.
+
+Creating Variables
+
+We already looked at creating variables in a previous tutorial but a review will be a good thing. To create a variable we give the variable a name like "var" and assign the variable by using the equal symbol(=) with a value like an integer of 6. When making a variable it must always have a value to exist if the variable is not assigned a value then that variable would not exist. If we assign the variable again to a different value, then that variable would take on the new value and drop the old value.   In Short... Initial assignment creates the variable in Python and changing a value in a variable is referred to as reassignment.
+
+How About Type Information In Variables?
+
+Variables never ever store any information! What?  Variables are just a label or a title that points to an object(value) at a certain point of time. The object includes the value, type information and reference counter. Check out the diagram below this will hopefully explain it better.
+
+Python Variables
+
+ 
+
+*Note - The Pointer in Python is referred to as a Reference
+
+How Are Variables Used?
+
+When the script is ran the variables are replaced by their associated objects stored values. This is the main reason why all variables must be assigned before the script is ran and if they are not assigned we will get errors.
+
+Variables Life Cycle
+What happens from the time a variable is created to the time object is no longer used? First we will create a variable and then we will talk about the life cycle.
+
+var = 9
+
+Above we create a variable and it references an object that contains the value of 9. We will take a closer look at what happens here.
+
+The Life Cycle
+
+An object is created that holds the value of 9 (allotted part of memory that stores the value 9, integer type and the reference counter.
+A variable is created but it really does not exist till it is assigned to an object(look at step 3)
+The pointer(reference) is created which associates the variable of the object.
+When a variable no longer exists then, Python may remove the object to free up space. This does not always happen because some objects may be used more than once, but Python makes that decision when objects will be used more than once.
+Important Information About Python Variables
+Variables can not point to other variables but we can write something like this var1 = var but they both reference the same object not each other.
+Objects can reference other objects like in list, dictionaries and tuples can reference other objects since the store different types of values within those data types.
+Python runs its own cache which removes objects that are no longer needed to free up memory which will help programs run faster.
+ 
+
+We have dug deep into Python variables and we gave you a lot of information and some may go over your head but it is import to know the following.
+
+Variables do not store information but reference the location where the information is stored.
+Objects are just a block of memory which contains the value, type information and reference counter.
+Variables are replaced by the value when program is ran
+Variables are not created till they are assigned a value and they must have a value to exist.
+If you have any questions about our tutorial on Python Variables leave a comment below.
+python -0.0

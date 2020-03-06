@@ -1,0 +1,7 @@
+<p>From <a href="https://docs.python.org/2/tutorial/errors.html#handling-exceptions">https://docs.python.org/2/tutorial/errors.html#handling-exceptions</a>: "An except clause may name multiple exceptions as a parenthesized tuple, for example":</p>
+
+<pre><code>except (IDontLikeYouException, YouAreBeingMeanException) as e:
+    pass
+</code></pre>
+
+<p>Separating the exception from the variable with a comma will still work in Python 2.6 and 2.7, but is now deprecated and does not work in Python 3; now you should be using <code>as</code>.</p>

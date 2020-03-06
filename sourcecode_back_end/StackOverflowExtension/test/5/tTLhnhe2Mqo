@@ -1,0 +1,1 @@
+In order to not mix up any projects, a specification name is given to the projects that DriveWorks produces. DriveWorks has built in variables known as Special Variables which are always unique. For example, these variables identify the project with a description, and allocate a guaranteed unique incrementing number.

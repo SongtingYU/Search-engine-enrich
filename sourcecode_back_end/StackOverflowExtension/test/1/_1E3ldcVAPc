@@ -1,0 +1,44 @@
+Take the FULL course: http://goo.gl/042JWo
+SUBSCRIBE to this channel: http://goo.gl/EV6Kwv
+Website: http://www.luv2code.com
+
+---
+In this video tutorial, I will show you how to create a Java application in the Eclipse IDE. I'll discuss the following topics:
+
+- Create new project
+- Adding a new Java class
+- Running the application
+
+---
+
+Website: http://www.luv2code.com
+YouTube: http://goo.gl/EV6Kwv
+Twitter: http://goo.gl/ALMzLG
+Facebook: http://goo.gl/8pDRdA
+
+View more videos on my “Eclipse Playlist”: http://goo.gl/R3p3m8
+
+—
+Video Transcript
+Hello. This is Chad (shod) with luv2code.com. In this video, I will show you how to create a simple Java application with Eclipse. Let's get started.
+
+Time - 00:09
+I'll launch the Eclipse application from my desktop. It'll prompt me for a workspace. A workspace is basically a folder where you can store your Java projects. It's also a location where you can set up Eclipse preferences for your project. For now, we'll just go ahead and accept the default project.
+
+Time - 00:29
+If this is your first time running Eclipse, you can simply close the welcome window when it shows up. At this point, you should have a screen similar to this. What I'd like to do is go ahead and create a new project. You can create a new project in Eclipse by going to File, New, and then select Java Project. This'll bring up a dialog that we can enter about the project details. For this example, I'll call it "ezdemo" and I'll accept all the other defaults, and I'll select Finish.
+
+Time - 01:00
+Now I should have this empty project. I can expand the window and I can view some details about the actual project. Now, what I'd like to do is create a new Java class. So I can select the project, I can right-click, and I can say New, Class. This'll bring up a dialog where I can enter details about the class. Here I will say, entered for the name, I'll say, "HelloWorld" and I will also allow Eclipse to generate some code for me, so I can check the box here and Eclipse will generate a main method for me. I can go ahead and hit Finish.
+
+Time - 01:42
+All right. At this point, Eclipse creates a basic Java class for you. Since we selected the option, it'll also give us a main method. I can move here to the center region and I can add some Java code. I will just move over and say, System.out.println - Hello World of Java. This is just a very simple println statement that'll display "Hello World of Java". Now what I can do is I can actually save my file. I can move to the toolbar, the floppy disk icon, and hit save. Now our program is saved.
+
+Time - 02:26
+Now what I'd like to do is go ahead and actually run the program. I can move over to my file on the right hand, sorry, on the left hand pane, right-click, and select Run As, Java Application. This program will run. The output of the program here is in the bottom window. This is the console window. Note the tab Console. In it, we have the actual text of the output. Hello World of Java.
+
+Time - 02:55
+Now what I'd like to do is go ahead and make a small modification to the program. When I enter a for loop, it's just going to print out the value of an integer x number of times. So "int i=0 i less than 5; i++" and then “System.out.println - i” and then I'll also save the program again. Now when I run the program, I can simply select our class, and there's a green button on our toolbar. This is to run the actual application. I can simply select the green button, it'll run it, and so I get my "Hello World of Java" and I also get values 0 through 4. That's it.
+
+Time - 03:39
+We were successful in creating a very simple Java application using Eclipse. Please subscribe to our channel to view more videos on Eclipse and Java. Also visit our website, luv2code.com, to download Java source code.

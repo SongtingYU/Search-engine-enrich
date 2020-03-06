@@ -1,0 +1,6 @@
+The PS4 doesn't have an option to backup the entire system in one go. Instead, you must back up your Game and App data individually, using the [Settings] → [Application Saved Data Management] option. You can choose to back up data to the cloud* or to a USB deviceº. However, each game or app needs to be backed up individually.
+
+If you have PlayStation Plus and you have enabled Stand-by Mode with Internet Access, your data will be backed up automatically to the cloud. You can check backup progress from the [Notifications] → [Uploads] screen.
+
+* PlayStation Plus subscription required for cloud storage
+º USB device must be formatted to FAT32

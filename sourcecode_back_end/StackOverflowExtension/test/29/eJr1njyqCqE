@@ -1,0 +1,10 @@
+from bottle import route, run, template
+from datetime import datetime
+
+@route('/')
+def index(name='time')
+    dt = datetime.now()
+    time = "{:%Y-%m-%d %H:%M:%S}".format(dt)
+    return tempalte('_b_ RPi. A hora/data sao: {{t}}_/b_', t=time)
+
+run(host='192.168.25.1271', port=80)

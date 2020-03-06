@@ -1,0 +1,17 @@
+Explicit conversion is possible by String() constructor,
+Implicit conversion is automatically done by JavaScript.
+
+A + B 
+if A is the only string operand, B will be converted into string.
+
+"5" + 2 becomes "52"
+
+
+Like my Facebook page: 
+https://www.facebook.com/pages/WebTunings/339234242822202
+
+Recommended JavaScript Book:
+http://www.amazon.com/gp/product/0596805527/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596805527&linkCode=as2&tag=webtuningscom-20
+
+Code snippets: 
+https://github.com/webtunings

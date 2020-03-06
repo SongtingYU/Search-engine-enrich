@@ -1,0 +1,71 @@
+CIS 170C C++ Final EXAM
+http://extutorials.com/index.php?route=product/product&product_id=540
+
+Part I-------------------------------------------------------------
+Set 1--------------------------------------------------------
+1. (TCO 1) What does IDE stand for? (Points : 4) 
+2. (TCO 2) What does the symbol  represent in C++ programming? (Points : 4) 
+3. (TCO 2) Which of the following statements is a C++ syntax rule? (Points : 4) 
+4. (TCO 2) To assign a value 1 to variable x, you write _____. (Points : 4) 
+5. (TCO 3) What is the value of x after the following statement?
+float x; 
+x = 3.0 / 4.0 + (3 + 1)/ 5 ; (Points : 4) 
+6. (TCO 4) Which of the following is not included in pseudocode program? (Points : 4) 
+7. (TCO 4) The symbol "==" is used as part of a _____. (Points : 4) 
+8. (TCO 4) Programmers often write the if statement on two lines to visually separate the decision - making condition from its resulting action; however, only one _____ follows the entire 
+statement. (Points : 4) 
+9. (TCO 5) Looping statements follow the _____ structure. (Points : 4) 
+10. (TCO 5) Which repetition structure is designed to have the code execute at least one time? (Points : 4) 
+11. (TCO 5) The while loop is what type of loop? (Points : 4) 
+12. (TCO 5) A loop that is inside another loop is called an _____. (Points : 4) 
+13. (TCO 6) Which two key sequences are used to start debugging and stop debugging? (Points : 4) 
+ 
+14. (TCO 7) Defining more than one function with the same function name but different 
+parameters is called _____. (Points : 4) 
+15. (TCO 8) A value included in a function call that is passed to a function is called a(n) _____. (Points : 4)  
+
+Set 2--------------------------------------------------
+1. (TCO 7) When is a return statement required inside a function? (Points : 4) 
+2. (TCO 8) Which function prototype indicates that the parameter is passed by reference? (Points : 4)  
+3. (TCO 8) The parameter of the following function is a(n) _____.char myFunction (int &x); (Points : 4) 
+4. (TCO 9) What type of menu first displays the main menu and then, based on the user's 
+selection, displays a submenu? (Points : 4) 
+5. (TCO 9) What is the method used to make sure that valid selections are processed? (Points : 4) 
+6. (TCO 9) What type of programming is centered on the procedures or actions that take place in a program? (Points : 4)   
+7. (TCO 10) An error that results from a poorly planned solution would be called a _____.
+(Points : 4)
+8. (TCO 11) N-1 is the _____ (Points : 4) 
+9. (TCO 11) Programmers often mistakenly reference the first element in an array with index 1. What is this called? (Points : 4) 
+10. (TCO 11) Given: myArray[3][4], what is the index for the first element (located in the first row and first column)? (Points : 4) 
+11. (TCO 12) Given the following array:
+int profit [5] = {10, 20, 31, 55, 66}; 
+The following statement would replace which value?
+ profit [4] = profit[1] + 4; (Points : 4) 
+12. (TCO 12) In the variable initialization: char course[20] = Welcome to CIS170C, the character at course[6] will be _____. (Points : 4) 
+13. (TCO 13) Files from which data is read are known as _____. (Points : 4) 
+14. (TCO 13) In terms of storage and retrieval of data, sequential access files are similar to_____.  (Points : 4) 
+15. (TCO 13) When reading data from a sequential file, the data will be read _____. (Points : 4) 
+Part II---------------------------------------------------------------------
+1. (TCO 13) Provide a C++ code segment that reads data from a text file using a while loop. Use 
+comments to explain what key lines of code are doing.
+(Points : 20) 
+
+2. (TCO 9) Create a code segment that defines a class definition for a student. Include at least 
+two properties and two methods. Also explain the reason why there is a public and private 
+section associated with class definitions.
+(Points : 15) 
+
+3. (TCO 11) Explain how a linear search is conducted to find a particular data value i
+n an array. Provide a C++ program segment to illustrate your answer.
+(Points : 15) 
+
+4. (TCO 7) Explain the difference between an argument and a parameter. Use a C++ program 
+segment to illustrate your answer.
+(Points : 15) 
+
+5. (TCO 5) Write a program that adds and displays the total of all even integers from 1 to 10.
+(Points : 15) 
+
+6. (TCO 4) Mention at least four mistakes that are easy to make when you are first learning to use selection statements.
+(Points : 15)
+7. (TCO 3) Explain the essential aspects of a C++ program (include directives, using statements, and the main function) that outputs a line of text to the console. Create an actual example of this C++ program and make sure it does not contain errors.

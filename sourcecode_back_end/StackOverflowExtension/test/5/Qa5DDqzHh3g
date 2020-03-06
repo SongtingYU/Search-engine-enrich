@@ -1,0 +1,7 @@
+A video about writing simple functions in the Python programming language. We start by defining a function in the Python Shell. Then we show how to write the same function in a text editor and include unit tests (using the doctest module).
+
+To use doctest, include the following three lines at the bottom of your file:
+
+if __name__ == "__main__":
+ import doctest
+ doctest.testmod(verbose=True, optionflags=doctest.NORMALIZE_WHITESPACE)

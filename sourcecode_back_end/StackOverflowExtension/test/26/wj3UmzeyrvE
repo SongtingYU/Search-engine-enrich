@@ -1,0 +1,22 @@
+Java Exception Handling Interview Questions and Answers.
+
+Questions Discussed:
+
+91 . Why is exception handling important?
+92 . What design pattern is used to implement exception handling features in most languages?
+93 . What is the need for finally block?
+94 . In what scenarios is code in finally not executed?
+95 . Will finally be executed in the program below?
+96 . Is try without a catch is allowed?
+97 . Is try without catch and finally allowed?
+98 . Can you explain the hierarchy of exception handling classes?
+99 . What is the difference between error and exception?
+100 . What is the difference between checked exceptions and unchecked exceptions?
+101 . How do you throw an exception from a method?
+102 . What happens when you throw a checked exception from a method?
+103 . What are the options you have to eliminate compilation errors when handling checked exceptions?
+104 . How do you create a custom exception?
+105 . How do you handle multiple exception types with same exception handling block?
+106 . Can you explain about try with resources?
+107 . How does try with resources work?
+108 . Can you explain a few exception handling best practices?

@@ -1,0 +1,25 @@
+HOW TO FIX XBOX 360 ERROR CODE
+
+UPDATE : hey guys i tries PES 2016 and had the new error code, xboxk3eyform.com seems to be shut down, so go tho this link below and here it shows a more detail video on how to update the new firmware and where to downloaded from , all is working fine now
+cheers
+
+ https://www.youtube.com/watch?v=tB66sG6erWo
+
+http://www.mathsisfun.com/binary-decimal-hexadecimal-converter.html
+
+
+
+
+
+Status Code 3F4A - 4099 - 2800 - 0F00 - C000 - 0034
+
+go here and read form or follow instructions below
+http://www.k3yforums.com/viewtopic.php?p=61744#p61744
+
+decimal value is 16537
+
+than go to http://en.wikipedia.org/wiki/Xbox_360_system_software
+go to 1.1 2.0.16537.0 download it,
+1.) Unrar/zip the download
+2.) Copy the $SystemUpdate folder to the root of a USB Stick (The memory stick must be FAT or Fat32 formatted)
+3.) Insert the USB Stick into your Xbox 360 console.

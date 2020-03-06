@@ -1,0 +1,1 @@
+Using an additional state variable, such as an index variable (which you would normally use in languages such as C or PHP), is considered non-pythonic. The better option is to use the built-in function enumerate(), available in both Python 2 and 3: for idx, val in enumerate(ints): print(idx, val) Check out PEP 279 for more. 

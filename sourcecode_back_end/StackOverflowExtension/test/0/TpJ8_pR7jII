@@ -1,0 +1,25 @@
+Presenter(s): Shane Stephens
+URL: http://lca2013.linux.org.au/schedule/30071/view_talk
+
+We are often presented with a conundrum when choosing an implementation language: should we choose a language with dynamic typing, or with static typing?
+
+On the one hand, dynamically typed languages like Python, Erlang, or JavaScript provide us with the flexibility of duck-typing; a perception of faster coding, refactoring, a shallower learning curve, and the potential for post-hoc testing due to a programmer’s ability to be arbitrarily invasive of the structures used in the language.
+
+On the other hand, statically typed languages like Haskell, Java, or C# hold out the promise of early elimination of whole classes of errors via type-checking, as well as type-based tools to assist in various implementation tasks like refactoring, codebase navigation, memory analysis, and debugging.
+
+Furthermore, there is a perception that APIs are more clearly specified when type-defined and type-restricted, as the type information provides a form of self documenting code.
+
+What if we could have both?
+
+This talk will introduce an approach that allows the run-time specification and testing of types in dynamic languages, as well as a JavaScript implementation of this approach called “Ristretto.js”. The approach supports such diverse type features as structural type specification and comparison, higher-order functions, extensible object typing, function currying, algebraic data types, and dependent data types (this talk will also explain what all of those mean).
+
+Using a library like Ristretto.js, developers can use the dynamic language of their choice, but still benefit from the advantages of a strongly specified type system by using type annotations when needed. Type annotations are directly interoperable with untyped code, such that adopting types in one part of an implementation does not require sweeping changes to the rest of the implementation. Because the approach is implementable entirely within the target language, special supporting infrastructure and pre-compilation steps are not required.
+
+Acknowledgements: This talk builds on the impressive theoretical work of Phil Wadler. Much of Ristretto.js was implemented by Samuel Li during an internship at Google.
+
+Talk Structure
+
+This talk will first present the relative advantages and disadvantages of dynamic and static typing, providing and discussing specific examples of tasks that are easy or hard in each case. It will then introduce and demo Ristretto.js, showing off both basic and advanced features, highlighting how many of the advantages of static type systems can be achieved using Ristretto. Finally, I will discuss the internals of Ristretto.js and show how the techniques used can be applied to other programming environments.
+
+http://lca2013.linux.org.au/ - http://www.linux.org.au
+CC BY-SA - http://creativecommons.org/licenses/by-sa/4.0/legalcode.txt

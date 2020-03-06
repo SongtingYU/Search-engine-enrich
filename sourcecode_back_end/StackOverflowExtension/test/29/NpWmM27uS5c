@@ -1,0 +1,35 @@
+Please like, subscribe and COMMENT!!
+
+from espeak import espeak
+from Tkinter import *
+from datetime import datetime
+
+def hello_world():
+    espeak.synth("Hello World")
+
+def time_now():
+    t = datetime.now().strftime("%k %M")
+    espeak.synth("The time is %s"%t)
+
+def read_text():
+    text_to_read = input_text.get()
+    espeak.synth(text_to_read)
+
+root = Tk()
+root.title("Voice box")
+input_text = StringVar()
+box = Frame(root, height = 200, width = 500)
+box.pack_propagate(0)
+box.pack(padx = 5, pady = 5)
+
+Label(box, text="Enter text").pack()
+entry_text = Entry(box, exportselection = 0, textvariable = input_text)
+entry_text.pack()
+entry_ready = Button(box, text = "Read this", command = read_text)
+entry_ready.pack()
+
+
+time_button = Button(box, text = "What's the time?", command = time_now)
+time_button.pack()
+
+root.mainloop()

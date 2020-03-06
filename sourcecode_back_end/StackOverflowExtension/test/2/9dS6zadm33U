@@ -1,0 +1,42 @@
+In this video we explore the purpose of each of the high level sub directories of root. We understand the structure of the file system and what data, devices, symlinks and folders represent on it.
+
+bin - is a standard subdirectory of the root directory in Unix-like operating systems that contains the executable (i.e., ready to run) programs that must be available in order to attain minimal functionality for the purposes of booting (i.e., starting) and repairing a system. 
+
+There is another directory known as sbin that holds only administrative commands and daemon processes.
+
+The boot directory stores data that is used before the kernel begins executing user-mode programs. This may include redundant (back-up) master boot records, sector/system map files, the kernel and other important boot files and data that is not directly edited by hand.
+
+dev stands for device and is the directory location of special or device files.  On Linux, devices are shown as files. Some of these device files allow users to funnel information into them like they are real files. Examples being hard disks, RAM and CD-ROM.
+
+The etc directory contains administrative configuration files. It is advised not to edit them as it could render your system unstable or in some circumstances unbootable.
+
+The home directory contains directories assigned to each regular user with a login account. This would of course exclude the root user.
+
+The media directory is for mounting filesystems on removable media like CD-ROM drives, USB sticks, and Zip drives.
+
+The lib directory contains shared libraries needed by applications in bin and sbin to boot the system. 
+
+mnt is a common mount point for many devices before it was supplanted by the standard media directory. 
+
+misc - a directory sometimes used to auto mount file systems.
+
+opt directory is available to store add on application software.
+
+proc contains information about system resources.
+
+root is the home directory of the root user.
+
+The tmp (temp) directory contains temporary files used by applications.
+
+The usr (user) directory contains the largest share of data on the system. User documentation, games, graphical files, libraries and a variety of commands and files not needed during the boot process.
+
+The var directory contains data used by various applications. An example being a web server, this could be found at /var/www. 
+
+References:
+http://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/boot.html
+http://www.linfo.org/bin.html
+http://www.tldp.org/LDP/sag/html/dev-fs.html
+http://www.linux.org/threads/what-are-those-dev-files.4713/
+http://www.linuxjournal.com/article/8601
+http://www.thegeekstuff.com/2010/09/linux-file-system-structure/
+Linux Bible - Eighth edition

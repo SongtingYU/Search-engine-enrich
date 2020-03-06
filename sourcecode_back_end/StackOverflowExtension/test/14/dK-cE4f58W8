@@ -1,0 +1,8 @@
+Integer Programming Problem #2 :: http://youtu.be/1mwugF37CdM
+Subscribe Happy Learning : http://goo.gl/WSgjcw
+Google+ : google.com/+HappyLearning
+Homepage : youtube.com/c/HappyLearning
+twitter : https://twitter.com/mannyrocx
+facebook: https://www.facebook.com/thehappylearning/
+
+In this video you will learn how to solve an integer programming problem using Gomory's All I.P.P method. Initially we apply simplex method and see if we could obtain a integer solution. In case,we don't get integer solution we generate and introduce Gomory contraint in the simplex table and the problem using dual simplex method.

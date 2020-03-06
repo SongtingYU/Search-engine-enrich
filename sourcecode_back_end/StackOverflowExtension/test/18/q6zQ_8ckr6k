@@ -1,0 +1,21 @@
+C++ Programming Challenge: Working with Text Files and Array Of Objects
+
+First read in, from the attached file called Program.txt (attached), a series of
+names and ages. You should not assume you know how many rows are in the file. 
+You will save the file to the c:\temp location on your computer. 
+In the program, write a function called GetData that reads in the data into an array of objects that contain firstname, lastname, and age.
+Then, define a class called person. You will have person.h and person.cpp files that
+will contain 3 private variables to hold the three values strFirstName, strLastName,
+and intAge. It should have public accessor and set functions, getFirstName,
+getLastName, getAge, setFirstName, setLastName, and setAge. (these two files
+correctly named and coded 50 pts).
+The main app should have a function called CalculateAvgAge that gets an array of
+objects passed to it, and the number of objects in the array, and calculates the Avg
+age and returns it as a double in main.cpp (this function works correctly 25 pts).
+So main.app should contain at least two functions, CalculateAvgAge and GetData. 
+
+Learning to code? Follow my C++ tutorials for beginners. I do a lot of C++ programming challenges and C++ projects as part of my homework - every day!
+If you are learning to program, nothing beats solving real programming exercises and coding challenges.
+So don't forget to subscribe, as I release new programming videos every day!
+
+DOWNLOAD SOURCE FILES: http://www.codinghomework.com/?p=736

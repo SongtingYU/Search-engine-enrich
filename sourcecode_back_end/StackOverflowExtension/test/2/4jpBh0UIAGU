@@ -1,0 +1,3 @@
+Friends its very simple.
+1. import os module and run os.system(command)
+2. import subprocess  and run subprocess.Popen

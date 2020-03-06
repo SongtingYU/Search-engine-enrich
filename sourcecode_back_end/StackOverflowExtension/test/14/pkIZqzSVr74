@@ -1,0 +1,48 @@
+Link for all dot net and sql server video tutorial playlists
+https://www.youtube.com/user/kudvenkat/playlists?sort=dd&view=1
+
+Link for slides, code samples and text version of the video
+http://csharp-video-tutorials.blogspot.com/2015/05/jquery-how-to-check-if-event-is-already.html
+
+In this video we will discuss, how to check if an event is already bound using jQuery. 
+
+Why is it important to check if an event is already bound
+To prevent attaching event handler multiple times
+
+The following example checks if a click event handler is already bound. If it's not already bound, then a click event handler is attached.
+
+Replace &lt; with LESSTHAN symbol and &gt; with GREATERTHAN symbol
+
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;&lt;/title&gt;
+    &lt;script src="jquery-1.11.2.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript"&gt;
+        $(document).ready(function () {
+            var jQueryObject = $('#btn');
+            var rawDOMElement = jQueryObject.get(0);
+            var eventObject = $._data(rawDOMElement, 'events');
+
+            if (eventObject != undefined && eventObject.click != undefined) {
+                alert('Click event exists');
+            }
+            else {
+                $('#btn').on('click', function () {
+                    alert('Button Clicked');
+                });
+            }
+        });
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body style="font-family:Arial"&gt;
+    &lt;input id="btn" type="button" value="Click Me" /&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+Please note that this only works if you have attached event handlers using jQuery. This will not work if you have attached event handlers using raw JavaScript or element attributes.
+
+Another way to prevent attaching event handlers multiple times is by using jQuery off() and on() methods. The off() method ensures that all existing click event handlers of the button are removed before again adding a new click event handler using on() method.
+
+$('#btn').off('click').on('click', function () {
+    alert('Button Clicked');
+});

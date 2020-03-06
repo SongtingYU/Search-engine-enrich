@@ -1,0 +1,7 @@
+Download Excel File: http://people.highline.edu/mgirvin/ExcelIsFun.htm
+See array formula to extract and sort a unique list of numbers from a column that contains empty cells and text:
+1. Array formula that contains the functions: MATCH, ISNUMBER, IF, FREQUENCY, ROW, ROWS, LARGE.
+
+Also see: Excel Magic Trick 1040: Formula To Extract & Sort A Unique List Of Numbers, No Empty Cells Or Text
+
+Amazing Array Formula!

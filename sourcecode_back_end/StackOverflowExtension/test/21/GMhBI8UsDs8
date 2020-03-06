@@ -1,0 +1,17 @@
+For more videos on technology, visit http://www.Techytube.com
+
+The biggest problem with SQL Server for a very long time has been that databases on an instance are always tightly coupled to an instance. So once you move your database to a different SQL server instance the database will always face compatibility issues though the target and source server instances were of the same version and Service packs. 
+
+A database can be dependent on lot of server instance properties such as security, roles, linked servers, CLR, database mail, service broker objects, replication, and SQL Server Agent jobs. Also if the target instance is of different collations as compared to source instance there would be issues with collation compatibility when creating temp objects, executing order by clauses etc.
+
+Contained Databases
+
+One of the most exciting and new feature of SQL Server 2012 is "Partially Contained Databases" which to a very significant level overcomes all the shortcomings stated above. As the name implies the word "contained" means something within itself and the least dependent on something external. So in short a contained database is independent of the SQL server instance on which it's hosted. Database that is dependent on the SQL server instance are otherwise called as non-contained database.
+
+Prior to SQL Server 2012 when a database had to be moved from one instance to another we would had copy the logins existing on the source instance to the target instance else we had the issues of orphan users. More information on ways to fix orphan users http://msdn.microsoft.com/en-us/library/ms175475.aspx.Users in a contained database are no longer associated with logins on the instance of SQL Server. You just have to create a database user with password in a partially-contained database and then directly connect to that database.
+
+So in short a contained database includes all database settings and metadata required to define the database and has no configuration dependencies on the instance of the SQL Server Database Engine where the database is installed. A contained database will overcome the most painstaking issues a DBA always have to face when moving the databases from instance to another
+
+·          You can create a database-specific user without a login (and you can create multiple such users with the same name for different databases); 
+
+·          Objects in tempdb would be created in the collation of the calling database context which is not true in case of non-contained databases.

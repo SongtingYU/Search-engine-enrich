@@ -1,0 +1,52 @@
+Follow this tutorial to learn how to create different types of lists in HTML
+
+Don't forget to check out our site http://howtech.tv/ for more free how-to videos!
+http://youtube.com/ithowtovids - our feed
+http://www.facebook.com/howtechtv - join us on facebook
+https://plus.google.com/103440382717658277879 - our group in Google+
+
+In this tutorial you will learn how to create list in HTML. You will also learn about all types of lists that can be created in HTML.
+
+There are 2 major types to lists that are very commonly used by designers; an ordered list, and an unordered list. Items of an ordered list are numbered and reflect a sequence among them, whereas items of an unordered list are shown in the form of bullets. There is one more type of list. It is named as definition list. Items of this list exist as name-value pairs unlike the items of the other two lists that exist as a single individual item.
+
+Step # 1 -- Declaring a list
+While creating a list in html we keep in mind that each of the 2 major lists is simple to work with. They both have HTML tags like any other element in HTML. The ol element tag declares an ordered list while the ul element tag declares an unordered list.
+ol
+/ol
+
+ul
+/ul
+In this tutorial we will create both lists in order to see the difference between outputs for both. Declaring the starting and ending tags for each list is not enough, lists are needed to be populated with items.
+
+Step # 2 -- Populating items
+Items in any of the two declared lists are similar to create. The li element tag declares a single list item. This item element must be placed inside a list element in order to be part of that list. Multiple list items can be declared with matching number of li element tags. We will create a couple of items in both declared lists and view the results in a browser.
+ol
+li
+This is an ordered item
+/li
+li
+This is an ordered item
+/li
+/ol
+
+ul
+li
+This is an unordered item
+/li
+li
+This is an unordered item
+/li
+/ul
+The results clearly show that the ordered list shows its items with numbers, while the unordered list shows bullets before each item.
+
+Step # 3 -- Definition list
+When creating a list in html we often ignore this not-so-common type of list, it is called the definition list. As stated before the items in this list exist as item-description pair or for ease called as name-value pairs. The tags for each element in this type of list differ from the ordered and the unordered lists.
+The list is defined as follows:
+dl
+dt This is an item /dt
+dd This is the description /dd
+/dl
+
+The result of this list shows an item followed by its description and differs from the result of the ordered and the unordered lists. With that we conclude lists in HTML.
+
+And that's the basics for how to create list in html.

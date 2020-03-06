@@ -1,0 +1,75 @@
+Bitcoin donations are welcome: 1GGV3gbJeA83FWmz9hDfPri8EuqcUtodXy
+
+Mike's SAS Tutorials - Special Topic 1
+
+This video series is intended to help you learn how to program using SAS for your statistical needs. This special topic lesson introduces the concept macro programming to accomplish repetitive tasks more easily. I also discuss macro variables, and the concept of passing variables into the macro function. I provide basic methods of converting a simple set of procedures into a macro that can be used as a template to repeat those procedures for any variable. Finally, I work through an example to show how one can use macros to take a variable and create several transformations of it.
+
+Helpful Notes:
+
+1. There are two places one can use macro variables: within a macro, and globally outside of all STEPS.
+
+2. The ampersand operator: &, defines a macro variable within a macro and is used to call macro variables anywhere.
+
+3. The %let statement allows you to define macro variables outside of a macro, though the & operator still must be used to call the macro variable elsewhere.
+
+4. The MACRO statement begins the definition of a macro and the MEND ends the definition.
+
+5. It is optional to restate the macro name after the MEND statement.
+
+6. A macro can be thought of as a function, where one passes something into the function and certain things are returned. Unlike a function, however, macros do not always have to return something. 
+
+Today's Code:
+
+data main;
+  input ID var1 var2;
+  cards;
+  1 2 3
+  2 4 5
+  3 6 7
+  4 8 9
+  ;
+run;
+
+proc contents data=main; run;
+
+/* 1. Create a macro variable using the %let statement */
+%let newvar = var3;
+
+/* 2. Use the & operator to call a macro variable */
+data new_main; set main;
+  &newvar = var1+var2;
+run;
+
+proc contents data=main; run;
+proc contents data=new_main; run;
+
+proc print data=new_main;
+run;
+
+/* 3. Create a macro to transform a variable */
+%MACRO transform_this(x);
+  &x._squared = &x ** 2;
+  &x._cubed   = &x ** 3;
+  &x._inverse = 1 / &x;
+%MEND transform_this;
+
+data newer_main; set new_main;
+  %transform_this(var1);
+  %transform_this(var2);
+run;
+
+proc print data=newer_main;
+run;
+
+/* 4. Create a macro to run the CONTENTS procedure on any data set */
+
+proc contents data=main; run;
+proc contents data=new_main; run;
+proc contents data=newer_main; run;
+
+%MACRO contents_of(data_set);
+  proc contents data=&data_set; run;
+%MEND contents_of;
+
+%contents_of(main);
+%contents_of(new_main);

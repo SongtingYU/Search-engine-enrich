@@ -1,0 +1,20 @@
+Boolean values in JavaScript is denoted by 2 reserved words true and false.
+It can have true or false value.
+
+Boolean values are generally used in control structure like if and else statement.
+Comparison operators are used in conjunction with control structure or if/else statement.
+
+JavaScript automatically converts values to true or false.
+Values which are converted to true is called truthy value and others are called falsy value.
+undefined, 0, -0, null, NaN and empty strings "" are converted in to false that means they are falsy value. Other like array strings and objects are converted into true value and these are truthy value.
+
+
+
+Like my Facebook page: 
+https://www.facebook.com/pages/WebTunings/339234242822202
+
+Recommended JavaScript Book:
+http://www.amazon.com/gp/product/0596805527/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596805527&linkCode=as2&tag=webtuningscom-20
+
+Code snippets: 
+https://github.com/webtunings

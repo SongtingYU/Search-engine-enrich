@@ -1,0 +1,8 @@
+See how to create a Gantt Chart to show the amount of time a projects takes during a day. Learn about:
+1) Time Math
+2) Conditional Formatting using the OR function in a logical formula to hide numbers
+3) Data Validation using the Custom option with a logical formula that uses the ROUND functions and comparative operators to prevent too many hours being entered into formula.
+4) Conditional Formatting using the AND function to create a Gantt chart in the cells.
+Related videos:
+Excel Magic Trick 565: Excel 2010 Daily Gantt Chart
+Excel Magic Trick 564: Daily Gantt Chart

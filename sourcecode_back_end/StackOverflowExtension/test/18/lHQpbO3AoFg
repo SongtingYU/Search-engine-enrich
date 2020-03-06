@@ -1,0 +1,5 @@
+In this tutorial we're going to look at two types of objects that are similar but different in that one has prototype property, the other doesn't.
+
+Ones created using json notation {} do not have prototype property attached to them, and therefore cannot be used as object constructor functions.
+
+All functions are objects in JavaScript. But not all objects are functions. In order to create an object we can extend with our own methods, it needs to be of type Function. Function here is an object constructor (which is also a function) already created for us by JavaScript.

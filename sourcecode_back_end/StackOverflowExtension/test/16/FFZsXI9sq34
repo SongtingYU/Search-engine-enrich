@@ -1,0 +1,54 @@
+In a networked environment where other users have access the to the 
+files and folders it is good practice to implement fine grained file and 
+folder permissions. This way it is possible to prevent unwanted users 
+from reading, writing modifying and a lot more. The below video is a 
+tutorial on how to use Windows 10 file and folder permissions (ACL) and 
+is also valid for Windows Server, 8.1 and others.
+
+For more visit http://www.windows10.ninja and http://www.2012r2.com
+
+Transcript (machine generated so it contains errors)
+
+Hello today were gonna have a quick look at file and folder permissions. 
+Okay, and the ACLs, which is the access control list and another very 
+quick look at it and see how it works okay. Basically we need to get on 
+the screen that allows the change permissions on a file or folder. I 
+would do it. We click on the file folder, click properties, and then 
+there are security and then the advanced okay over a year. If we see 
+that folder is basically by clicking over your administrator and then 
+you all. This is grayed out. Basically, showing that it is inherited 
+permissions. Okay. So how do we do that you to disable inheritance for 
+first okay. Now we can add that can now that we have that we can give 
+this person full control over at full control. Basically, as in a state 
+is read, write, modify, change it eccentric centre. Again, we can only 
+apply these permissions to objects are containers within this container. 
+So basically it is not going elsewhere. The permissions advanced 
+permissions with the full controls given everything basically a few 
+things to think about is basically are you able to read attributes the 
+special extradition data on files and folders write attributes of a 
+delete delete subfolders and files. If you have this checked in contact 
+and in this state it still give the person permission to delete the file 
+or folder is to make sure those two go together you can remove 
+permissions for the user to create folders and data add extra data to 
+them the files you create files, write data, you can basically either 
+add or remove permissions for a user okay. Click okay, and now this 
+person has been given full control. We have also had a look at 
+inheritance we might want to look at ownership of files and folders. 
+Okay concluded that now. For example, change it to the administrator 
+began and others change the owner of the basic owner has full control 
+over in the owner basically like the owner of property has all the 
+rights and permissions and authority to basically grant permissions to 
+other users to remove permissions from other users, so by being the 
+owner you are basically in control of that object your file or folder, 
+subfolders, et cetera okay, you can add extra users over here, you can 
+Fine-Grained the permissions based on the list that I showed you and 
+this is ideal in a workplace in a network environment where you are 
+basically either prohibit or grant other people access to files and you 
+want to fine-tune it. So, for example, you might want to give access to 
+people in the IT department to shall we say view the accounts department 
+files and data might need to do it for like a security reason or 
+whatever or an admin reason, however, you do not want them to change 
+anything, so you might disable certain IT users from having access to 
+being able to write to certain files. You might also want to block off 
+certain folders completely from certain users, so hopefully this helps. 
+Thank you for watching

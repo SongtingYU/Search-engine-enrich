@@ -1,0 +1,13 @@
+Get your Fenix 3 HR here: http://amzn.to/29vY65T In this video I'll be showing you guys how to import .gpx file directly onto Garmin Fenix 3 HR (Also works on Fenix 3) on OS X on a Mac. Also doing a quick overview of how the course map looks like in the Garmin Navigation App, as well as a Garmin Connect IQ app called dwMap.
+
+To view hidden files in the Finder, open a Terminal window and run the following commands in it, pressing Enter after each one:
+
+defaults write com.apple.finder AppleShowAllFiles TRUE
+
+killall Finder
+
+To hide those hidden files again, use following commands, pressing Enter after each one:
+
+defaults write com.apple.finder AppleShowAllFiles FALSE
+
+killall Finder

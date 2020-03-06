@@ -1,0 +1,28 @@
+Learn how to open command prompt as an administrator and make full use of the administrative rights.
+
+Don't forget to check out our site http://howtech.tv/ for more free how-to videos!
+http://youtube.com/ithowtovids - our feed
+http://www.facebook.com/howtechtv - join us on facebook
+https://plus.google.com/103440382717658277879 - our group in Google+
+
+In this tutorial, we will teach you how to run the command prompt as an administrator. Opening command prompt as an administrator gives you certain privileges. When you'd open the command prompt with administrator rights, system 32 will be displayed.
+
+Step 1 -- Type cmd
+
+First of all, go the start button and type in "cmd" in the search bar.
+
+Step 2 -- Command Prompt in search results
+
+In order to open command prompt as an administrator, go back to the start button and under accessories, you will find the command prompt.
+
+Step 3 -- Run as administrator option
+
+Right click on the option and from the drop down menu, select the "run as administrator" option. This will allow you to run the command prompt as an administrator.
+
+Step 4 -- View command prompt in administrator mode
+
+This time round the command prompt will open to C:\Windows\System32 and you can run it with administrator rights.
+
+Step 5 -- Other ways to open command prompt as administrator
+
+You can always go back to the start button and type in "cmd". When the search results are displayed, right click over the command prompt and select the "run as administrator" option. Another way to do so is by opening the start menu, typing in cmd and then pressing the "CTRL + SHIFT + ENTER" key. Use this shortcut to open the command prompt as an administrator. In this way, as an administrator you can open command prompt.

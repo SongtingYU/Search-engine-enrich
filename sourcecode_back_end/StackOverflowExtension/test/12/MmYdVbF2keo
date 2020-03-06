@@ -1,0 +1,7 @@
+M. Pauly, R. Keiser, L. Kobbelt, M. Gross: Shape Modeling with Point-sampled Geometry
+
+We present a versatile and complete free-form shape modeling framework for point-sampled geometry. By combining unstructured point clouds with the implicit surface definition of the moving least squares approximation, we obtain a hybrid geometry representation that allows us to exploit the advantages of implicit and parametric surface models. Based on this representation we introduce a shape modeling system that enables the designer to perform large constrained deformations as well as boolean operations on arbitrarily shaped objects. Due to minimum consistency requirements, point-sampled surfaces can easily be re-structured on the fly to support extreme geometric deformations during interactive editing. In addition, we show that strict topology control is possible and sharp features can be generated and preserved on point-sampled objects. We demonstrate the effectiveness of our system on a large set of input models, including noisy range scans, irregular point clouds, and sparsely as well as densely sampled models.
+
+Proceedings of ACM SIGGRAPH 2003 (San Diego, USA, July 27-31, 2003), pp. 641-650
+
+More publications from the CGL can be found here: https://cgl.ethz.ch/publications/papers/papers.php

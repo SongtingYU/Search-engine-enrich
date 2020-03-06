@@ -1,0 +1,7 @@
+In this tutorial we create a custom WaveStream object that creates a sine wave for NAudio to playback.  This is pretty cool, because we're creating the data that the computer uses to play audio.  We can build upon this in the future to alter sound data, etc.
+
+I start the tutorial by briefly demonstrating how we convert double precision numbers to integer values (16-bit).  I apologize that I didn't do a super job, I was trying to rush to meet my 15 minute youtube limit.  I'll post some extra explanations on my website.
+
+We then proceed to create the custom WaveStream object and listen to it!  I generate a few quick tones, and then we're done!  The next tutorial will be working towards a custom WaveStream called 'EffectStream'.  With this new WaveStream we will be able to add cool effects such as Echo and Reverb.
+
+Sample code and a demo wave file are available on my website. http://www.giawa.com/tutorials

@@ -1,0 +1,5 @@
+The os module in python offers many functions.
+the os.path.getatime() function gives the last accessed time of given file.we need to pass the return value of os.path.getatime() function to convert the return value into our local time format
+similarly os.path.getctime(),os.path.getmtime()
+gives the creation time,modified time of files respectively.
+NOTE : if the file is in current directory we can give only filename, other wise we need to pass complete path name of the file.

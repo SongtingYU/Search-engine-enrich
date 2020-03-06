@@ -1,0 +1,21 @@
+This video will show you how to create different functions to handle specific tasks within your program. 
+
+For example:
+int function(int x, double y){
+return (x * y);
+ }
+
+This function accepts 2 values; and integer x, and a double y. The return statement multiplies the x and y together, then returns it to where it was originally called from as an integer value.
+
+We can call the function this way:
+int main( ){
+int x = 2;
+double y = 2.5;
+function(x,y);
+return 0;
+}
+
+Also make sure to cast the function and it's parameters outside the main scope:
+int function(int x, double y);
+
+Please check out my other channel: http://www.youtube.com/mrjavahelp

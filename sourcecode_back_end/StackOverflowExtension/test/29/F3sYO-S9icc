@@ -1,0 +1,19 @@
+In this video post you will learn How to Load Multiple Excel Sheets from a single Excel file to a SQL Server Table.
+This scenario can be used when you often get data on multiple sheets. The structure of columns is same on each sheet but data can be different.
+
+The number of sheets can be deleted or added to the file as long as the new sheet follow the same column structure.
+
+In this video you will learn following Items
+
+    How to use Foreach Loop Container with "Foreach ADO.NET Schema Rowset"
+    How to load Data from Excel Sheet to SQL Server Table
+    How to use Data Conversion Transformation in ssis Package to Convert Excel Data to Destination Table data Type
+    How to use Variables in SSIS Package to generate Dynamic Connection Manager
+    How to use Data Flow Task in SSIS Package
+
+
+
+
+
+To Follow Step by Step this SSIS video tutorial By Tech Brothers
+http://www.techbrothersit.com/2014/12/ssis-videos.html

@@ -1,0 +1,12 @@
+http://technotip.com/2021/append-add-and-remove-html-xml-elements-jquery/
+
+
+Video tutorial to illustrate adding or appending an html element or removing an html element from the web page using jQuery: DOM (Document Object Model)
+
+jQuery uses: .append(); and .remove(); functions to accomplish this task.
+
+We could use these methods to append string or any other html or XML element and also remove string and other html or XML elements from the document.
+
+
+jQuery Video Tutorial List:
+http://technotip.com/2514/jquery-tutorial-list/

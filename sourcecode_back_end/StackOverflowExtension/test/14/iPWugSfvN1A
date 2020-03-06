@@ -1,0 +1,5 @@
+Forward calls or create devices for your users. Each person object can comprise up to 3 devices. They can ring in a sequence or altogether. (There’s a small timeline slider for adjusting sequence.) 
+
+* Select the 123 button for call confirm (press “1” to accept the call).
+* Select the music button for playback while callers are on hold or waiting for an answer.
+* Select the plus button to add a new device or forwarding option.

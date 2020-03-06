@@ -1,0 +1,8 @@
+Ian Vitek - Citrix and Terminal Services
+Citrix and Terminal Services are becoming very popular. Ian Vitek will speak about:
+# Scanning and finding Terminal Services and Published Applications. This will include statistics of open and vulnerable servers.
+# Connection to Published Applications. This can be harder than you think. Most of the servers have Published Applications. You can't just see them.
+# Breaking out from the given environment and elevation of rights.
+# Demonstration. The way administrators set up their Citrix servers every so often the Citrix client can't enumerate Published Applications or connect to them from Internet. Tools for enumerating and connecting to Published Applications will be released.
+
+Ian Vitek has been working for iXsecurity in Sweden as a Penetration Tester for seven years. He is more a networking guy then doing assembly stuff. He is the writer of macof and briiis.

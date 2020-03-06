@@ -1,0 +1,124 @@
+<p>Arguments are <a href="http://docs.python.org/3/faq/programming.html#how-do-i-write-a-function-with-output-parameters-call-by-reference">passed by assignment</a>. The rationale behind this is twofold:</p>
+
+<ol>
+<li>the parameter passed in is actually a <em>reference</em> to an object (but the reference is passed by value)</li>
+<li>some data types are mutable, but others aren't</li>
+</ol>
+
+<p>So:</p>
+
+<ul>
+<li><p>If you pass a <em>mutable</em> object into a method, the method gets a reference to that same object and you can mutate it to your heart's delight, but if you rebind the reference in the method, the outer scope will know nothing about it, and after you're done, the outer reference will still point at the original object. </p></li>
+<li><p>If you pass an <em>immutable</em> object to a method, you still can't rebind the outer reference, and you can't even mutate the object.</p></li>
+</ul>
+
+<p>To make it even more clear, let's have some examples. </p>
+
+<h2>List - a mutable type</h2>
+
+<p><strong>Let's try to modify the list that was passed to a method:</strong></p>
+
+<pre><code>def try_to_change_list_contents(the_list):
+    print 'got', the_list
+    the_list.append('four')
+    print 'changed to', the_list
+
+outer_list = ['one', 'two', 'three']
+
+print 'before, outer_list =', outer_list
+try_to_change_list_contents(outer_list)
+print 'after, outer_list =', outer_list
+</code></pre>
+
+<p>Output:</p>
+
+<pre class="lang-none prettyprint-override"><code>before, outer_list = ['one', 'two', 'three']
+got ['one', 'two', 'three']
+changed to ['one', 'two', 'three', 'four']
+after, outer_list = ['one', 'two', 'three', 'four']
+</code></pre>
+
+<p>Since the parameter passed in is a reference to <code>outer_list</code>, not a copy of it, we can use the mutating list methods to change it and have the changes reflected in the outer scope.</p>
+
+<p><strong>Now let's see what happens when we try to change the reference that was passed in as a parameter:</strong></p>
+
+<pre><code>def try_to_change_list_reference(the_list):
+    print 'got', the_list
+    the_list = ['and', 'we', 'can', 'not', 'lie']
+    print 'set to', the_list
+
+outer_list = ['we', 'like', 'proper', 'English']
+
+print 'before, outer_list =', outer_list
+try_to_change_list_reference(outer_list)
+print 'after, outer_list =', outer_list
+</code></pre>
+
+<p>Output:</p>
+
+<pre class="lang-none prettyprint-override"><code>before, outer_list = ['we', 'like', 'proper', 'English']
+got ['we', 'like', 'proper', 'English']
+set to ['and', 'we', 'can', 'not', 'lie']
+after, outer_list = ['we', 'like', 'proper', 'English']
+</code></pre>
+
+<p>Since the <code>the_list</code> parameter was passed by value, assigning a new list to it had no effect that the code outside the method could see. The <code>the_list</code> was a copy of the <code>outer_list</code> reference, and we had <code>the_list</code> point to a new list, but there was no way to change where <code>outer_list</code> pointed.</p>
+
+<h2>String - an immutable type</h2>
+
+<p><strong>It's immutable, so there's nothing we can do to change the contents of the string</strong></p>
+
+<p><strong>Now, let's try to change the reference</strong></p>
+
+<pre><code>def try_to_change_string_reference(the_string):
+    print 'got', the_string
+    the_string = 'In a kingdom by the sea'
+    print 'set to', the_string
+
+outer_string = 'It was many and many a year ago'
+
+print 'before, outer_string =', outer_string
+try_to_change_string_reference(outer_string)
+print 'after, outer_string =', outer_string
+</code></pre>
+
+<p>Output:</p>
+
+<pre class="lang-none prettyprint-override"><code>before, outer_string = It was many and many a year ago
+got It was many and many a year ago
+set to In a kingdom by the sea
+after, outer_string = It was many and many a year ago
+</code></pre>
+
+<p>Again, since the <code>the_string</code> parameter was passed by value, assigning a new string to it had no effect that the code outside the method could see. The <code>the_string</code> was a copy of the <code>outer_string</code> reference, and we had <code>the_string</code> point to a new string, but there was no way to change where <code>outer_string</code> pointed.</p>
+
+<p>I hope this clears things up a little.</p>
+
+<p><strong>EDIT:</strong> It's been noted that this doesn't answer the question that @David originally asked, "Is there something I can do to pass the variable by actual reference?". Let's work on that.</p>
+
+<h2>How do we get around this?</h2>
+
+<p>As @Andrea's answer shows, you could return the new value. This doesn't change the way things are passed in, but does let you get the information you want back out:</p>
+
+<pre><code>def return_a_whole_new_string(the_string):
+    new_string = something_to_do_with_the_old_string(the_string)
+    return new_string
+
+# then you could call it like
+my_string = return_a_whole_new_string(my_string)
+</code></pre>
+
+<p>If you really wanted to avoid using a return value, you could create a class to hold your value and pass it into the function or use an existing class, like a list:</p>
+
+<pre><code>def use_a_wrapper_to_simulate_pass_by_reference(stuff_to_change):
+    new_string = something_to_do_with_the_old_string(stuff_to_change[0])
+    stuff_to_change[0] = new_string
+
+# then you could call it like
+wrapper = [my_string]
+use_a_wrapper_to_simulate_pass_by_reference(wrapper)
+
+do_something_with(wrapper[0])
+</code></pre>
+
+<p>Although this seems a little cumbersome.</p>

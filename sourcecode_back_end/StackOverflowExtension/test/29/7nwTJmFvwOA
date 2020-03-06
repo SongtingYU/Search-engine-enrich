@@ -1,0 +1,30 @@
+Databases with Microsoft Access 4 –Tables: Date / Time Field Types & Custom Date Formats
+
+Date / Time data types in Access
+
+Size: 8 Bytes.
+
+Time format building blocks, that can be assembled in any desired combination.
+
+h: shows hour: ie 8, 12
+hh: shows hour with leading zero: ie 08, 12
+
+n: shows minutes: ie 1, 45
+nn: shows minutes with leading zero: ie 01, 45
+
+s: shows second: ie 6, 57
+ss: shows seconds with leading zero: ie 06, 57
+
+These building blocks can be separated by any character.
+Input, however, is always the same, separated by a colon.
+h:m:s
+ 
+ie.: fort he time 08:12:56
+h:nn .................8:12
+hh.....................08
+hh:nn:ss.........08:12:56
+h:nn am/pm....8:12 am
+
+Date / Time fields can also hold a combination of date and time data.
+
+Ie ddd dd mm yyyy hh:nn................We 12 03 1974 12:13

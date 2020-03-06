@@ -1,0 +1,20 @@
+Starting Out With C++ From Control Structures Through Objects
+C++ Programming Challenge 7-16: 2 Dimensional Array Operations
+
+In this video I demonstrate how C++ 2 Dimensional Arrays work, how to manipulate rows and columns of the array, and how to pass 2D arrays into functions as arguments.
+
+Write a program that creates a two dimensional array initialized with test data. Use any data type you wish. The program should have the following:
+- getTotal. This function accepts a 2D array and returns total of all the values in the array.
+- getAverage. Accepts 2D array, returns average of all values
+- getRowTotal. Accepts 2D array, and an integer. The second argument should be the subscript of a row in the array. Returns the total of that row.
+- getColumnTotal. Accepts 2D array, and an integer. The second argument should be the subscript of the row in the array. Returns total of that column
+- getHighestInRow. Accepts 2D array and integer. Returns highest value in that row.
+- getLowestInRow. Accepts 2D array and integer. Returns lowest value in that row
+
+Learning to code? Follow my C++ tutorials for beginners. I do a lot of C++ programming challenges and C++ projects as part of my homework - every day!
+If you are learning to program, nothing beats solving real programming exercises and coding challenges.
+So don't forget to subscribe, as I release new programming videos every day!
+
+HAVE AN EXERCISE YOU"D LIKE ME TO DO? EMAIL ME: pavol@codinghomework.com
+
+DOWNLOAD SOURCE FILES: http://www.codinghomework.com/?p=1048

@@ -1,0 +1,8 @@
+This sometimes surprises a developer new to PL/SQL. The exception section of a PL/SQL block can only possibly handle an exception raised in the executable section. An exception raised in the declaration section (in an attempt to assign a default value to a variable or constant) always propagates out unhandled to the enclosing block.
+
+Related blog post: http://stevenfeuersteinonplsql.blogspot.com/2016/03/nine-good-to-knows-about-plsql-error.html
+
+========================================
+Practically Perfect PL/SQL with Steven Feuerstein
+
+Copyright © 2015 Oracle and/or its affiliates. Oracle is a registered trademark of Oracle and/or its affiliates. All rights reserved. Other names may be registered trademarks of their respective owners. Oracle disclaims any warranties or representations as to the accuracy or completeness of this recording, demonstration, and/or written materials (the “Materials”). The Materials are provided “as is” without any warranty of any kind, either express or implied, including without limitation warranties or merchantability, fitness for a particular purpose, and non-infringement.

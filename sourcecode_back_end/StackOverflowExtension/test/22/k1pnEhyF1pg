@@ -1,0 +1,8 @@
+Using Qt Quick for Rapid UI Prototyping and Development
+Recorded at the Qt Developer Days in Munich in 2011
+Presented by: Jens Bache-Wiig
+
+
+Creating an application with a great user experience is a challenge. Traditionally a lot of effort goes into upfront design where tools such as Flash or Photoshop are used to prototype ideas and real problems are found only after the application has been implemented. Qt Quick turns this problem on its head. Now the UI designer can rapidly prototype a design and instantly try out new ideas. In this session you will see a mobile App being created from scratch. See for yourself how designers can try out their ideas, test on a mobile device and rapidly iterate towards a polished final product.
+
+video by www.greenwoodworx.com, greenwoodworx

@@ -1,0 +1,29 @@
+<p><a href="https://docs.python.org/2/library/os.html#os.listdir"><code>os.listdir()</code></a> will get you everything that's in a directory - files and directories.</p>
+
+<p>If you want <em>just</em> files, you could either filter this down using <a href="https://docs.python.org/2/library/os.path.html#module-os.path"><code>os.path</code></a>:</p>
+
+<pre><code>from os import listdir
+from os.path import isfile, join
+onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+</code></pre>
+
+<p>or you could use <a href="https://docs.python.org/2/library/os.html#os.walk"><code>os.walk()</code></a> which will yield two lists for each directory it visits - splitting into files and dirs for you. If you only want the top directory you can just break the first time it yields</p>
+
+<pre><code>from os import walk
+
+f = []
+for (dirpath, dirnames, filenames) in walk(mypath):
+    f.extend(filenames)
+    break
+</code></pre>
+
+<p>And lastly, as that example shows, adding one list to another you can either use <a href="https://docs.python.org/3/tutorial/datastructures.html#more-on-lists"><code>.extend()</code></a> or </p>
+
+<pre><code>&gt;&gt;&gt; q = [1, 2, 3]
+&gt;&gt;&gt; w = [4, 5, 6]
+&gt;&gt;&gt; q = q + w
+&gt;&gt;&gt; q
+[1, 2, 3, 4, 5, 6]
+</code></pre>
+
+<p>Personally, I prefer <code>.extend()</code></p>

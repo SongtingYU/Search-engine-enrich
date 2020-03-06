@@ -1,0 +1,1 @@
+private modifier is usually used explicitly to make it clear that the class cannot be instantiated. Private constructors are used to restrict creating instances of a class when there are no instance fields or methods.

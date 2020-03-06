@@ -1,0 +1,9 @@
+I am getting the warning message 'USB device not recognized' repeatedly. The last USB device you connected to this  computer malfunctioned, and Windows does not recognize it.
+Device Manager showing 'Unknown USB Device (Device Descriptor Request Failed)'.
+Device status: Windows has stopped this device because it has reported problems. (Code 43). A request for the USB device descriptor failed.
+USB\DEVICE_DESCRIPTOR_FAILURE
+Problem code: 0000002B
+Read the Device Not started Event.
+Recommendation: Try reconnecting the device. If Windows still does not recognize it, your device may not be working properly.
+Or, Restart your computer.
+Solution: You might remove the device improperly without safe removal. Or, you might unplug the cable from the device. If it is mobile device, then try these steps: Unplug the mobile and reconnect via USB cable.

@@ -1,0 +1,3 @@
+Notes and source: http://awforsythe.com/tutorials/pyfbsdk-1
+
+Part One introduces the scripting environment within MotionBuilder and demonstrates how to write and execute a simple script using pyfbsdk, MotionBuilder's Python API module.

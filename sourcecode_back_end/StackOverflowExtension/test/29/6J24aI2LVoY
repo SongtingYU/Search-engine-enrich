@@ -1,0 +1,23 @@
+In this video you will learn how to load Multiple Excel files to a SQL server Table and archive them after loading them. 
+
+Expression used for video to get date_time.
+Replace(Replace(Replace(SUBSTRING((DT_WSTR,50)(GETDATE()),1,16),"-","")," ","_"),":","")+".xlsx"
+
+How to load Multiple Excel files to SQL Server Table
+How to Load Multiple Excel files to SQL Server Table and Archive with datetime added to them.
+
+In this video you will learn 
+How to use foreach Loop Container
+How to use Excel Source in SSIS
+How to use File System Task to rename and move files.
+
+
+Check out our Step by Step SSIS Tutorial 
+http://www.techbrothersit.com/2014/12/ssis-videos.html
+
+Twitter
+
+https://twitter.com/AamirSh48904922
+
+Facebook
+https://www.facebook.com/TechBrothersIT

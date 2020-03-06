@@ -1,0 +1,5 @@
+Download Excel File: http://people.highline.edu/mgirvin/ExcelIsFun.htm
+
+See how to use a helper cell and an array formula to extract a sorted unique list of numbers from a column filled with duplicate numbers. See two methods:
+1. Method for Excel 2010 or later: FREQUENCY, AGGREGATE, ROWS, IF, SUM functions
+2. Method for Excel 2007 or earlier: COUNTIF, SUMPRODUCT, LARGE, IF, ROWS

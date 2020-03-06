@@ -1,0 +1,1 @@
+You can use the in operator: if 'blah' not in somestring: continue 

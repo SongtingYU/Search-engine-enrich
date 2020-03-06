@@ -1,0 +1,18 @@
+Note: While these videos are developed to support the book Foundations of Web Design: HTML & CSS, they can be viewed as independent instructional tutorials.
+-------------------------------------------------------------------------------------------
+
+
+Chapter 02 - Text Elements
+Description Lists
+
+Video Tutorial File Download: https://dl.dropboxusercontent.com/u/6128394/fowd/youtube/ch02/ch02-text.zip
+
+Description Lists (or Definition Lists, as they've been known as in the past) can be very powerful and flexible! Think of description lists as lists that help to define or give more information to a topic. Description lists (dl) must have a title element (dt) and a definition description (dd) element, but they can have multiple titles and definitions. Description lists can also contain other block level elements such as unordered (ul) lists and paragraphs ℗.
+
+Articles on Description Lists
+
+Definition lists -- misused or misunderstood? -  by Russ Weakley
+http://www.maxdesign.com.au/articles/definition/ 
+
+Utilizing the Underused (But Semantically Awesome) Definition List - by Chris Coyier
+http://css-tricks.com/utilizing-the-underused-but-semantically-awesome-definition-list/

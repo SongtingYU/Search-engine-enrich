@@ -1,0 +1,21 @@
+Recently my small 120 GB solid state hard drive was running low on space, and since I don't have the time right now to format my hard drive and re-install everything from scratch I used something called Symbolic Links to move large program installations like Grand Theft Auto 4 to another hard drive. This freed up 20GB on my C drive in a few minutes, which is much faster than uninstalling the game, reinstalling the game, then adding all the mods and configurations to a fresh installaiton of  GTAIV. Let's face it, if you customized or highly configured any software on your PC, you know what a pain in the ass something like this can be. 
+Symbolic links are glorified shortcuts. A typical shortcut on your desktop launches your programs or games from the desktop by accessing the correct installation folder, usually found in the program files folder on your c drive. Now a symbolic link allows you to move a folder to another location, then create a link saying hey whenever you are looking for ProgramX on the C drive, go to the D drive instead from now on. That's pretty much it. You are creating a shortcut for your OS, so that you don't have to go through the trouble of uninstalling and reinstalling a program. Usually it's not a big deal, but if you have a custom program that's been modified heavily after the installation, you are better off using a symbolic link instead of trying to re-do all of your customizations after you reinstall the program on another hard drive.
+So with that being said, let me show you how I moved my GTA installation from my C drive to a new solid state hard drive I just bought. 
+Now for the purposes of this video, I moved my GTA installation back to my C drive, just so that I can demonstrate the entire process to you guys.  Okay here we go.
+
+
+Why Should You Create Symbolic Links?
+• Move large files or folders to another drive without going through the dreaded uninstall and reinstall process.
+• It's a very fast way to free up space!
+• Freeing up space on your Hard drive  is especially useful if you are running a solid state hard drive { SSD} as your drive C:\
+• Sync Folders with multiple computers such as media folders, photos, movies, Dropbox, etc.
+• Because I'm going to show you how and you're going to be smarter than your friends afterwards!
+
+Subscribe to ProvenHelper Today & join in on the Sweet Life!
+http://www.youtube.com/user/homeaddition?sub_confirmation=1
+Follow me on Social Media: I'm just getting started, but millions have been served with sweet additions to their lives already!
+http://twitter.com/ProvenHelper
+http://plus.google.com/+Provenhelper
+http://www.facebook.com/ProvenHelper
+
+Also check out http://www.simpyladditions.com for free remodeling plans with estimated project costs! We're talking instant ESTIMATES :)

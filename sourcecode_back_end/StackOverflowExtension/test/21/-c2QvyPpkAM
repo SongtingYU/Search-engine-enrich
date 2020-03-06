@@ -1,0 +1,11 @@
+By Andrew Gould
+
+http://www.wiseowl.co.uk - The ADO Command object essentially allows you to write SQL statements directly into your VBA code and execute them on whichever database you've connected to - powerful stuff! This video focusses on the INSERT, UPDATE and DELETE statements to allow you to modify data based on information contained in your Excel workbooks. We'll cover how to build dynamic SQL statements and how to avoid the main danger of dynamic SQL. You'll also get an idea of how transactions work in databases, allowing you to revert your data back to a previous state if things go wrong with your code!
+
+You can download the Access Movies database here:
+http://www.wiseowl.co.uk/files/execise-question-files/qf-1103.zip
+
+You can download the script to create the SQL Server Movies database used in this video at the following link:
+http://www.wiseowl.co.uk/files/execise-question-files/qf-898.zip
+
+Visit www.wiseowl.co.uk for more online training resources in Microsoft Excel, Microsoft Access, Microsoft PowerPoint, Microsoft Word, Microsoft Project, Microsoft Publisher, Microsoft Visio, SQL Server, Reporting Services, Analysis Services, Visual Studio, ASP.NET, VB.NET, C# and more!

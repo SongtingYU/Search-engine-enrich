@@ -1,0 +1,83 @@
+Maybe a bit of example code will help: Notice the difference in the call signatures of `foo`, `class_foo` and `static_foo`:
+
+    class A(object):
+        def foo(self,x):
+            print &quot;executing foo(%s,%s)&quot;%(self,x)
+    
+        @classmethod
+        def class_foo(cls,x):
+            print &quot;executing class_foo(%s,%s)&quot;%(cls,x)
+    
+        @staticmethod
+        def static_foo(x):
+            print &quot;executing static_foo(%s)&quot;%x    
+    
+    a=A()
+    
+Below is the usual way an object instance calls a method. The object instance, `a`, is implicitly passed as the first argument.
+    
+    a.foo(1)
+    # executing foo(&lt;__main__.A object at 0xb7dbef0c&gt;,1)
+
+
+----------
+
+
+    
+**With classmethods**, the class of the object instance is implicitly passed as the first argument instead of `self`.
+    
+    a.class_foo(1)
+    # executing class_foo(&lt;class &#39;__main__.A&#39;&gt;,1)
+    
+You can also call `class_foo` using the class. In fact, if you define something to be
+a classmethod, it is probably because you intend to call it from the class rather than from a class instance. `A.foo(1)` would have raised a TypeError, but `A.class_foo(1)` works just fine:
+        
+    A.class_foo(1)
+    # executing class_foo(&lt;class &#39;__main__.A&#39;&gt;,1)
+ 
+One use people have found for class methods is to create [inheritable alternative constructors](http://stackoverflow.com/a/1950927/190597).
+
+
+----------
+
+
+**With staticmethods**, neither `self` (the object instance) nor  `cls` (the class) is implicitly passed as the first argument. They behave like plain functions except that you can call them from an instance or the class:
+    
+    a.static_foo(1)
+    # executing static_foo(1)
+
+    A.static_foo(&#39;hi&#39;)
+    # executing static_foo(hi)
+
+Staticmethods are used to group functions which have some logical connection with a class to the class.
+
+----------
+
+
+`foo` is just a function, but when you call `a.foo` you don&#39;t just get the function,
+you get a &quot;partially applied&quot; version of the function with the object instance `a` bound as the first argument to the function. `foo` expects 2 arguments, while `a.foo` only expects 1 argument.
+
+`a` is bound to `foo`. That is what is meant by the term &quot;bound&quot; below:
+
+    print(a.foo)
+    # &lt;bound method A.foo of &lt;__main__.A object at 0xb7d52f0c&gt;&gt;
+
+With `a.class_foo`, `a` is not bound to `class_foo`, rather the class `A` is bound to `class_foo`.
+
+    print(a.class_foo)
+    # &lt;bound method type.class_foo of &lt;class &#39;__main__.A&#39;&gt;&gt;
+
+Here, with a staticmethod, even though it is a method, `a.static_foo` just returns
+a good &#39;ole function with no arguments bound. `static_foo` expects 1 argument, and
+`a.static_foo` expects 1 argument too.
+
+    print(a.static_foo)
+    # &lt;function static_foo at 0xb7d479cc&gt;
+
+and of course the same thing happens when you call `static_foo` with the class `A` instead
+
+    print(A.static_foo)
+    # &lt;function static_foo at 0xb7d479cc&gt;
+
+
+  [1]: http://www.python.org/download/releases/2.2/descrintro/#metaclasses

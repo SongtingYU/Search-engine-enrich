@@ -1,0 +1,49 @@
+Credits to Beretta for helping with new ideas for scripts and also giving me tons!
+https://www.youtube.com/user/BerettaBoy211
+
+And Credits to Crashz for the crosshair show script! Thanks to him I could remake one for the viewmodels!
+https://www.youtube.com/channel/UCV6jroExO1hsAsM46F2kZ9A
+
+FOLLOW THE STEPS FOR INSTALLATION, VERY IMPORTANT!
+
+STEP 1: Download the file: http://www.mediafire.com/download/ckjg0j1bakmdnfl/script.cfg
+
+STEP 2: Open the file with notepad, and add in the last row of the file host_writeconfig
+
+STEP 3: Find script number *********** 3 **********
+
+STEP 4: If you are using a QWERTY keyboard, then go to STEP 6.
+
+STEP 5: Change the keys so they are correct to your keyboard.
+
+STEP 6: Change the voice key "v" so it's the same key you are using to talk.
+
+STEP 7: Copy everything to autoexec.cfg located in csgo\cfg, you can create this yourself if you don't have it by copying the script.cfg and renaming it to autoexec.
+
+STEP 8: Disable scripts you don't want simpy by adding // in front of the bindings
+
+STEP 9: In the Launch options of CS:GO put "+exec autoexec.cfg"
+
+STEP 10: Run CS:GO
+
+Have fun
+
+You can follow me on:
+Instagram - http://instagram.com/MaximTheBeast
+Twitter - http://twitter.com/MaximTheBeast
+Twitch - http://twitch.tv/MaximTheBeast
+
+You like Bananas? More awesomeness!
+Homepage - http://bananagaming.tv
+Facebook - http://bananagaming.tv/facebook
+Steamgroup - http://bananagaming.tv/steamgroup
+T-Shirts & More - http://bananagaming.tv/merchandise
+
+Play on ESEA now for a cheat-free environment! 
+Use the link below to register: https://play.esea.net/?r=1278291
+
+License
+Overall Music - http://www.epidemicsound.com
+Intro Music - http://incompetech.com
+Intro Font - http://www.dafont.com/foo.font
+Intro Icon - https://openclipart.org

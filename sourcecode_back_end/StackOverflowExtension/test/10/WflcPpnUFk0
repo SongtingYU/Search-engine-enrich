@@ -1,0 +1,1 @@
+Windows Server 2008 R2 Active Directory explanation of users, groups and assigning permissions to shared folders. The goal is to add Users Accounts to Domain Global Groups, then add them into Domain Local groups which are then used to assign permissions to the shared folders.

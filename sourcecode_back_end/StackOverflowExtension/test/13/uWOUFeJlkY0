@@ -1,0 +1,1 @@
+How to Append form data to JSON File in PHP Programming Language. I have create one HTML form, I want to add the form data into one json file. For this I have use file_get_contents(), json_decode(), json_encode() and file_put_contents(). Source Code - http://webslesson.blogspot.com/2016/04/append-data-to-json-file-using-php.html

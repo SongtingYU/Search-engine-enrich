@@ -1,0 +1,2 @@
+Reviewed keywords are:
+import pprint, listdir, os, glob, rename, mkdir, rmdir, remove, append, print, iter, generator function, iterator, next, yield

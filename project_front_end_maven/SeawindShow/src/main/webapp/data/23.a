@@ -1,0 +1,1 @@
+super() lets you avoid referring to the base class explicitly, which can be nice. But the main advantage comes with multiple inheritance, where all sorts of fun stuff can happen. See the standard docs on super if you haven't already. Note that the syntax changed in Python 3.0: you can just say super(ChildB, self).__init__() which IMO is quite a bit nicer. 

@@ -1,0 +1,3 @@
+In this video you will learn how to override the toString() method in Java. Overriding toString() is very important whenver yyou want to directly print the object. 
+
+You should remember one thing that whenever you try to print the object directly to the console, the toString() method is called by itself. So in case you want to change the implementation of toString() method you can override it. This video will show you exactly how to do it.

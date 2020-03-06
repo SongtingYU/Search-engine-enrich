@@ -1,0 +1,51 @@
+Now Create Bootable USB for Windows 7/8/8.1/Vista. Here is the Video Link:
+http://youtu.be/mT24TtxplQg
+
+For more details visit : http://youngnewton.com/best-way-to-make-bootable-usb-pendrive-for-windows-788-1/
+
+http://youtu.be/E9C89jxzUjY (Learn to Extract ISO files)
+
+http://bit.ly/1s6Dwva (Click to Download Windows 7 32-bit)
+
+Note : You need to Follow Same Steps in order to make bootable USB pendrive for windows 8/8.1/vista.
+
+Commands Used For making bootable USB :-
+a) diskpart
+b) list disk
+c) select disk 1 ( if your USB is of no. 2 then use "select disk 2")
+d) clean
+e) create partition primary
+f)  select partition 1 ( if your USB is of no. 2 then use "select partition 2")
+g) active
+h) format fs=ntfs quick (for quick format) otherwise you can use "format fs=ntfs".
+i) assign - as soon as you type this command your USB drive name will change automatically.
+g) exit - to exit from diskpart not from command prompt.
+
+2) extract your windows 7 file(.iso format) using winrar.
+If you don't know how to extract a image[ISO] file. Then refer Above links.
+
+3) After successful extraction you will see that there is a bootsect executable file that needs to be executed.
+
+4) To execute bootsect.exe we need to apply following command.
+   cd (drive_name)-here name of the drive is the drive where you    have extracted windows 7   (iso file)
+   cd boot
+   bootsect.exe/nt60 J: (here J: is the name of the usb drive).
+
+5) after all this steps you just need to copy all the content of windows 7 folder into usb device folder.
+
+Note : You can make bootable USB only for windows(32 bit) if you are using a 32 bit operating system.
+To make bootable USB for 64 bit you need to use 64 bit laptop.
+
+Like us on Facebook :
+https://www.facebook.com/stepbysteptutorials01
+
+Follow us on Twitter :
+https://twitter.com/swastiksidd
+
+For Inquiry & Suggestions :
+https://www.youtube.com/user/stepBYstepHow/discussion
+
+Please Like, Subscribe and Share our tutorials :)
+
+Audio Link: https://www.youtube.com/watch?v=ZhXTACf03wU
+Audio: Psycho Nu Metal Loop - TeknoAxe (Royalty Free Music)

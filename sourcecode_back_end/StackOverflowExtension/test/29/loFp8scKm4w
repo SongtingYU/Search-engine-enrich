@@ -1,0 +1,14 @@
+In this video you will learn how to generate Tab delimited file from a sql server table by using SQL Server integration Services Package.
+
+You will learn following Tasks/ Transformation of SSIS in this video
+ How to create SSIS Project
+How to create an SSIS Package 
+How to use Data Flow task to read data from a Table and create flat file
+How  to use OLE DB Source in SSIS Package
+How to use Flat File Destination in SSIS Package
+How to use Variables in SSIS Package
+How to write expressions in SSIS Package
+How to generate text file with date time in ssis package with each execution
+
+To Follow Step by Step this SSIS video tutorial By Tech Brothers
+http://www.techbrothersit.com/2014/12/ssis-videos.html

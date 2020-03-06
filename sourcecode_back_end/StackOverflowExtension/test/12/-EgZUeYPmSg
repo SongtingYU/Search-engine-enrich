@@ -1,0 +1,16 @@
+What is the difference between primitive type and wrapper object?
+JavaScript sometimes temporarily creates wrapper object to invoke some inherited methods and silently discards the wrapper object.
+
+str.slice() is the perfect example. String object is behaving like wrapper object and it is accessing slice method(property). JavaScript creates temporary wrapper object by new String(str) and once invocation is done, it destroys the wrapper object.
+
+Another example is str.length.
+
+
+Like my Facebook page: 
+https://www.facebook.com/pages/WebTunings/339234242822202
+
+Recommended JavaScript Book:
+http://www.amazon.com/gp/product/0596805527/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596805527&linkCode=as2&tag=webtuningscom-20
+
+Code snippets: 
+https://github.com/webtunings

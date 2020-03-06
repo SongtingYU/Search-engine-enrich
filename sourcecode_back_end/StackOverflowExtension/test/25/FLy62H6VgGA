@@ -1,0 +1,18 @@
+http://codebabes.com/courses/html-virgin/html-text-tags
+
+Now that we've got the basics, let's talk about some more HTML tags. HTML gives you a bunch of tags for enclosing text. Let's start with paragraphs. Look at this text in the editor, it is separated into two lines, but if you look at it in the browser it's just a big blob. What we need is a second paragraph tag to give us what we're looking for. Remember how paragraphs work from english class? Or were you too busy checking out the girl next to you?
+
+You can also stick other tags inside. Let's say you wanted these words to be italicized. Just add the or emphasis tag. Bold? Add the tag. If you want a simple line break, use the tag.
+
+So we have a paragraph, lets give it a heading so people know what it's about! There are six levels of headings you can use, h1, h2, h3, h4, h5, h6. (cascading headers)
+
+The general rule is to use the h1 tag only once per page, and it needs to be a good summary for the content, or Google is gonna be like WTF. Web crawlers consider the h1 to be the most important text on a page. After the h1 is set you can add as many of the others as you want, but don't go crazy, no need to have a header orgy. They should be used in a cascading fashion, the h1 should come first, then h2, and then an h3.
+
+But what about lists! Because really, the internet is just a giant list making machine. Ryan Gosling memes, hottest babes, star wars references, the list goes on. There are two types of list tags available in HTML. Unordered lists and ordered lists. Unordered lists are for shit where the order is not important, usually using bullet points, while ordered lists use numbers. They can be as long, (beat) or as short (beat) as you want. You create unordered lists with the UL tag and ordered lists with the OL tag. Then the elements of the list are enclosed in
+
+tags. In case you didn't guess, LI stands for list item.
+Lets open the webpage we started and make an unordered list. Just add the UL opening tag and closing tags, and then stick the LI tags in between. We'll do a list of my turn ons, Star Wars, hairy backs, and mustaches. Looks great, now lets change it to an ordered list, now there are numbers, hope you like star wars. What if we want lists within lists, within lists, like a inception list, a list ception? We can do that by just adding more UL and LI elements within the parent UL tag.
+
+Lists are also used all over the place for things like navigation menus, by placing links with in the LI tag. We'll talk about links in the next lesson, and I feel like another clothing item is going to fall off.
+
+http://codebabes.com/courses/html-virgin/html-text-tags

@@ -1,0 +1,14 @@
+The basics of pointers. I did NOT make this video. I am simply uploading it to YouTube so I can link it directly as part of my tutorial. Proper credits are in the credits.
+
+Pointers are mainly used with functions. Since variables within a function are terminated when that function returns, you use a pointer to directly manipulate the address of that variable so that any changes made to the variable in that function are carried over when the function returns.
+
+Example:
+int myFunction(int *pMyPointer);
+
+When that function is called, you pass the address of your argument(s) instead, like so:
+
+myFunction(&myVariable);
+
+Any changes to that variable will carry over, but you must dereference the pointer in order to make a change to the value stored there, like so:
+
+*pMyVariable = value;

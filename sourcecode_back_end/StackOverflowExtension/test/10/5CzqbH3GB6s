@@ -1,0 +1,14 @@
+Counter-Strike: Global Offensive tutorial on how to set up your custom crosshair.  This tutorial goes over all of the console commands used to modify the classic crosshair.
+
+cl_crosshairstyle
+cl_crosshairdot
+cl_crosshaircolor
+cl_crosshaircolor_r
+cl_crosshaircolor_g
+cl_crosshaircolor_b
+cl_crosshairdot
+cl_crosshairusealpha
+cl_crosshairalpha
+cl_crosshairsize
+cl_crosshairthickness
+cl_crosshairgap

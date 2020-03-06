@@ -1,0 +1,29 @@
+[`os.listdir()`][1] will get you everything that&#39;s in a directory - files and directories.
+
+If you want *just* files, you could either filter this down using [`os.path`](https://docs.python.org/2/library/os.path.html#module-os.path):
+
+    from os import listdir
+    from os.path import isfile, join
+    onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
+
+or you could use [`os.walk()`][2] which will yield two lists for each directory it visits - splitting into files and dirs for you. If you only want the top directory you can just break the first time it yields
+
+    from os import walk
+
+    f = []
+    for (dirpath, dirnames, filenames) in walk(mypath):
+        f.extend(filenames)
+        break
+
+And lastly, as that example shows, adding one list to another you can either use [`.extend()`](https://docs.python.org/3/tutorial/datastructures.html#more-on-lists) or 
+
+    &gt;&gt;&gt; q = [1, 2, 3]
+    &gt;&gt;&gt; w = [4, 5, 6]
+    &gt;&gt;&gt; q = q + w
+    &gt;&gt;&gt; q
+    [1, 2, 3, 4, 5, 6]
+
+Personally, I prefer `.extend()`
+
+   [1]: https://docs.python.org/2/library/os.html#os.listdir &quot;os.listdir&quot;
+   [2]: https://docs.python.org/2/library/os.html#os.walk &quot;os.walk&quot;

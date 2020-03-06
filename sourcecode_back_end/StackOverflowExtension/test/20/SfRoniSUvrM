@@ -1,0 +1,25 @@
+Don't hesitate to comment below if you have any questions or additional phrases 
+Incompleteness 
+,Suppose L is a logic and H(T,x) is a statement in L expressing that Turing machine T halts on input x. 
+Thus H(T,x) is true if and only if T halts on input x. Recall -- L is sound and effective.  So: If H(T,x) is provable in L then it is true so T halts on input x. 
+If H(T,x) is provable in L then H(T,x) is false so T does not halt on input x. ,There is a Turing machine M such that M halts on input i if and only if H(Ti,i) is provable in L. 
+M can be constructed from a theorem prover for L 
+Let j be such that M is Tj. Claim:  Tj loops on input j but H(Tj,j) is not provable in L.  (Incompleteness.) ,Proof:  If Tj halts on input j then by definition of M, H(Tj,j) is provable in L.  Thus Tj loops on input j.  Contradiction. 
+Thus Tj loops on input j.  By definition of M this implies that H(Tj,j) is not provable in L.  Thus H(Tj,j) is true but not provable in L. ,The formula H(Tj,j) asserts its own unprovability 
+If H(Tj,j) is true then Tj does not halt on input j. This means that H(Tj,j) is not provable in L. So if H(Tj,j) is true, it is unprovable. If H(Tj,j) is provable, L is unsound. ,Let S be the sentence “This sentence is false.” 
+This is self-referential like H(Tj,j)  If S is true it is false. If S is false it is true. Either way, HL is contradictory unless this is not considered a valid sentence of HL. But which sentences then does HL allow? ,Similar to Russell’s paradox: 
+Let X be {S : S  S} Then is X  X? If so X  X. If not X  X. Either way set theory is contradictory. So set theory was modified to disallow this set. ,Constructing H(T,x) Legend: 
+tape(i,t) Tape symbol i at time t. 
+state(t)State at time t scan(t) Symbol scanned at time t Transition function of T for (state,symbol): ns(state,symbol)  New state 
+wr(state,symbol)  Symbol written dir(state,symbol)  Direction moved, 0,-1,or +1 ,Let A be the conjunction of these formulae: 
+(0 &amp;lt; i &amp;lt; |x|)  tape(i,0) = xi. 
+(0  i  i  |x|)  tape(i,0) = blank state(0)=s  (the start state of T) scan(0)=0 ti (scan(t)  i  tape(i,t)=tape(i,t+1)) t (state(t+1)=ns(state(t),tape(scan(t),t))) t (scan(t+1)=scan(t)+ dir(state(t),tape(scan(t),t))) t (tape(scan(t),t+1)= wr(state(t),tape(scan(t),t))) ,Assume ns, wr, and dir are defined in A too. 
+Let Hn(T,x) be A  (state(n) F) F is the set of halting states of T 
+N is the natural numbers {0,1,2,3,…} Means that T halts in n steps on input x Let H(T,x) be n N Hn(T,x)  Means that T halts on input x 
+H(T,x) is true if T halts on input x H(T,x) is false if T loops on input x ,Note that H(T,x) can be constructed from T 
+Thus if j is known, H(Tj,j) can be constructed.  This formula is true but not provable in L. j can be obtained from a Turing machine M that on input i tests if H(Ti,i) is provable in L. H(Ti,i) can be constructed as above From L a theorem prover for L can be constructed and M can be found Thus one can easily construct H(Tj,j)  ,But H(Tj,j) is true but not provable in L 
+Constructing H(T,x) for a particular T and x Consider this TM: pass, 1, pass, 1, R 
+pass, 0, pass, 1, R   pass, B, del1, B, L del1, 1, del2, B, L del2, 1, stop, B, R Tape: B111011B  Start state: pass ,Let A be the conjunction of these formulae: 
+tape(0,0)=B tape(1,0)=1 tape(2,0)=1 tape(3,0)=1 tape(4,0)=0 tape(5,0)=1 tape(6,0)=1 (because x = B111011) 
+(0  i  i  7)  tape(i,0) = B state(0)=pass scan(0)=0 ti (scan(t)  i  tape(i,t)=tape(i,t+1)) t (state(t+1)=ns(state(t),tape(scan(t),t))) t (scan(t+1)=scan(t)+ dir(state(t),tape(scan(t),t))) ,t (tape(scan(t),t+1)= wr(state(t),tape(scan(t),t))) 
+ns(pass,1)=pass wr(pass,1)=1 dir(pass,1)=1 ns(pass,0)=pass wr(pass,0)=1 dir(pass,0)=1 ns(pass,B)=del1 wr(pass,B)=B dir(pass,B)=-1 ns(del1, 1)=del2 wr(del1, 1)=B dir(del1, 1)=-1 ns(del2, 1)=stop wr(del2, 1)=B dir(del2, 1)=1 Let Hn(T,x) be A  (state(n) =stop) For this T and x, H(T,x) is true and T halts on

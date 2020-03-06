@@ -1,0 +1,38 @@
+http://www.sqltrainingonline.com
+How to use a Datatime in SQL.
+The datetime is actually made up of two different pieces:
+1) Date
+2) Time
+This can be demonstrated using the SQL Cast function on a string to convert it to a datetime.
+Here is some SQL for the Date portion:
+select cast('20121019' as datetime)
+
+Here is some SQL for the Time portion:
+select cast('10:05:00' as datetime)
+
+Now, you can also simply use the built-in getdate() function to bring back the current system time.
+
+select getdate()
+
+And finally, I want to bring back a datetime from an actual table.
+In this case, we will use the employee table from the SQL Training Online Simple DB:
+select hire_date from employee
+
+If we want to convert the result to a more formatted string, we will use the TSQL CONVERT function:
+
+select convert(varchar,hire_date,104) 
+from employee
+
+In this example, we are converting from a datetime to a varchar (string).  The result will be in the format of 104.  
+
+To translate 104 to a datetime format, you will want to look at the MSDN Documentation.
+
+If you enjoy the video, please give it a like, comment, or subscribe to my channel.
+
+You can visit me at any of the following:
+
+SQL Training Online: http://www.sqltrainingonline.com
+Twitter: http://www.twitter.com/sql_by_joey
+Google+: https://plus.google.com/#100925239624117719658/posts
+LinkedIn: http://www.linkedin.com/in/joeyblue
+Facebook: http://www.facebook.com/sqltrainingonline

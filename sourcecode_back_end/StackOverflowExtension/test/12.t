@@ -1,0 +1,1 @@
+Best way to check if a list is empty

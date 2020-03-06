@@ -1,0 +1,56 @@
+In this video, I will show you how to easily create Symbolic Links & Junctions. I will cover Hard Links in a future tutorial.
+
+#NOTE#
+In this video, I do NOT show you how to delete symlinks. To do this, all you have to do is right click on the files/folders with either the green arrow (Symbolic Link) or the chain (Junction) and select 'Delete' just as you would with a normal shortcut file. This works exactly the same way for Hard Links.
+
+Link Shell Extension Download:
+
+64-bit - http://download.cnet.com/Link-Shell-Extension-64-bit/3000-2248_4-75213087.html
+
+32-bit - http://download.cnet.com/Link-Shell-Extension/3000-2248_4-10971924.html
+
+*WRITTEN Tutorial:
+
+KEY: (For instructions)
+
+
+##Files## ~ Files-only 
+
+{{Folders}} ~ Folders (containing files)
+
+%%Files & Folders%% ~ instructions required for BOTH files & folders
+
+
+
+•%%Cut the files/folders from the original location.%%
+
+
+•%%Create a new folder (and name it accordingly) in the desired (space-taking) location.%%
+
+
+%%•Paste the files/folders into that new folder.%%
+
+
+•{{Go to the original location. Instead of symlinking the folders with the files inside, create the needed (and correctly named) folder/s for the corresponding FILES. The reason for this is that the files inside the folder/s will NOT be symlinked properly if you symlink the FOLDER. If you did that, the files would still take up as much space as they did before you symlinked them.}}
+
+
+•%%Now highlight all of the FILES (inside the folders if you have folders), right-click and select 'Pick Link Source.'%%
+
+
+•%%Go to the original location, right-click and select 'Symbolic Link.'%%
+
+
+({{Do this inside the corresponding folders if you have files associated with them.}})
+
+
+%%•The symlinks will appear as the original files did with the exception of a green arrow symbol. These 'links' take up no space at all on the drive. However; everything will work exactly as it did before.%%
+
+
+If you would like more helpful Symlink tutorials, be sure to LIKE, COMMENT & SUBSCRIBE! :)
+
+
+Visit My Websites!
+
+Girl Gamers - http://zyliceagirlgamersdream.wikia.com/wiki/Zylice_Wiki
+Fan Site - http://www.fanpop.com/clubs/zylice
+Skyrim Mods & Resources - http://zyliceliddell.weebly.com/#/

@@ -1,0 +1,24 @@
+http://www.interviewdot.com http://www.interviewdot.com http://www.interviewdot.com
+
+Welcome to www.InterviewDot.com     How to prepare for java interview Questions :   
+
+What happens if I call "run()" method on java thread object ? Java interview questions and answers
+
+There is nothing special about the run() method as far as java is concerned, like main(),it just happens to be the name of the method that the new thread knows to invoke.
+
+So if you see code that calls the run() method on Runnable ,that's perfectly legal. But it does not mean the run() method will run in a separate thread /separate stack.
+
+Calling run() method directly means you are invoking a method from whatever thread is currently executing
+
+Public class  InterviewDotThread  {
+ Public static void main(String[] args){
+ MyRunnable runnable = new MyRunnable ();
+
+ runnable.run() // legal but does not start a new thread.
+ }
+}
+
+
+For more java Interview questions and answers  - logon to www.InterviewDot.com - India's Top Interview Guide.
+
+http://www.interviewdot.com http://www.interviewdot.com http://www.interviewdot.com

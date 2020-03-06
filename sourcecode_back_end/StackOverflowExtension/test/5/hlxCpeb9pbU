@@ -1,0 +1,6 @@
+Python 3 Programming tutorial Playlist: http://www.youtube.com/watch?v=oVp1vrfL_w4&feature=share&list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M
+
+In this python 3 programming tutorial video, the following topics are discussed:
+#!/usr/bin/python placed at the top of scripts and if __name__ == "__main__" for the main loops.
+#!/usr/bin/python is a shebang line, which notifies Linux of the python path. This allows the script to be executable in Linux.
+if __name__ == "__main__" is used by people who distribute their code to others. This allows the code to either be used as a standalone, or to be imported by another script without running the mainloop.

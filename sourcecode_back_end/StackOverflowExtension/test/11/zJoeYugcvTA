@@ -1,0 +1,7 @@
+Troubleshooting FTP Errors With Wireshark
+The most daunting problem to troubleshoot is when the application spits out a generic error that could mean anything.  Here's the analogy; how helpful is the 'Check Engine' light on your car dashboard.
+The worst part is when the customer tries to take the cryptic, generic application error message and tries to make sense of it in an attempt to assist the analyst.  Don't get me wrong, any information is helpful while troubleshooting, but you have to be selective in what you pursue.
+In this example FTP works one moment and fails the next.  Of course the customer immediately called the help desk, who pings the ftp server and comments that is up and no outages have been recorded by the network management system.  Then the ticket goes to the server dept who ftp's without  an issue, unfortunately by now so can the customer.  The server department says the connection error must be a 'network thing'.
+I captured some packets and have recreated what I found and how the application, Chrome in this example, failed to pass on the FTP server connection limit error. The only way I was able to get real meaningful data is from the wire.
+This isn't a Chrome 'bash' session since I have seen many applications not report what was on the wire or reinpterpet what was reported by the server.
+In summary, the ftp server ran out of connections or had a limit on the number of connections an IP address could have.  The administrator was told about this and the FTP server configuration was adjusted to allow more connections.

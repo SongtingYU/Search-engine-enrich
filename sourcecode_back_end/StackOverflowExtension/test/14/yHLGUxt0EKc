@@ -1,0 +1,18 @@
+How to identify an array or an object based on simple syntax, as well as what they are capable of doing.
+
+If you want to store more than one piece of information to a variable, you can do so by creating an array or an object. 
+
+**Disclaimer: Objects in JS are not exactly the same as objects in other languages. We will discuss objects here as they pertain to JS.
+
+Arrays are sets of data between [square, brackets]. Data is separated by commas. That data can be in the form of a boolean, string, number, or even another array. We call that a nested array. 
+
+Objects are a type of data that can look or behave similar to an array in the way that it's more data stored in one variable in an organized way. You'll hear it referred to as JSON, and when you make API calls to other sites (getting information to display on your own page) it will frequently be returned in JSON. 
+
+An example of object notation is: 
+var obj = {
+"name"    :   "Briana",
+"food"       :   "cheese",
+"dog" :   "Maurice"
+};
+
+Notice the curly brackets, the 'keys' with values like name or food,, and the value called a 'property' that is tied to the 'key', like Briana or cheese. These are ALL stored as strings, although booleans, numbers, and other types of data are also valid.

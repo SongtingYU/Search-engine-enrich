@@ -1,0 +1,40 @@
+CHECK OUT DEVMOUNTAIN (Coding Bootcamp)
+https://goo.gl/P4vgKS
+-~-~~-~~~-~~-~-
+
+Check out the full Tutorial Series!! http://www.noobpost.com/tutorial/2/
+
+Python is among the fastest growing technologies. Python was mentioned alongside some of the darlings of the web in 2014, such as NoSQL, Cybersecurity and Big Data. see the whole chart.
+
+If you need more evidence Python is quickly becoming one of the most sought after programming expertise check out this graph from Indeed.com which is one of the top Job websites dealing with technology.
+
+Yes, Python is definitely growing quickly. It's a common tool for Big Data, System's Administration and website building. Just in the web programming world Python's Django is home to some of the largest website's in the world which include Instagram, Pinterest and Disqus (1 billion visitors a month).
+
+In the academic world Python was just recently announced to be the most widely used programming language for teaching college students among the top 10 technologies schools in the world (including MIT and Stanford). This throne was taken from the Java programming language.
+
+According to the Tiobe index which is commonly criticized as not being on par or accurate with actual usage or popularity, they had Python surpassing Visual Basic.NET for the first time in the last five years. Currently Python is ranked number 8 on the Tiobe Index and number 6 on langpop.com.
+
+As far as the open source community is concerned Python is ranked number 3 according to 2nd quarter GitHub stats placing Python only behind JavaScript and Java for open source projects. This means the Python community is stronger than ever.
+
+So the bottom line behind all of this is that Python is here to stay and only getting more powerful and popular as we move into the future. It's the perfect first language to learn how to code.
+
+Check out the full Tutorial Series!! http://www.noobpost.com/tutorial/2/
+
+In Python you will commonly need to turn strings into date objects to calculate days ahead, months ahead etc...  Python has a format you need to follow depending on the type of date you are dealing with.  In this video I explain how to properly turn your string to a date.
+
+Code Sample:
+
+import datetime
+import re
+
+stringDate = "January 10th, 2014"
+
+stringDate = re.sub(r'(\d)(st|nd|rd|th)', r'\1', stringDate)
+
+print stringDate
+
+dateObject = datetime.datetime.strptime(stringDate, "%B %d, %Y")
+
+endDate = dateObject + datetime.timedelta(day=5)
+
+print endDate.date()

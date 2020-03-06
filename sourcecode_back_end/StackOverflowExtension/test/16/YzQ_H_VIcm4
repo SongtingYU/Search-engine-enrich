@@ -1,0 +1,19 @@
+As you all may now, Microsoft pushed the new driver stack in Windows 8.1 so ALL (not only USB 3.0) devices must provide a BOS descriptor. Sony ADB and Fastboot doesn't, so Windows fails to enumerate the device which is reported in Device Manager as error code 43.
+
+This also may help if you have a USB drive or mouse and it stopped working after you upgraded from Windows 8 to Windows 8.1.
+
+
+HOW TO FIX:
+1. Download Compatibility update: http://support.microsoft.com/kb/2917929
+2. Install it
+3. Restart PC
+4. Enjoy
+
+How to install driver for Xperia on PC:
+1.Download flashtool and install it  http://www.flashtool.net/download.html
+2. Go to flashtool folder
+3. Search for folder named as "Drivers
+4. Run flashtool-driver.exe
+5. Choose fastboot mode and flashmode drivers at bottom and click next
+6. Windows may ask you for permission to install drivers ,click yes.
+7. Drivers are installed ;)

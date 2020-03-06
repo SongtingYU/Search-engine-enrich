@@ -1,0 +1,38 @@
+In This Tutorial, we will be teaching you how to create a typing text animation in After Effects. We will be using Expressions and the Slide Control Effect. This is an Intermediate Tutorial and may be a Beginner Tutorial to using Expressions. 
+
+If you have any Questions, Feel free to Leave a Comment. 
+
+FAQ:
+
+It isn't working?
+You should try to use the file in the description as a reference to see if you got the equation correct. 
+
+How come I cannot open the expression thing?
+Press and hold ALT and then click the stopwatch. 
+
+How do I Shorten the Length of The Composition from 20 seconds to 10 seconds?
+Go to the effects panel and make the Slider control(SPEED) at 8.0, and the Slider Control(START AT) at 3.0. Then go to Composition, then Composition Settings, and make the length 00:00:10:00.
+
+How do I Rename the Slider Control?
+Go to the timeline, click the text layer, then Effect, then right click on Slider Control and click Rename.
+
+I Get an Invalid Expression Error, or The Value doesn't Exist Error?
+You need to Rename the Slider Controls to Speed and the Second one to Start At.
+
+I get a "expected )" error or similar error?
+It means you forgot a parentheses or a bracket or some small error, again check the file in the description as a reference equation to see where you messed up. 
+
+The Text disappeared when i added the equation?
+You forgot to change the Slider control(SPEED) from 0.00 to 5.00 or 8.00.
+
+
+
+Links:
+
+The Expression Text File:
+http://www.mediafire.com/view/?obnhmufegigmvti
+
+WEBSITE: http://www.litecaststudios.com
+TWITTER: http://www.twitter.com/#!/LiteCastStudios
+FACEBOOK: http://www.facebook.com/LiteCastStudiosFANS
+USTREAM: http://www.ustream.tv/channel/LiteCastLIVE

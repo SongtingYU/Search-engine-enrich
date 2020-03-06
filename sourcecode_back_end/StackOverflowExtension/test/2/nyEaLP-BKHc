@@ -1,0 +1,13 @@
+This video is a guide on how to import an existing Minecraft map, make some changes in WorldPainter and then merge it back.
+
+As you can see in this video it's not too hard to do.  Just some things to be careful of are making changes to areas where you have built structures.  WorldPainter is very good at protecting you from making these mistakes though.  It marks these chunks as read only so you can't accidently destroy buildings and such.
+
+You can download WorldPainter from the minecraft Forums here:
+http://www.minecraftforum.net/topic/231255-worldpainter-new-map-creatorgenerator-work-in-progress/
+
+If this video helps and you'd like to support me please leave some comments and like/subscribe.
+
+Thanks,
+
+Michael
+http://tigerstudios.net

@@ -1,0 +1,31 @@
+The course is intended for beginners and is structured as a series of short, focused, hands-on lessons that teach you how to program embedded microcontrollers (MCUs) in C.
+
+The course has been designed not just to be watched, but to follow it along on your own computer. In the "Getting Started" Lesson 0, I show you how to download and install the free evaluation version of IAR EWARM and how to order the Stellaris/Tiva LaunchPad ARM Cortex-M4 board (for just $12.99). The board is optional, as I show how to use the instruction set simulator.
+
+Due to popular demand, at lesson 19, the development toolset is switched to the free and unlimited GNU-ARM and Eclipse based IDE (Code Composer Studio).
+
+The goal of the course is not just to teach C--other courses do it already quite well. But there are virtually no courses that would step down to the machine level and show you exactly what happens inside the embedded processor.
+
+So, starting from the next lesson-1 you will actually see how the ARM Cortex-M processor executes your code, how it manipulates registers, and how a computer can "do" things in the real world, such as turn on and off an LED.
+
+This deeper understanding will allow you to use the C language more efficiently and with greater confidence. You will gain understanding not just what your program does, but also how the C statements translate to machine instructions and get a sense for how fast the processor can execute them. Also, you will get some familiarity with the ARM Cortex-M core, which will look really good on your resume.
+
+The course is just beginning, so it's a good time to join. Stay tuned...
+
+
+About the Instructor
+--------------------
+Dr. Miro Samek is the well known expert in the field of embedded software development and architecture. His practical books about state machines, active objects (actors), and event-driven frameworks for embedded systems are among the most popular on the market. Miro has also published dozens of technical articles, including the very popular series of in-depth articles: "Building Bare-Metal ARM Systems with GNU".
+His extensive industry experience ranges from safety-critical software development at GE Medical Systems through real-time embedded software design at two Silicon Valley companies specializing in GPS technologies. Software he wrote continues to power millions of products. Dr. Samek earned his Ph.D. in nuclear physics at GSI (Darmstadt, Germany).
+
+
+---
+Links used in this lesson:
+IAR EWARM: http://www.iar.com
+TI Stellaris/Tiva LaunchPad board: http://www.ti.com/tool/ek-tm4c123gxl
+
+Course web-page:
+http://www.state-machine.com/quickstart
+
+YouTube playlist of the course:
+http://www.youtube.com/playlist?list=PLPW8O6W-1chwyTzI3BHwBLbGQoPFxPAPM

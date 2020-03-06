@@ -1,0 +1,3 @@
+In this video, we have explained HTML Lists and Tables. Lists are used to make the points with or without a specified order. When the order is specified, we call them Ordered Lists and when the order is not defined, unordered lists come into play. It's fairly easy to use lists in HTML with the help of OL tag for ordered and UL tag for unordered lists.
+
+Tables in HTML were earlier used to make the overall layout of the webpages and show the data in an attractive/ organized way. These days they are limited to the second use, i.e. displaying data in a grid or organized manner. We have also demonstrated how properties like Table Border, Cell spacing and Cell padding work. Hope you have a good time learning it all.

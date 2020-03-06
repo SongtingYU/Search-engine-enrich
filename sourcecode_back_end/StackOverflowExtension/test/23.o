@@ -1,0 +1,3 @@
+<p><code>super()</code> lets you avoid referring to the base class explicitly, which can be nice. But the main advantage comes with multiple inheritance, where all sorts of <a href="http://www.artima.com/weblogs/viewpost.jsp?thread=236275">fun stuff</a> can happen. See the <a href="https://docs.python.org/2/library/functions.html#super">standard docs on super</a> if you haven't already.</p>
+
+<p>Note that the syntax changed in Python 3.0: you can just say <code>super().__init__()</code> instead of <code>super(ChildB, self).__init__()</code> which IMO is quite a bit nicer.</p>

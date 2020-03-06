@@ -1,0 +1,8 @@
+Hello There, Welcome back to pythoholic once again, Your one stop solution to learning pyhthon.
+Today, I have a lot of things lined up for you.First, We will download Eclipse Mars. Install it, Add the PyDev plugin or the (Python Development Plugin)  to eclipse.
+Create our first project in Eclipse and run our first program.
+
+Before this, please ensure you have installed the Java development kit. 
+If not, Please install JDK and JRE in your PC. And add that to the Environment Variables under your JAVA_HOME path variable.
+Link :
+http://www.oracle.com/technetwork/java/javase/downloads/index.html

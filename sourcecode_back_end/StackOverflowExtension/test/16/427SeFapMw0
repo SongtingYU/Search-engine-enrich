@@ -1,0 +1,3 @@
+Python: Built-in Functions 
+str(object=b''), str(object=b'', encoding='utf-8', errors='strict')
+globals(),locals(),var([object]), eval(expression, globals=None, locals=None), exec(object[, globals[, locals]]), execfile(object[, globals[, locals]]), repr(object), ascii(object)

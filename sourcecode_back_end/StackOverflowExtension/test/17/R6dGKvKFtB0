@@ -1,0 +1,3 @@
+The Multiple Flat File Connection manager in SQL Server Integration Services allows users to import multiple files using a single connection manager. Using the "*"  wildcard also allows  files within a directory to be easily imported.This video demonstrates how to configure a multiple flat files connection manager. For more videos of SSIS visit my blog http:\\www.analyticsinaction.com
+
+I also have a comprehensive 60 minute T-SQL course available at Udemy : https://www.udemy.com/t-sql-for-data-analysts/?couponCode=ANALYTICS50%25OFF

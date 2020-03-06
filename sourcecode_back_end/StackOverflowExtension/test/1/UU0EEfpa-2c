@@ -1,0 +1,115 @@
+Oracle Database11g tutorials 14 
+How to Create table using command prompt and Create table using sql developer
+
+Blog Link http://bit.ly/1TkY4Oe
+
+Time Line
+0:25 Introduction of Tables in Database
+1:03 What is Create Table (Introduction of create table)
+1:30 Syntax of Create Table
+2:08 How to create table using Command Prompt
+4:55 How to create table using SQL Developer 
+
+Links for
+Oracle Database tutorials 4:  database connectivity using SQL developer and command prompt
+
+http://youtu.be/wSqoXRlXDUU
+
+You can have indepth knowledge about SQL create table here
+http://www.rebellionrider.com/sql-create-table.html
+Tool used in this tutorial is command prompt. 
+This tutorial series is part of SQL expert exam certification training. if you are preparing for SQL certification you can use my tutorials. This SQL Tutorial is a part of free training.
+
+Copy Cloud referral link || Use this link to join copy cloud and get 20GB of free storage
+https://copy.com?r=j7eYO7
+
+
+Contacts 
+E-Mail
+RebellionRiderYT@gmail.com
+Twitter
+https://twitter.com/rebellionrider
+Instagram
+http://instagram.com/rebellionrider
+Facebook.
+https://www.facebook.com/imthebhardwaj
+Linkedin.
+http://in.linkedin.com/in/mannbhardwaj/
+
+Thanks for linking, commenting, sharing and watching more of our videos
+
+This is Manish from RebellionRider.com
+
+Today in this oracle database tutorial we will see How to CREATE A TABLE.
+if we have to define a table in layman language then we can say that Tables are just a collection of Rows and Columns but
+In RDBMS tables are database objects which help in organizing data into ROWS and COLUMNS. 
+We can also say that
+SQL tables are kind of data structure which are used by database for efficient storage of data.
+
+To create a table in our database we use SQL CREATE TABLE command.
+
+SQL CREATE TABLE is a type of DATA DEFINITION LANGUAGE also known as DDL.
+
+To Create a table in your schema you will require CREATE TABLE system privilege.  
+In our future videos we will see what are system and object privileges and how to grant them to a user.
+Today for this video we will be using Sample schema HR which already has all the necessary privileges.
+
+Ohk Let's see the syntax.
+CREATE TABLE  table name 
+ (
+  column name1  Data-Type(size),
+  column name2  Data-Type(size),
+  .....
+);
+CREATE TABLE is an oracle reserved word or say an Oracle key word whereas 
+
+
+There are 3 different ways of creating a table in Oracle database.
+
+
+Creating a table using Command Line Interface (CLI) in Oracle database 
+For demonstrating how to create table in oracle database using CLI, I'll be using Command prompt.
+
+
+Thats how we create table using command prompt.
+you can check your table structure by DESCRIBE command
+for that just write
+DESC and your table name.
+Like this
+
+Another way of creating a table is by using Graphic user interface (GUI) in Oracle database
+
+To demonstrate how to create table using GUI we will use SQL developer.
+
+Lets open our SQL developer
+I am connected to HR schema 
+if you do not know how to create a connection to database using SQL developer please watch my oracle database tutorial 4 that explains database connectivity using SQL developer and command prompt. Link for this video is in the description below.
+
+So lets create a table.
+Creating a table using SQL developer is very easy we do not have to fire any query here.
+
+Let's start
+First of all right click on your connection in which you want to create a table and choose schema browser. 
+This will open a separate schema browser pane 
+
+or you can expend your connection by clicking this + sign and then right click on table and choose New Table.
+
+However I prefer working with schema browser so let's skip to schema browser pane 
+here from the first drop-down list you can choose connection name
+and in the second drop down list you can choose what database objects you want to work with 
+we want to create a table thus I'll choose table and then click this arrow here and choose option for new table
+Ok we have created a table wizard
+first of all give a unique name to your table
+and add some column as well. For this, click the green plus button. Now we already have a column so give it some name.
+Also choose a datatype from the list and specify any size 
+you can check this not null column if in case you want to make this a mandatory column 
+you can also specify default value and constraint
+If you want to make this column a primary key you can click here 
+In my future video i'll show you what are these constraints and different ways of applying them on a column in a table.
+
+for this video we will concentrate on create table only 
+so when you are done with all your columns click ok 
+Thats your table
+You can double click on your table here and can see its structure.
+
+Thats it

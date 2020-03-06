@@ -1,0 +1,21 @@
+Script in python 3.3.2
+
+import os
+
+def find(name):
+    count=0
+    for root, dirs, files in os.walk('C:\\'):
+        if name in files:
+            print(root,name)
+            count+=1
+    print("We found "+ count+" results")
+    print("Finish")
+    input()
+
+try:
+    s=input("name: ")
+    find(s)
+except:
+    print("Error")
+
+For searching in the hole lokal system just write "./" as pathname in the os.walking methog

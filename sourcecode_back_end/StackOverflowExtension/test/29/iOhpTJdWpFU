@@ -1,0 +1,9 @@
+How to Use Offline Google Voice Typing
+Full Tutorial: http://gadgethacks.com/how-to/force-google-voice-typing-use-offline-mode-0155690/
+Subscribe to Gadget Hacks: http://goo.gl/XagVI
+
+In this tutorial, I'll show you how to force Google Voice Typing into offline mode using the "GoogleOfflineVoice" Xposed module. This module makes it so that Google Voice Typing will not contact Google servers when you are connected to data, inevitably saving you data and time. 
+
+This works with any Android device running Xposed, just be sure that it is rooted.
+
+For downloads and more information, check out the full tutorial over on Gadget Hacks.

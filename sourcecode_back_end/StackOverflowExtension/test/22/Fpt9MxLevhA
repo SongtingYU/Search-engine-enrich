@@ -1,0 +1,4 @@
+Please watch the previous video, "1 Why OpenBSD" first. This video is another presentation about OpenBSD, this time telling you what you can use to run it. Files I used to make the video are here:
+https://drive.google.com/open?id=0B7qmU78nYlA3UzhMX3NRQTBFZzg
+To clarify, ARMv7 has EFI support, but i386 does not.
+The next video will be about installation.

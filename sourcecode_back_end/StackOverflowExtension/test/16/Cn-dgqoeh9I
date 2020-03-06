@@ -1,0 +1,4 @@
+This video was created for use with the following article:
+http://windowsinstructed.com/failed-to-enumerate-objects-in-the-container-access-is-denied/
+
+This error can appear when you try to change the permission of your libraries or some folders. It’s caused by permission settings that are not set correctly, however solving it is not very hard. Let’s get started.

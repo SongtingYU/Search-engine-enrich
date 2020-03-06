@@ -1,0 +1,24 @@
+Boolean() constructor can be used for explicit boolean conversion.
+
+conversion rule:(same rule for explicit as well as implicit conversion)
+undefined to false
+null to false
+empty string to false
+"123" to true
+"abc" to true
+0 to false
+-0 to false
+NaN to false
+Infinity to true
+123 to true
+array to true
+object to true
+
+Like my Facebook page: 
+https://www.facebook.com/pages/WebTunings/339234242822202
+
+Recommended JavaScript Book:
+http://www.amazon.com/gp/product/0596805527/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596805527&linkCode=as2&tag=webtuningscom-20
+
+Code snippets: 
+https://github.com/webtunings

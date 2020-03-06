@@ -1,0 +1,4 @@
+I import some functions from the os module,
+to get the current working directory for python,
+a list of all the files in that directory, and then
+I arbitrarily printout only the 1st 6 files in that directory.

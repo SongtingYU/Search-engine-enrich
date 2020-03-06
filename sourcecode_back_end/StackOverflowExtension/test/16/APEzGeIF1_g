@@ -1,0 +1,3 @@
+ASP.NET MVC 3 and MVC 4 Razor
+In this video we are going to bind dropdownlist control using viewbag and viewdata. 
+The list is created from enum and passed to view. On view the @Html.DropDownList helper is used to render the dropdown.

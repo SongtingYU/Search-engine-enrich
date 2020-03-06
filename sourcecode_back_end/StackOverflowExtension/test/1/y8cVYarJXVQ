@@ -1,0 +1,14 @@
+Clip 3/7
+Speaker: Julien Tinnes (Information Security Engineer, Google Corp)
+
+In many designs, the slightest error in the source code will become an exploitable vulnerability granting an attacker barely or not at all restricted access to a system. In this talk, using vsftpd and the to-be-released Chrome Linux sandbox as examples, we will firstly show how to design your code to be more robust to well-known classes of vulnerabilities and secondly, how to mitigate the consequences of such a vulnerability by dropping your privileges and how to reduce attack surfaces. There are a surprising number of options in Linux to manage privilege, but using them tends to be nuanced. This talk will cover the various options (including cutting edge ones) and their pros and cons.
+
+For almost a decade, vsftpd has been proven to be a robust software and its design to be effective at preventing vulnerabilities which have affected pretty much all other FTP software. Some of the design principles will be explained in this talk as an introduction.
+
+We will then discuss the principle of least privilege as an important security design consideration. While Mandatory Access Control systems are readily available, three of them being merged in the current Linux kernel tree, the ability to drop privileges in a discretionary way has to often rely on ancient mechanisms (which may not have been designed for security). We will show the state of the art on Linux and how well-known mechanisms, such as switching to an unprivileged uid, using chroot() and capabilities may or may not be suitable to achieve decent privilege dropping. We will discuss their drawbacks and availabilities to non-root processes. 
+
+In the second part, we will then explain and demonstrate designs, some of them using novel ideas or obscure features that can allow developers to put error-prone parts of their code inside a sandbox, using vsftpd and the Google Chrome Linux sandbox as examples. We will discuss their limitations and how further kernel support could improve them.
+
+During the talk, we will also mention adjacent problems, such as the real security of trusted path execution, how to protect the kernels attack surface from a regular user or how to prevent code with root privileges to escalate to kernel mode and discuss past or existing limitations in those.
+
+For more information go to: http://bit.ly/ci3UfI

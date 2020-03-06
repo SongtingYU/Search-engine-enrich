@@ -1,0 +1,6 @@
+Lava Tardis:/give @p minecraft:banner 1 1 {BlockEntityTag:{Patterns:[{Color:14,Pattern:&quot;bri&quot;},{Color:1,Pattern:&quot;hhb&quot;},
+{Color:1,Pattern:&quot;sc&quot;},{Color:1,Pattern:&quot;ms&quot;},
+{Color:1,Pattern:&quot;bo&quot;}]}}
+GreenLightSaber:/give @p minecraft:banner 1 15 {BlockEntityTag:{Patterns:[{Color:10,Pattern:&quot;ss&quot;},{Color:0,Pattern:&quot;ls&quot;},{Color:0,Pattern:&quot;rs&quot;},{Color:0,Pattern:&quot;br&quot;},{Color:0,Pattern:&quot;bl&quot;}]}}
+Nether Portal:/give @p minecraft:banner 1 5 {BlockEntityTag:{Patterns:[{Color:0,Pattern:&quot;ss&quot;},{Color:5,Pattern:&quot;ss&quot;},{Color:5,Pattern:&quot;bri&quot;},{Color:0,Pattern:&quot;bo&quot;}]}}
+Tardis:/give @p minecraft:banner 1 4 {BlockEntityTag:{Patterns:[{Color:15,Pattern:&quot;bri&quot;},{Color:4,Pattern:&quot;hhb&quot;},{Color:0,Pattern:&quot;sc&quot;},{Color:4,Pattern:&quot;sc&quot;},{Color:0,Pattern:&quot;bo&quot;},{Color:4,Pattern:&quot;bo&quot;}]}}

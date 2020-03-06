@@ -1,0 +1,2 @@
+Race condition: When multiple processes trying to access or manipulate same data concurrently and outcome of their execution depends on order.
+This video explain race condition with help of real life example.

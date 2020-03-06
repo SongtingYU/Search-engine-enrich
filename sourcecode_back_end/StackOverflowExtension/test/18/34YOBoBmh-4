@@ -1,0 +1,13 @@
+How to fix this page isn't working|ERR_EMPTY_RESPONSE in Google chrome,this method is also working in windows 7,windows 8,windows 8.1,windows 10.err empty response.I try to access one website but unfortunately it shows the following error.
+This page isn’t working
+This page didn’t send any data.
+ERR_EMPTY_RESPONSE.
+
+Solution:1
+Goto command prompt then type following commands
+ipconfig/release
+ipconfig/renew
+
+Solution:2
+goto your chrome browser then goto settings-show advanced settings-reset
+now once reset your google chrome browser.

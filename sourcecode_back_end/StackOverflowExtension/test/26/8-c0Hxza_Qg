@@ -1,0 +1,36 @@
+Link for code samples used in the demo
+http://csharp-video-tutorials.blogspot.com/2013/12/part-15-exception-handling-in-wcf_5.html
+
+Link for all dot net and sql server video tutorial playlists
+http://www.youtube.com/user/kudvenkat/playlists
+
+When an exception occurs in a WCF service, the service serializes the exception into a SOAP fault, and then sends the SOAP fault to the client.
+
+By default unhandled exception details are not included in SOAP faults that are propagated to client applications for security reasons. Instead a generic SOAP fault is returned to the client.
+
+For debugging purpose, if you want to include exception details in SOAP faults, enable IncludeExceptionDetailInFaults setting. This can be done in 2 ways as shown below.
+1. In the config file using service behavior configuration
+[behaviors]
+  [serviceBehaviors]
+    [behavior name="inculdeExceptionDetails"]
+      [serviceDebug includeExceptionDetailInFaults="true"/]
+    [/behavior]
+  [/serviceBehaviors]
+[/behaviors]
+
+2. In code using ServiceBehavior attribute
+[ServiceBehavior(IncludeExceptionDetailInFaults=true)]
+public class CalculatorService : ICalculatorService
+{
+    public int Divide(int Numerator, int Denominator)
+    {
+        return Numerator / Denominator;
+    }
+}
+
+Frequently asked WCF interview questions
+What happens when an exception occurs in a WCF service?
+OR
+What is a SOAP fault?
+OR
+How are WCF service exceptions reported to client applications?

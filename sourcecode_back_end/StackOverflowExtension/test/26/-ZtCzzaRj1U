@@ -1,0 +1,43 @@
+In this lesson we're going to look at code that causes exceptions, and strategies on how to fix them. These are common Java exceptions. It's not the list of all common exceptions though. I'm focusing this video on exceptions in the java.lang package.
+
+The exceptions are: 
+ArithmeticException
+ArrayIndexOutOfBoundsException
+ClassCastException
+ClassNotFoundException
+CloneNotSupportedException
+IllegalArgumentException
+NullPointerException
+NumberFormatException
+NoClassDefFoundError
+UnsupportedClassVersionError
+
+#java #programming #exceptions #tutorial
+
+▼
+Like the video? Don't forget to subscribe! ➜ http://www.deegeu.com/subscribe
+
+▼
+Keep up to date with the newsletter! ➜ http://www.deegeu.com/newsletter/
+
+Transcript and code:  http://www.deegeu.com/10-common-java-exceptions/ ‎
+
+Concepts: Java exceptions, Java, Programming, exceptions, object oriented programming, try-catch
+
+Social Links: Don't hesitate to contact me if you have any further questions.
+WEBSITE : dj@deegeu.com
+TWITTER : http://www.twitter.com/deege
+FACEBOOK: https://www.facebook.com/deegeu.programming.tutorials
+GOOGLE+ : http://google.com/+Deegeu-programming-tutorials
+
+About Me: http://www.deegeu.com/about-programming-tutorial-videos/
+
+Related Videos:
+https://www.youtube.com/watch?v=yxwdKX7ErJ4&list=PLZlGOBonMjFVq9FF0eiS_emcFmP-0fSBe
+
+Media credits:  All images are owned by DJ Spiess unless listed below
+
+Music
+Easy Jam by Kevin MacLeod is licensed under a Creative Commons Attribution license (https://creativecommons.org/licenses/by/4.0/)
+Source: http://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100245
+Artist: http://incompetech.com/

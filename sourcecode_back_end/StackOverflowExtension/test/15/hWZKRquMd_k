@@ -1,0 +1,43 @@
+Tips and Tricks - Set Up A New WordPress Membership Site
+http://weddingstepsaustralia.com/demos/how-to-set-up-a-new-membership-wordpress.html
+
+How to set up a new website with a membership function incredibly easily, blazingly fast, and for free! (apart from hosting)
+
+Whether you are setting up a personal blog, small business web site, or a teaching/training web site, you probably want to keep some content private or shared between particular people. You may even want to sell premium content from your web site. Even if you're not interested in selling anything, this tutorial will be very useful.
+
+WordPress gives you some basic privacy functions, but with a tiny bit of smart work we can create something very much more sophisticated. Let's see how it's done!
+Contents
+
+In this tutorial we look at:
+
+    Checking if your web host is ready
+    Installing WordPress using CPanel
+    Setup test users: subscriber, member, member-with-custom-capability,
+    Setup necessary initial pages
+    Install membership plugin (s2member)
+    Setup membership options
+    Level Control
+    Page/Post Control
+    Simple Shortcodes Control - not working so we'll use PHP
+    Peek at Advanced Topics
+    Further Reading
+
+Web Site Objectives
+
+It's important to have clear goals when setting up our membership options. This will save a lot of time and effort. Let's list some requirements:
+
+    A public area (front page, landing pages, blog) which doesn't require any log in.
+    Subscriber areas which are free but require an account to be set up. The purpose may be to acquire contact details for your business, or simply to provide access to slightly more valued content.
+    Options for open registration or not. (People create their own account)
+    Member Level. A level (or capability) which generally requires a payment, although users can be manually added by someone with an administrator role.
+    Custom Capabilities. Complete flexibility to provide different people with different access to content areas. These generally require a payment, although users can be manually added by someone with an administrator role.
+    Access to content can be controlled at the page/post level, and also within text on a page/post.
+    A growth path to even more flexibility.
+
+IMPORTANT TIP
+
+Write stuff down!!
+
+We'll be installing WordPress and setting up some users for testing purposes. You'll need to keep important details for later
+
+Note: I'll be deleting and replacing this demonstration website so I'm happy to show you the full process... passwords and all.

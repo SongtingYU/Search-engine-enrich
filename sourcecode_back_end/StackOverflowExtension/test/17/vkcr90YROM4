@@ -1,0 +1,2 @@
+I have tried to explain the steps to upload a image/file using servlet. For this purpose, i have made one home page (index.jsp), one servlet as controller and one class (FileUpload.java) as model to upload a file to images folder if the content is file type, and in same time it also explains how other form field can be extracted including file content.
+It uses org.apache.commons.fileupload package.

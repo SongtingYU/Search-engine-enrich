@@ -1,0 +1,2 @@
+Class is a user-defined data structure, which acts as the blueprint for creating objects. Understand that in OOP paradigm an object acts as a building-block in a  program structure. Understand that whereas a class is a blueprint, the Objects created from it, are real things. Every noun in the world can be defined as an Object. For creating an Object, the essential prerequisite is creating class.
+ Every class is a self-contained entity, with an unique identifiable name, which contains data members and functions, which can act upon the data members.

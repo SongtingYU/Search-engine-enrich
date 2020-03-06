@@ -1,0 +1,33 @@
+Yes, it was [added][1] in version 2.5.  
+The syntax is:
+
+    a if condition else b
+
+First `condition` is evaluated, then either `a` or `b` is returned based on the [Boolean][4] value of `condition`  
+If `condition` evaluates to _True_ `a` is returned, else `b` is returned. 
+
+For example:
+
+    &gt;&gt;&gt; &#39;true&#39; if True else &#39;false&#39;
+    &#39;true&#39;
+    &gt;&gt;&gt; &#39;true&#39; if False else &#39;false&#39;
+    &#39;false&#39;
+
+Keep in mind that it&#39;s frowned upon by some Pythonistas for several reasons:
+
+- The order of the arguments is different from many other languages (such as C, Ruby, Java, etc.), which may lead to bugs when people unfamiliar with Python&#39;s &quot;surprising&quot; behaviour use it (they may reverse the order).
+- Some find it &quot;unwieldy&quot;, since it goes contrary to the normal flow of thought (thinking of the condition first and then the effects).
+- Stylistic reasons.
+
+If you&#39;re having trouble remembering the order, then remember that if you read it out loud, you (almost) say what you mean. For example, `x = 4 if b &gt; 8 else 9` is read aloud as `x will be 4 if b is greater than 8 otherwise 9`.
+
+Official documentation:
+
+- [Conditional expressions][2]
+- [Is there an equivalent of C’s ”?:” ternary operator?][3]
+
+
+  [1]: https://mail.python.org/pipermail/python-dev/2005-September/056846.html &quot;[Python-Dev] Conditional Expression Resolution&quot;
+  [2]: https://docs.python.org/3/reference/expressions.html#conditional-expressions &quot;Conditional expressions&quot;
+  [3]: https://docs.python.org/3.3/faq/programming.html#is-there-an-equivalent-of-c-s-ternary-operator &quot;Is there an equivalent of C’s ”?:” ternary operator?&quot;
+  [4]: https://en.wikipedia.org/wiki/Boolean_data_type &quot;Boolean data type&quot;

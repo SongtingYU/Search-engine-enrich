@@ -1,0 +1,7 @@
+Erklärungsversuch was eine Race Condition ist anhand eines von mir selbst erstellten Programmierbeispiels.
+
+Verwendetes Betriebssystem : Linux Ubuntu
+Verwendete Programmiersprache : Lazarus Freepascal
+
+Mehr zum Thema siehe :
+http://de.wikipedia.org/wiki/Race_Condition

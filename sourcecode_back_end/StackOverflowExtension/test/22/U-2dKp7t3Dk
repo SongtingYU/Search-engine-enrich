@@ -1,0 +1,7 @@
+WeTab - Developing Innovative User Interfaces
+recorded DevDays 2010 in Munich
+Presented by: Stefan Odoerfer, 4tiitoo
+
+This session highlights the experience in the development of a consistent UI in open systems and the challenges in porting existing applications to Qt.
+
+WeTab is an 11.6" tablet computer based on the MeeGo OS with a touchscreen optimized user interface and a marketplace for apps from multiple store fronts. After an extensive evaluation phase, Qt was chosen as the base technology for all user interfaces of WeTab. Existing applications have been ported to Qt and accordingly also the upcoming WeTab SDK is based on the MeeGo SDK and Qt/Qt Web Runtime.

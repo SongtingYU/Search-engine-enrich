@@ -1,0 +1,27 @@
+How adaptive cruise control works. Adaptive cruise control is one of the first steps in moving towards autonomous driving vehicles, as it allows the vehicle to regulate speed and braking on the highway to maintain a set following interval behind the detected car ahead. This video will look at how Honda implements this system on their vehicles, as well as how Collision Mitigation Braking Systems work. Both systems rely on a millimeter wave radar as well as a monocular camera to detect objects ahead.
+
+So how does adaptive cruise control work? The primary purpose of the system is to travel at the speed selected by the driver, just like traditional cruise control. However, if the vehicle detects another car in front of it that is traveling at a slower speed, the vehicle will reduce its speed to match that of the detected car and a then maintain a selected interval behind the car. The system works by emitting radar waves which bounce off of vehicles ahead and return to the unit. This informs the system of the distance between the two vehicles; changes in that distance inform the system of the vehicles’ relative speeds. 
+
+So how does the Collision Mitigation Braking System work? The goal of the system is to alert the driver if a collision with a detected vehicle is likely, and then to apply the brakes to reduce the severity of a collision if it’s unavoidable. The system scans up to 330 feet of the road in front of the vehicle, and works in three stages if the driver begins to come close to a vehicle detected ahead.
+
+This is a sponsored video created by me on behalf of Honda. The opinions stated are all mine. 
+
+Related Content:
+Honda Sensing: http://automobiles.honda.com/sensing/
+
+Disclaimer - ACC:
+ACC cannot detect all objects ahead and may not detect a given object; accuracy will vary based on weather, speed and other factors. ACC should not be used in heavy traffic, poor weather or on winding roads. ACC only includes a limited braking function; driver remains responsible for slowing or stopping the vehicle to avoid a collision.
+
+Disclaimer - CMBS:
+Depending on the circumstances, CMBS may not go through all the alert stages before initiating the last stage (of collision mitigation). CMBS cannot detect all objects ahead and may not detect a given object; accuracy will vary based on weather, speed and other factors. System operation affected by high interior heat. Driver remains responsible for safely operating vehicle and avoiding collisions.
+
+Please feel free to rate, comment, and subscribe!
+
+And don't forget to check out my other pages below!
+Facebook: http://www.facebook.com/engineeringexplained
+Official Website: http://www.howdoesacarwork.com
+Twitter: http://www.twitter.com/jasonfenske13
+Instagram: http://www.instagram.com/engineeringexplained
+Car Throttle: https://www.carthrottle.com/user/engineeringexplained
+
+NEW VIDEO EVERY WEDNESDAY!

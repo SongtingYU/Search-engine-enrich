@@ -1,0 +1,1 @@
+Python list is enumerated for printout via the enumeration function. Also the printout requires integer conversion to string followed by concatenation of a period to the converted integer.

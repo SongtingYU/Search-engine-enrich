@@ -1,0 +1,60 @@
+Install Django and Python On Windows (Episode 5 of 7)
+Virtual Environment Wrappers to Separate project from Virtual Environment
+
+Learn how to use virtual environments separate from the Django project themselves.
+
+Installation Guide Playlist: https://www.youtube.com/watch?v=QhevHKBy7Hc&list=PLEsfXFp6DpzSH9ylikCRyki_Bi6avmltQ
+
+
+Install Django and Python on Windows Links:
+Python -- https://www.python.org/
+Django -- https://www.djangoproject.com/
+PIP -- http://pip.readthedocs.org/en/latest/
+Komodo Edit -- http://komodoide.com/komodo-edit/
+Sublime Text -- http://www.sublimetext.com/
+Cyberduck -- http://cyberduck.io/?l=en
+PUTTY -- http://www.putty.org/
+
+Django Installation Process:
+1) Download Python & PIP
+2) Install PIP ("python get-pip.py")
+3) Setup Environment variables in Windows System Settings under  Advanced Settings:
+C:\Python27;C:\Python27\python.exe;C:\Python27\Scripts\; C:\Python27\Lib\site-packages\django\bin;
+4) Install Virtual environment "pip install virtualenv"
+5) Create virtualenv and activate:
+virtualenv somename
+cd somename
+.\Scripts\activate
+6) Install Django:
+pip install django==1.X.Y (replace x and y for version numbers)
+7) Start django project:
+python .\Scripts\django-admin.py startproject yourprojectname
+
+
+Now your django project is started and ready to go. All you need to do is sync the database  (python manage.py syncdb) and start any Coding for Entrepreneurs Project here: https://codingforentrepreneurs.com/projects/
+
+
+Watch all our youtube videos: http://bit.ly/1a4Ienh
+
+Join our Newsletter:  http://eepurl.com/NmMcr
+The Coding For Entrepreneurs newsletter has news and updates about all things Coding for Entrepreneurs: 
+
+A few ways to learn:
+
+Coding For Entrepreneurs: https://codingforentrepreneurs.com (includes free projects and free setup guides. All premium content is just $25/mo). Includes implementing Twitter Bootstrap 3, Stripe.com, django south, pip, django registration, virtual environments, deployment, basic jquery, ajax, and much more.
+
+On Udemy:
+
+Bestselling Udemy Coding for Entrepreneurs Course:
+https://www.udemy.com/coding-for-entrepreneurs/?couponCode=youtubecfe49 (reg $99, this link $49)
+
+MatchMaker and Geolocator Course:
+https://www.udemy.com/coding-for-entrepreneurs-matchmaker-geolocator/?couponCode=youtubecfe39 (advanced course, reg $75, this link: $39)
+
+Marketplace & Dail Deals Course:
+https://www.udemy.com/coding-for-entrepreneurs-marketplace-daily-deals/?couponCode=youtubecfe39 (advanced course, reg $75, this link: $39)
+
+Free Udemy Course (40k+ students):
+https://www.udemy.com/coding-for-entrepreneurs-basic/
+
+Fun Fact! This Course was Funded on Kickstarter: http://www.kickstarter.com/projects/jmitchel3/coding-for-entrepreneurs

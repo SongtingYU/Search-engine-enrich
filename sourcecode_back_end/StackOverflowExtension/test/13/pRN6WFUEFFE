@@ -1,0 +1,23 @@
+In this beginners javascript lesson you will learn how to create a element, insert, replace and remove elements from the DOM (Document Object Model ) 
+
+We will be using the createElement() Function to create our element 
+appendChild() function will append a child element to the parent node this will be the last element of the parent node
+insertBefore() function will be used to insert a element before a given element this has two parameters the second parameter is necessary 
+removeChild() simply removes a element from the dom 
+lastly we will talk about replacing a element using the replaceElement() function 
+
+here are the links for further reading 
+
+https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+https://developer.mozilla.org/en/docs/Web/API/Node/appendChild
+https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
+https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild
+https://developer.mozilla.org/en-US/docs/Web/API/Node/replaceChild
+
+
+Hope this helped 
+Thanks for watching do subscribe like and share 
+
+Follow me on Twitter @Uthpala_419
+Take a look at my blog - http://yii-02.blogspot.com/
+Join facebook group - https://www.facebook.com/groups/doingiteasychannelwebdevs/

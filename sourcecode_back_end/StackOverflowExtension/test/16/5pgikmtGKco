@@ -1,0 +1,2 @@
+ASP.NET MVC 3 and MVC 4 Razor how to bind Dropdownlist to Enum
+In this video we have shown how to bind the dropdownlist from enum values. We have used model binding and @Html.DropDownListFor helper to render the dropdown.

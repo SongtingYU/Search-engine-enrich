@@ -1,0 +1,7 @@
+We introduce primitive data types such as int,boolean,chars and floats.We discuss the following:
+Integers : bytes,short,int,long.
+Floats : floats and double.
+Chars;
+Boolean;
+How to declare and assign variables.
+Implicit and Explicit casting of some data types such as Double to Float and vice versa.

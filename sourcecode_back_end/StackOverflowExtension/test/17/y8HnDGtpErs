@@ -1,0 +1,4 @@
+http://xenosmashgames.com/blender-rigged…imations-unity/ 
+In this Unity tutorial we'll be going over how we can import our rigged model with animations from Blender into Unity. We'll be exporting an FBX file from Blender then importing that file along with it's textures into Unity. We'll then take a look at how to prepare your mesh by taking a look at the import, rig and animation settings. For this mesh we created there animations back to back so we'll be going into the animation editor to create three separate animation clips.
+
+Once we have our clips ready we'll then take a look at setting up our animator controller for use in Mecanim. Adding transitions between each animation clip to have a smooth realistic motion between the various states. We'll then add in a C# script to control the slashing animation so that whenever we left click the slash animation will play then quickly return back to the "idle" state once completed.

@@ -1,0 +1,6 @@
+Normally in a programming language you can create classes and instantiate them as many times as you like to have self contained chunks of code.  It is a little different in JavaScript but it can be very helpful in creating self contained objects that include DOM and Code working together.  In this Lets Play, we will go through the different methods of doing just that.
+
+JSBin Version for you to test:
+http://jsbin.com/cigeta/edit?html,css,js,output
+
+Enjoy!

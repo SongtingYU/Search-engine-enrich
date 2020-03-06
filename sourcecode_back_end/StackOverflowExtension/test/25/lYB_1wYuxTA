@@ -1,0 +1,31 @@
+For more tutorials, visit http://acamso.com
+
+CREATE MACRO
+
+1. Type or paste list of text
+2. Click record icon in toolbar
+3. Hit Ctrl+H
+4. Enter "^" in "Find what" field
+5. Enter "＜li＞" in "Replace with" field
+6. Click "Regular expression"
+7. Click "Replace All"
+8. Enter "$" in "Find what" field
+9. Enter "＜/li＞" in "Replace with" field
+10. Click "Replace All"
+11. Hit Ctrl+Home
+12. Hit "Enter" key
+13. Hit "Up" key
+14. Type "＜ol＞"
+15. Hit Ctrl+End
+16. Hit "Enter" key
+17. Type "＜/ol＞"
+18. Click stop record icon in toolbar
+19. Click Macro ＞＞ Save Current Recorded Macro...
+20. Enter a name
+21. Click "OK"
+
+RUN MACRO
+1. Type or paste list of text
+2. Click Macro ＞＞ *name of macro*
+
+Download Notepad++: http://bit.ly/notepad-ac

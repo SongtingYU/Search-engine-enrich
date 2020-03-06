@@ -1,0 +1,19 @@
+Fixed Point Iteration method for finding roots of functions.
+Frequently Asked Questions:
+Where did 1.618 come from?
+If you keep iterating the example will eventually converge on 1.61803398875... which is (1+sqrt(5))/2.
+
+Why not use x = x^2 -1?
+Generally you try to reduce the degree of the polynomial you're trying to find the root for.
+
+How did you pick x1?
+Your starting point should be an educated guess, a point in the neighborhood of your root.
+
+How can you use the convergence test without the root?
+Think of the convergence test as more of "will this function converge to this root?" When you don't know the root, try iterating a few times to see if the function is converging, bouncing around in a loop, or going to infinity. It will become apparent very quickly.
+
+What happens if a function fails the convergence test?
+Failing the test means that the function is not guaranteed to converge. It might still converge but it makes no promises. Take the function which I showed fail in the example. If you iterate starting from the root that we found, the function might converge to the same value depending on your calculator's accuracy.
+
+Doesn't this function have two roots? Is there a way to find the second one?
+Indeed this function has two roots (1+sqrt(5))/2 and (1-sqrt(5))/2 which are the numbers φ (phi) and ψ (psi). I showed how the first example converged to phi and that the other did not for simplicity. You can use the second equation to converge on psi if you start close enough, like -1 for example.﻿

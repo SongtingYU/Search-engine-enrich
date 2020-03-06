@@ -1,0 +1,7 @@
+<pre><code>&gt;&gt;&gt; d = {'key':'value'}
+&gt;&gt;&gt; print d
+{'key': 'value'}
+&gt;&gt;&gt; d['mynewkey'] = 'mynewvalue'
+&gt;&gt;&gt; print d
+{'mynewkey': 'mynewvalue', 'key': 'value'}
+</code></pre>

@@ -1,0 +1,12 @@
+http://learn-share.net/programming-basics-course/
+Programming Course. The Basics of Programming.
+#21 Functions
+
+Learn to code.
+
+So i create the framework of the function, and them i will just copy this code into it. 
+I use the name function, and i have got to give a name, i'll just say my function, opening and closing parenthesis, and the opening and closing curly braces, i them grab this statements, and paste it inside the body of the function.
+
+Now i'm going to indent the code with a few spaces, i don't have to do this, this will be regarded as insignificant white space. But make it easier to read, and easier to see. This lines of code nested inside of this function.
+
+Now the statements inside this function will not be executable when this code first runs, the java_script interpreted, will look at this file of java_script and will say, you have a function called, my function, good for you. But he will not run unless you say so.

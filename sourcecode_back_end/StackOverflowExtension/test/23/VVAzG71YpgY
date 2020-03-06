@@ -1,0 +1,5 @@
+Diamond problem is the situation in multiple inheritance where we have a common method in the super classes. Rather than providing some complex way to solve this, java doesn't allow multiple inheritance since we can always solve it easily using Composition.
+We can create the classes as instances and call method from any of them, whichever we want.
+It's called diamond problem because of the class diagram shape of multiple inheritance looks like a diamond.
+
+Source: http://www.journaldev.com/1775/multiple-inheritance-in-java-and-composition-vs-inheritance

@@ -1,0 +1,28 @@
+Don't know what NULL OBJECTS are in Adobe After Effects? This tutorial will explain what they are and how you can use them to manage your VFX better!
+
+Null objects are simple markers with a position, rotation and scale - collectively referred to as the 'transform'.
+They are invisible and will not be rendered as part of your final video export. However, they are extremely useful in a number of different scenarios to make your life easier and help you manage complex visual effects:
+
+1. To control the movement of other layers by parenting them to a null object. The null object will define the reference point for the other layers and you can move/scale/rotate (animate) the null object to control how the child layers will behave.
+If you are not sure how parenting works, check out my parenting basics tutorial here:
+http://www.youtube.com/watch?v=jXjRIwkGzow
+
+2. To control effect parameters. You can place a null object in your scene and then link parameters from effects on other layers to it, e.g. the position property of a lens flare effect. This gives you easier access to the property and you can animate it simply by animating the null object.
+
+3. As container for expression controls. Expression controls are simple effect that give you access to simple tools like sliders, checkboxes, colour selectors and more. You can learn all about expression controls in this tutorial:
+http://www.youtube.com/watch?v=jslSJNtoNcg
+Create a new null object and assign any expression control effect to it. I like to call these layers 'CONTROL' as they are merely containers for the controls that I can then use to animate and manage all of the effects in my composition.
+
+Null objects, while invisible, have a ton of great uses and I encourage you to use them wherever you can to make your life easier when working in Adobe After Effects!
+
+You can find a detailed written version of this tutorial with step by step instructions on my website:
+
+http://www.surfacedstudio.com/tutorials/after-effects-basics-null-objects
+
+All Video and Music - Copyright © 2013 SurfacedStudio
+
+You can follow me here:
+http://www.surfacedstudio.com
+http://www.facebook.com/surfacedstudio
+http://www.twitter.com/surfacedstudio
+http://www.instagram.com/surfacedstudio

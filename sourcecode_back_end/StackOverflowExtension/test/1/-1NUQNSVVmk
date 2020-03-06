@@ -1,0 +1,61 @@
+Link for all dot net and sql server video tutorial playlists
+http://www.youtube.com/user/kudvenkat/playlists
+
+Can you store different types in an array in c#?
+Yes, if you create an object array. Here is an example. Since all types inherit (directly or indirectly) from object type, we can add any type to the object array, including complex types like Customer, Employee etc. You need to override the ToString() method if you want meaningful output when ToString() method is invoked.
+
+class Program
+{
+    static void Main()
+    {
+        object[] objectArray = new object[3];
+        objectArray[0] = 101; // integer
+        objectArray[1] = "C#"; // string
+
+        Customer c = new Customer();
+        c.ID = 99;
+        c.Name = "Pragim";
+
+        objectArray[2] = c; // Customer - Complext Type 
+
+        // loop thru the array and retrieve the items
+        foreach (object obj in objectArray)
+        {
+            Console.WriteLine(obj);
+        }
+    }
+}
+
+class Customer
+{
+    public int ID { get; set; }
+    public string Name { get; set; }
+
+    public override string ToString()
+    {
+        return this.Name;
+    }
+}
+
+Another alternative is to use ArrayList class that is present in System.Collections namespace.
+class Program
+{
+    static void Main()
+    {
+        System.Collections.ArrayList arrayList = new System.Collections.ArrayList();
+        arrayList.Add(101); // integer
+        arrayList.Add("C#"); // integer
+
+        Customer c = new Customer();
+        c.ID = 99;
+        c.Name = "Pragim";
+
+        arrayList.Add(c); // Customer - Complext Type 
+
+        // loop thru the array and retrieve the items
+        foreach (object obj in arrayList)
+        {
+            Console.WriteLine(obj);
+        }
+    }
+}

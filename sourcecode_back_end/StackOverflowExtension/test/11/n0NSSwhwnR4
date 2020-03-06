@@ -1,0 +1,15 @@
+This is a NASA SPOC (Shuttle Portable Computer) Grid Compass computer which was setup for the STS-51-I shuttle mission in 1984/85.  This is the 1st-generation SPOC system.  
+It is loaded up with a very basic OS called Grid-OS, which pre-dates MS-DOS.
+Amazingly this thing still works.  It still has the stickers and old cloth Velcro strips on the bottom.
+When I turn it on, it displays the boot-splash image wishing STS-51-I team good luck.
+Then it automatically opens up a screen for the astronaut to enter the current GMT time.
+The next screen which automatically displays is the launch date/time screen.  After the launch date is entered, another screen opens up asking for telemetry data and the State Vector (x,y,z location and x/y/z velocities, and MET TIME). It took me forever to figure out the next screen. If the data is wrong, it bounced back a very cryptic error message and looped back to the launch date/time screen.
+Once I figured out what data was valid, the SPOC will churn for a few minutes and displayed the next menu screen with World-Map, Shuttle Re-entry, and time/State change options.
+I selected World Map.
+*******Be patient.  It takes about four minutes to calculate and plot the orbital data.*****
+This specific SPOC was surplussed in 1987 (I'm amazed it did not get destroyed!) and then bought in 1989/90 as part of a GSA lot of NASA aerospace/analog/linear circuits/PMEL stuff in Texas.
+It does not have a hard disk or floppy drive or battery.  None of these were certified for STS flight at the time.
+Programs are kept in 512K ROMs and also in a 384K non-volitile Magnetic Bubble memory. 
+The entire compass laptop is made from solid magnisium.
+The display is 4.75 x 3.5 inch orange (flat) plasma screen.
+The Grid 1100 series computer gets credit as being the first laptop with a flat folding clamshell case.

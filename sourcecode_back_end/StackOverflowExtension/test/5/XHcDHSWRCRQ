@@ -1,0 +1,26 @@
+I HAVE POSTED ALL CODES AND COMMANDS IN THE DESCRIPTION. PLEASE REFER TO THEM.
+If you have any other problems, feel free to contact me.
+In this video, I show you how to compile python programs in order to share it with someone who doesn't have Python.
+It works with modules perfectly!
+cx_freeze official site:  http://cx-freeze.sourceforge.net/
+
+
+the setup.py:
+-----------------------------------------------------------------------
+from cx_Freeze import setup, Executable
+ 
+setup(
+    name = "" ,
+    version = "0.1" ,
+    description = "" ,
+    executables = [Executable("")] ,
+    )
+
+----------------------------------------------------------------------------
+The command line:  c:\python32\python.exe setup.py build
+NOTE: first go to the python32 folder in command prompt. then use the command above.
+
+If you have any problems, please comment or PM me and I will try to find a solution for that!
+
+Ignore these:
+Python, Python compiling, cx freeze, cx_freeze, cx_freeze tutorial, cx freeze tutorial, cx_freeze compiling, compiling, tutorial, python tutorial, compiling tutorial, python 3, python programming, python tutorial, Python (programming Language), software , software tutorial, compile python,compiling python tutorial, compiling python code, how to compile python code, py2exe, easy way to compile python

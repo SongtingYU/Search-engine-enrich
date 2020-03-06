@@ -1,0 +1,11 @@
+Welcome to another python 3 basics video, in this video we're going to now discuss the concept of global and local variables.
+
+When users begin using functions, they can quickly become confused when it comes to global and local variables... getting a the dreaded variable is not defined even when they clearly see that it is... or so they think.
+
+These terms of global and local correspond to a variable's reach within a script or program. A global variable is one that can be accessed anywhere. A local variable is the opposite, it can only be accessed within its frame. The difference is that global variables can be accessed locally, but not modified locally inherently.
+
+A local variable cannot be accessed globally, inherently. Now, dont worry about committing that to memory right now, I think it makes a lot more sense when you just see and do it, so let's do that.
+
+Sample code for this basics series: http://pythonprogramming.net/beginner-python-programming-tutorials/
+
+Python 3 Programming tutorial Playlist: http://www.youtube.com/watch?v=oVp1vrfL_w4&feature=share&list=PLQVvvaa0QuDe8XSftW-RAxdo6OmaeL85M

@@ -1,0 +1,24 @@
+This tutorial shows how to add new properties to objects using the Python API.
+
+The script starts from one of the Python templates that creates a simple ui panel. 
+
+In the script, existing and new properties are displayed and accessed in the panel.
+
+The example existing properties are the hide property (because it is of type Boolean) and the Z location (because it is numeric and its value is altered in the script).
+
+A new Boolean property is added, this is used as a switch and will toggle the value of a text object between off and on.
+
+A new integer property is added to store the zlayer setting. Whereas the  z location is a float value making it continuous, the zlayer being integer means that it goes up in steps.
+
+The tutorial shows how to link update functions to the new properties that are run when the properties change.
+
+The finished files can be downloaded from the following links -
+
+http://blender.freemovies.co.uk/blenderfiles/scripts/propTut25.blend
+http://blender.freemovies.co.uk/blenderfiles/scripts/light11.blend
+http://blender.freemovies.co.uk/blenderfiles/scripts/myBool_zlayer.py
+http://blender.freemovies.co.uk/blenderfiles/scripts/lightSwitch.py
+
+The finished files and the listings can be downloaded from my website -
+
+http://blender.freemovies.co.uk

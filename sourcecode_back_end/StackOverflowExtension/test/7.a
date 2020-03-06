@@ -1,0 +1,19 @@
+In your case, what you can do is:
+
+    z = dict(x.items() + y.items())
+
+This will, as you want it, put the final dict in `z`, and make the value for key `b` be properly overridden by the second (`y`) dict&#39;s value:
+
+    &gt;&gt;&gt; x = {&#39;a&#39;:1, &#39;b&#39;: 2}
+    &gt;&gt;&gt; y = {&#39;b&#39;:10, &#39;c&#39;: 11}
+    &gt;&gt;&gt; z = dict(x.items() + y.items())
+    &gt;&gt;&gt; z
+    {&#39;a&#39;: 1, &#39;c&#39;: 11, &#39;b&#39;: 10}
+
+If you use Python 3, it is only a little more complicated.  To create `z`:
+
+    &gt;&gt;&gt; z = dict(list(x.items()) + list(y.items()))
+    &gt;&gt;&gt; z
+    {&#39;a&#39;: 1, &#39;c&#39;: 11, &#39;b&#39;: 10}
+
+

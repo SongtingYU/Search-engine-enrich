@@ -1,0 +1,17 @@
+Nexus 4, 5 , 5x , 6p, 7 , 10 doesn't connect to computer as media device!?
+Nexus 4, 5 , 5x , 6p, 7 , 10 Not Showing Up as a Media Device? 
+
+To get USB MTP mode working correctly IN NEXUS I did the following;
+
+1.Unplugged Nexus from PC
+2.Turned off USB Debugging while leaving Developer mode On
+3.Plugged the Nexus 4 device into a USB port on PC.
+4.Open 'Device Manager'  (Click Start button, enter "Device Manager")
+5.Located the "Android Device" item, and then under that "Android Composite ADB Interface", right clicked and Update Driver Software...
+6.Select "Browse my computer for.."
+7.Select "Let me pick from a list of..."
+8.Then that gave me 2 options, "Android Composite ADB Interface"  or "USB Composite Drive" or something stating MTP .  I selected the "USB Composite Drive".  (Basically dont select the ADB Interface
+9.Enjoy Nexus In your 64 bit system to.
+
+------------------------
+google usb drivers.https://developer.android.com/studio/run/win-usb.html

@@ -1,0 +1,6 @@
+    &gt;&gt;&gt; d = {&#39;key&#39;:&#39;value&#39;}
+    &gt;&gt;&gt; print d
+    {&#39;key&#39;: &#39;value&#39;}
+    &gt;&gt;&gt; d[&#39;mynewkey&#39;] = &#39;mynewvalue&#39;
+    &gt;&gt;&gt; print d
+    {&#39;mynewkey&#39;: &#39;mynewvalue&#39;, &#39;key&#39;: &#39;value&#39;}

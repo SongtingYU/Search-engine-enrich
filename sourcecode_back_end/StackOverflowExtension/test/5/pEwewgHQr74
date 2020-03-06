@@ -1,0 +1,15 @@
+PyCon Canada 2015: https://2015.pycon.ca/en/schedule/21/
+
+Talk Description:
+During my last CPython sprint, I started to contribute to the CPython code, and I wanted to understand the beast.
+
+In this case, there is only one solution, trace the code from the beginning. From the command line to the interpreter, we will take part to an adventure.
+
+* Overview of the structure of the Project and the directories.
+* From the Py_Main function, to the interpreter
+* the used technics for the Lexer, Parser and the generation of the AST and of course of the Byte Code.
+* we will see some byte codes with the dis module
+* How does VM works, it’s a stack machine.
+* the Interpreter and its main loop of the Virtual Machine.
+
+The idea behind is just to show how CPython works for a new contributor to CPython

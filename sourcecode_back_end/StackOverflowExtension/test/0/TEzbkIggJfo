@@ -1,0 +1,9 @@
+Use the iteration technique to solve for T(n).
+T (n) = T (n-1) + 1
+T (1)= 1
+
+Please subscribe !
+
+Checkout Recurrence Relation Tutorial: https://www.udemy.com/recurrence-relation-made-easy/learn/#/
+
+Check out my website: www.EverythingComputerScience.com

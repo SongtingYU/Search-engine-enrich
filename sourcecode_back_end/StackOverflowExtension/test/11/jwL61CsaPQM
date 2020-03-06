@@ -1,0 +1,10 @@
+A video showing you how to get Command Prompt with administrator privelages on any computer.
+
+Type into notepad:
+@echo
+cmd.exe
+pause
+REMEMBER! SAVE AS A .bat FILE!
+
+Twitter:
+https://twitter.com/techo536

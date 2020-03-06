@@ -1,0 +1,1 @@
+If you run your web application using embedded Java EE server in Maven (like Tomcat or Jetty) and try to run it in debug mode, once you hit some breakpoint, you will encounter this error: "Source not found". Part of Java online video tutorials: http://www.javavids.com

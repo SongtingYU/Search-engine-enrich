@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="StackOverflowExtension">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../cs9322/eclipse 3/"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="Maven Dependencies.libraryclasspath">
+        <pathelement location="../../../../.m2/repository/org/apache/lucene/lucene-core/4.1.0/lucene-core-4.1.0.jar"/>
+        <pathelement location="../../../../.m2/repository/org/apache/lucene/lucene-analyzers-common/4.1.0/lucene-analyzers-common-4.1.0.jar"/>
+        <pathelement location="../../../../.m2/repository/org/apache/lucene/lucene-queryparser/4.1.0/lucene-queryparser-4.1.0.jar"/>
+        <pathelement location="../../../../.m2/repository/org/apache/lucene/lucene-queries/4.1.0/lucene-queries-4.1.0.jar"/>
+        <pathelement location="../../../../.m2/repository/org/apache/lucene/lucene-sandbox/4.1.0/lucene-sandbox-4.1.0.jar"/>
+        <pathelement location="../../../../.m2/repository/jakarta-regexp/jakarta-regexp/1.4/jakarta-regexp-1.4.jar"/>
+        <pathelement location="../../../../.m2/repository/mysql/mysql-connector-java/5.1.38/mysql-connector-java-5.1.38.jar"/>
+    </path>
+    <path id="StackOverflowExtension.classpath">
+        <pathelement location="target/classes"/>
+        <pathelement location="target/test-classes"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.com_words (2).classpath">
+        <path refid="StackOverflowExtension.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.run (1).classpath">
+        <path refid="StackOverflowExtension.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.senSplit.classpath">
+        <path refid="StackOverflowExtension.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.test (1).classpath">
+        <path refid="StackOverflowExtension.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.topURl.classpath">
+        <path refid="StackOverflowExtension.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <path id="run.updateDatabase.classpath">
+        <path refid="StackOverflowExtension.classpath"/>
+        <path refid="Maven Dependencies.libraryclasspath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="target/classes"/>
+        <mkdir dir="target/test-classes"/>
+        <copy includeemptydirs="false" todir="target/classes">
+            <fileset dir="src/main/java">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="target/test-classes">
+            <fileset dir="src/test/java">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="target/classes"/>
+        <delete dir="target/test-classes"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="target/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src/main/java"/>
+            <classpath refid="StackOverflowExtension.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="target/test-classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src/test/java"/>
+            <classpath refid="StackOverflowExtension.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="com_words (2)">
+        <java classname="au.edu.unsw.ee.stackoverflowextension.com_words" failonerror="true" fork="yes">
+            <classpath refid="run.com_words (2).classpath"/>
+        </java>
+    </target>
+    <target name="run (1)">
+        <java classname="ee.query.test.run" failonerror="true" fork="yes">
+            <classpath refid="run.run (1).classpath"/>
+        </java>
+    </target>
+    <target name="senSplit">
+        <java classname="au.edu.unsw.ee.stackoverflowextension.senSplit" failonerror="true" fork="yes">
+            <classpath refid="run.senSplit.classpath"/>
+        </java>
+    </target>
+    <target name="test (1)">
+        <java classname="au.edu.unsw.ee.stackoverflowextension.test" failonerror="true" fork="yes">
+            <classpath refid="run.test (1).classpath"/>
+        </java>
+    </target>
+    <target name="topURl">
+        <java classname="au.edu.unsw.ee.stackoverflowextension.topURl" failonerror="true" fork="yes">
+            <classpath refid="run.topURl.classpath"/>
+        </java>
+    </target>
+    <target name="updateDatabase">
+        <java classname="au.edu.unsw.ee.stackoverflowextension.updateDatabase" failonerror="true" fork="yes">
+            <classpath refid="run.updateDatabase.classpath"/>
+        </java>
+    </target>
+</project>

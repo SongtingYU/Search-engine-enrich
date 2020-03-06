@@ -1,0 +1,13 @@
+Video abstract for the article 'Optomechanical circuits for nanomechanical continuous variable quantum state processing' by Michael Schmidt, Max Ludwig and Florian Marquardt (Michael Schmidt et al 2012 New J. Phys. 14 125005). 
+
+Read the full article in New Journal of Physics at http://iopscience.iop.org/1367-2630/14/12/125005/article. 
+
+Part of Focus on Optomechanics
+
+GENERAL SCIENTIFIC SUMMARY
+
+Introduction and background. Quantum information processing is usually associated with quantum information in qubits (discrete variables), but for some purposes it is also desirable to process information stored in harmonic oscillators (continuous variables). The best-known example for the latter are the field amplitudes of the electromagnetic field in the context of quantum optics. However, it is desirable to search for additional implementations of continuous variable quantum information processing. Long-lived nanomechanical vibrations are a promising candidate, and the crucial question then is how to control and couple different vibrational modes. Here, so-called optomechanical systems may provide a novel, fruitful approach. In these systems, one studies the interaction between light and mechanical motion. A particularly promising example are 'optomechanical crystals'. These are dielectric structures on the scale of a few micrometers, and they are patterned such as to hold localized vibrational and optical modes, which then interact with each other.
+
+Main results. We propose and analyze an optomechanical architecture that enables operations on a set of many localized vibrational modes. These operations are controlled via modulation of the driving laser intensity. Our analysis indicates that the scheme allows to entangle modes selectively, transfer quantum states between them and prepare squeezed quantum states.
+
+Wider implications. Optomechanical systems are promising candidates for the realization of quantum hybrid systems. Such systems combine atoms, superconducting qubits, spins or other carriers of quantum information, via coupling to the mechanical motion. The architecture described here could form one component of such systems.

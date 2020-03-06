@@ -1,0 +1,29 @@
+When used as a declaration modifier, the new keyword explicitly hides a member that is inherited from a base class. When you hide an inherited member, the derived version of the member replaces the base class version. Although you can hide members without using the new modifier, you get a compiler warning. If you use new to explicitly hide a member, it suppresses this warning.
+
+-------------
+May be you like this 
+--------------
+Our channel:
+https://www.youtube.com/c/gofreelancertutorials
+Interest to donate : https://www.paypal.me/gofreelancer
+
+RavenDB playlist here: https://www.youtube.com/watch?v=Q8M4eIgzMHo&list=PLv0T7WlllnSnxvVNZR7CHVR0hR-8t69ow
+KnockoutJs Playlist:
+https://www.youtube.com/watch?v=H3IWQg1TfdA&list=PLv0T7WlllnSk2iDeqcwRyty__TRJMgGhr
+Wcf playlist : 
+https://www.youtube.com/watch?v=t-6wGwiaDj4&list=PLv0T7WlllnSnulXRU200Lx97e_pJrGGfo
+
+Wcf restful playlist : 
+https://www.youtube.com/watch?v=NB4k0RC6vl0&list=PLv0T7WlllnSmcGHacEQnLgKvitcJEsSl6
+
+Angularjs playlist : https://www.youtube.com/watch?v=KXjD1RiAz1U&list=PLv0T7WlllnSkCfNftTNY8tWqCFWT0sIMd
+
+c# playlist:
+https://www.youtube.com/watch?v=ZrP0NKbsr8s&list=PLv0T7WlllnSl9pZWMaMGsyoAmqZtW4gM0
+
+google maps playlist:
+https://www.youtube.com/watch?v=_3lci2cE05M&list=PLv0T7WlllnSnXz4EiDxNA5OWnfr5xgig
+
+umbraco playlist : https://www.youtube.com/watch?v=zoefdruzmGE&list=PLv0T7WlllnSnYRedhwL8x-atkVxrSdd3m
+
+jquery playlist : https://www.youtube.com/watch?v=jVncasz_iyw&list=PLv0T7WlllnSkkNahiiWu_GMXq49X5ccfe

@@ -1,0 +1,1 @@
+Learn how to create and use global variables, including: create a VI to hold multiple global variables, place a global variable in your VI, change the mode from write to read, and set default values. Global variables reduce wiring clutter when many subVIs require a common system-wide value. See the tutorial http://www.ni.com/white-paper/7585/en for more information.

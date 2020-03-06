@@ -1,0 +1,41 @@
+Workflow : Open Smart-Object Stack
+
+Never find yourself stuck after a merged layer has been created in the stack to not be able to access an early revision that needs to be undone. Process in a total non-destructive environment and have access to all prior edits.
+
+The Benefits:
+
+1. Super organized, local retouching inside Smart-Object and global adjustments outside.
+
+2. 
+Transforming with Smart Objects
+
+3. 
+Filtering with Smart Filters
+
+
+4. 
+Adjusting variations, shadows, and highlights with Smart Objects
+
+
+5. 
+Retouching inside Smart Object
+
+
+6. 
+Editing in Camera Raw
+
+
+7. 
+Cropping nondestructively
+
+8. Masking
+
+
+
+Smart Objects are layers that contain image data from raster or vector images, such as Photoshop or Illustrator files. Smart Objects preserve an image’s source content with all its original characteristics, enabling you to perform nondestructive editing to the layer.
+
+In Photoshop CC and CS6, you can embed the contents of an image into a Photoshop document. In Photoshop CC, you can also create Linked Smart Objects whose contents are referenced from external image files. The contents of a Linked Smart Object are updated when its source image file changes.
+
+Linked Smart Objects are distinct from duplicated instances of a Smart Object within a Photoshop document. With Linked Smart Objects, you can use a shared source file across multiple Photoshop documents which is a familiar and welcome concept for web designers.
+
+You can’t perform operations that alter pixel data—such as painting, dodging, burning, or cloning—directly to a Smart Object layer, unless it is first converted into a regular layer, which will be rasterized. To perform operations that alter pixel data, you can edit the contents of a Smart Object, clone a new layer above the Smart Object layer, edit duplicates of the Smart Object, or create a new layer.

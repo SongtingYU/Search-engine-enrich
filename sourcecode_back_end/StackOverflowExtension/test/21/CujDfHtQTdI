@@ -1,0 +1,7 @@
+Andrés Echeverri, Anthony Hoak, Juan Tapiero Bernal, Henry Medeiros.
+
+Abstract— Several approaches for visual following robots have been proposed in recent years. However, many require the use of several, expensive sensors and often the majority of the image processing and other calculations are performed off-board. The motivation for this paper is to propose a simple and cost effective, yet robust visual following robot capable of tracking a general object with limited restrictions on target characteristics. To detect the objects, tracking-learning detection (TLD) is used within a Bayesian framework to filter and fuse the measurements. A time-of-flight (ToF) depth camera is used to refine the relative distance estimates at short ranges. The algorithms are executed in real-time (approximately 30fps) in a Jetson TK1 embedded computer. A set of experiments was conducted with different target objects in order to validate the system in scenarios including occlusions and various illumination conditions as well as to show how the sensor fusion between TLD and the ToF camera improves the distance estimation.
+
+Visit: http://www.coviss.org/
+
+Song: The Suite Composed by Ramin Djawadi

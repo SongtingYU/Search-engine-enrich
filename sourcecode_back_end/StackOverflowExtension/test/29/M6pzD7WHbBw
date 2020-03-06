@@ -1,0 +1,16 @@
+In this video you will learn how to load multiple files to SQL Server Table and then archive them to archive folder by adding date and time to them. 
+
+In this video you will learn following tasks/transformations
+How to create an SSIS Package
+How to use Foreach Loop Container to read the files from folder in SSIS Package
+How to load multiple text files to SQL Server Table in SSIS Package
+How to use Data Flow Task in SSIS Package
+How to Flat File Source in SSIS Package to read text file
+How to use OLE DB Destination to load data to SQL Server Table in SSIS Package
+How to write expressions in SSIS Package
+How to use File System Task in SSIS Package
+How to rename and move file in SSIS Package 
+
+
+To Follow Step by Step this SSIS video tutorial By Tech Brothers
+http://www.techbrothersit.com/2014/12/ssis-videos.html

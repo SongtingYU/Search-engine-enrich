@@ -1,0 +1,12 @@
+Last time we looked at writing a very simple file to disk. Now we'll see how to append new data to the end of the file, how we might write data to a spreadsheet, and discuss how to stream to file and when that's appropriate.
+
+For full video transcript, visit: http://blog.sixclear.com/post/43750946788/stream-to-disk
+
+For more on programming in LabVIEW, check out the Sixclear Lucid LabVIEW Fundamentals Training (previously Sixclear LabVIEW Fundamentals) course at http://sixclear.com/labviewtraining.
+
+You can also keep up with us at:
+http://facebook.com/sixclear
+http://twitter.com/#!/sixclear
+http://gplus.to/Sixclear
+
+Experience level: Basic

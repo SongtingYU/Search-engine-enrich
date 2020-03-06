@@ -1,0 +1,6 @@
+    &gt;&gt;&gt; [&quot;foo&quot;, &quot;bar&quot;, &quot;baz&quot;].index(&quot;bar&quot;)
+    1
+
+Reference: [Data Structures &gt; More on Lists][1]
+
+  [1]: http://docs.python.org/2/tutorial/datastructures.html#more-on-lists

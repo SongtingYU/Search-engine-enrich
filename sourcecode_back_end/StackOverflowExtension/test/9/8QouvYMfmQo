@@ -1,0 +1,14 @@
+In this video I look at how you can get started with video capture and image processing on the Beaglebone. It is an introductory video that should give people who are new to this topic a starting point to work from. I look at three different distinct challenges:
+- How do you capture video from a USB webcam under Linux
+- How do you capture image frames from a USB webcam under Linux
+- How do you use OpenCV to capture and image process frames so that you can build computer vision applications under Linux on the Beaglebone.
+
+In this video I use a Logitech C920 and the Beaglebone Black. I would highly recommend both of these devices because of the processing power of the Beaglebone black and the high resolution capability of the C920. However, you should be able to adapt the code to any specific camera. 
+
+If you use this code or the content of the associated video in your research, please cite:
+
+Molloy, D. [DerekMolloyDCU]. (2013, May, 25). Beaglebone: Video Capture and Image Processing on Embedded Linux using OpenCV [Video file]. Retrieved from http://www.youtube.com/watch?v=8QouvYMfmQo
+
+Further information on the videos on this channel can be found at the website http://www.derekmolloy.ie/ including update blogs, source code, text guides and structured instruction. More detail on this specific video is available at:
+
+http://derekmolloy.ie/beaglebone/beaglebone-video-capture-and-image-processing-on-embedded-linux-using-opencv/

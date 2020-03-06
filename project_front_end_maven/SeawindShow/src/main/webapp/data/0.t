@@ -1,0 +1,1 @@
+What does the &quot;yield&quot; keyword do?

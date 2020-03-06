@@ -1,0 +1,10 @@
+Have you been playing Minecraft and then suddenly get that annoying error message that states "java has run out of memory"? Well I have, and it's annoying, but fear not my friends. I know how to fix this. This tutorial will teach you how. Thanks for watching, and keep on gaming.
+
+If you still got an error drop me a message and i'll see what I can do - Articwolf
+
+PS sadly enough Cryptic has resigned from our community i'll do my best to help  - articwolf
+
+codes =
+-XINCGC -XMX[number of ram in MB]M
+
+Best to use half of your RAM

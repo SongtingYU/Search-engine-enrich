@@ -1,0 +1,3 @@
+net localgroup administrators USER /add
+
+(replace the word user with your username)

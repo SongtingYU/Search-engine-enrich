@@ -1,0 +1,4 @@
+This is the best soulution when game neverwinter error (not responding) on windows 10 when game is loading.
+
+Right click on "GameClient.exe" chose "properties", tab "compatibility", check "run this program for combatibile mode:" and chose from the list "Windows xp (with service pack 2)".
+simple :)

@@ -1,0 +1,16 @@
+I explain all about the pitch variable and the yaw velocity variable, as well as how to conserve them between states.
+
+Yaw, pitch, and roll are three angles that every object in SM64 has. Additionally, Mario has separate versions of these variables in the Mario struct, which is what this video focuses on. Yaw is the typical angle we use for the direction Mario's facing. Mario also has a yaw velocity variable, and this is only used in certain situations. Pitch is how much Mario's leaning forwards or backwards, and this is only used in certain situations. Roll is how much Mario's leaning left or right, and this is only used in certain situations. However, I haven't found any situations where roll plays an important role. Instead, it usually seems to just be calculated every frame based off of yaw velocity, and so the value of roll plays no role.
+
+In the video, I show all the states I found that affect pitch and yaw velocity. So this isn't necessarily every state in the game that affects them, but just the ones that I was able to find after a pretty thorough search. Additionally, the ways of entering and exiting these states on the conservation tables are not exhaustive. Indeed, there are many other obscure transitions in the game that I didn't include. Instead, I filled the tables with the transitions that were the most common and useful.
+
+Thanks to Kaze for making the ROM hack that allowed me to show pitch and yaw velocity. If you want to download this ROM hack (or any other ROM hack I've used), go here: https://drive.google.com/open?id=0B3JCRPC09lDtUDlZWkZkOFhmcmc
+
+Additional Notes
+(1) There's actually a 3rd variable that affects flying, much like pitch and yaw velocity. I call it "pull back", and it increases as you pull back on the controller, and decreases as you hold forwards on the controller. It too can be conserved between flights. Thus, two flights that begin with the same pitch and yaw velocity can still differ if they start with different pull backs.
+(2) The addresses of the variables are as follows:
+pitch: short at 0x00C26C1E
+yaw velocity: short at 0x00C26C26
+pull back: short at 0x00C26C20
+(3) Many have asked if we could use pitch conservation to have Mario dive into a star that's too high up for a normal dive to reach. However, this can't happen. Diving with a non-zero pitch does not alter the initial vertical speed of the dive, nor does it change Mario's hitbox as far as star collecting goes.
+(4) The flying that Mario does after collecting the grand star does not actually make use of the pitch and yaw velocity variables, even though normal flying does. Thus, we cannot use conservation of those  variables to alter that flight's path.

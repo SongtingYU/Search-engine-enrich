@@ -1,0 +1,35 @@
+Hi FlippinWindows will be relaunching its channel in April 2014 with so much cool stuff in Windows Tech and you are invited to be a member by subscribing. Links and Advice is in the "Show more" tab below:
+
+
+
+Download:   http://dl.dropbox.com/u/10655777/ELE.zip
+
+
+
+There are two binary files are included: one of them is "native" application for Windows 7 and second one is native for Windows 8.
+
+
+
+Usage:
+
+ele - runs   new console window in the current directory.
+
+
+ele /x - runs   new console window in the current directory and closes the originating console window. If ELE started from a file manager,
+it just opens a new elevated console in current directory.
+
+
+ele application.exe /param1 /param2 - runs elevated instance of the application.exe with param1 and param2,
+e.g. ele notepad.exe d:\myfile.txt
+
+
+Advices:
+
+ 
+�Put ele.exe in any folder what included in your %PATH% environment. E.g. C:\Windows is very good choice.
+
+
+�You can add ELE on toolbar of Total Commander to open current directory with elevated Administrator's rights.
+
+
+�Also you integrate ELE with Windows Explorer. Sample registry files are included.

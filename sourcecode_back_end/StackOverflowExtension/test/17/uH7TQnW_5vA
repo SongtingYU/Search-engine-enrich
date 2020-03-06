@@ -1,0 +1,28 @@
+I wrote a Python script to extract the XMI's from Return to Zork. Hopefully, I'll get the Adlib music recorded at some point. Here's the script:
+
+import struct
+import os
+
+theFile = open("RTZ.PRJ", "rb")
+prj = theFile.read()
+debug = True
+
+def Debug(intxt):
+%t print "---Debug: " + str(intxt)
+
+while prj.__contains__("FORM"):
+%t fileStartIdx = prj.index("FORM")
+%t filename = prj.__getslice__(fileStartIdx-16, fileStartIdx-4)
+%t fileEndIdx = prj.index(struct.pack("H", 12287)) + 3
+%t tmp = prj.__getslice__(fileStartIdx, fileEndIdx)
+%t fileList = os.listdir(".")
+%t Debug("Extracting " + filename)
+
+%t if tmp.__len__() &gt; 0:
+%t%t outFile = open(filename, "wb")
+%t%t outFile.write(tmp)
+%t%t outFile.close()
+%t prj = prj.__getslice__(fileEndIdx, prj.__len__())
+
+
+# Replace %t with tabs and &gt; with a greater-than sign.

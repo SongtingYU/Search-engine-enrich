@@ -1,0 +1,1 @@
+uLaw defaults to basic provincial tax for any disbursement, this can be overridden by any tax value, to completely eliminate it, you would out “0″ and then ensure that when you save it is properly override, then you can generate a preview of the invoice and confirm that.

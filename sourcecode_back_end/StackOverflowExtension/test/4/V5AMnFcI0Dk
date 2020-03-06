@@ -1,0 +1,3 @@
+Asp.net Web API tutorial for beginners - HTTP Status Codes(Part-16)
+
+In a RESTful Web API design, HTTP response status codes provide users of your API with immediate feedback on whether or not a request was successful, and an overview of why it failed if it was unsuccessful. In this video, we will uses Wikipedia documentation to describe common HTTP status codes in the five classes of response.

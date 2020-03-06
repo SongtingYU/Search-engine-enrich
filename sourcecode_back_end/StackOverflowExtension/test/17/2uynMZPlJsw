@@ -1,0 +1,10 @@
+April 20, 2012
+
+Here's the code used in the video:
+
+python -c 'import sys,os,codecs;[os.mkdir(d) for d in codecs.open(sys.argv[1],"r","utf8")]' testfolders.txt
+
+Feel free to copy and paste, don't forget to edit the testfolders.txt name to your own text file, and use the cd command to get in the right directory (otherwise you will have to put path statements into the command)
+An excellent Unix\Linux command reference can be found here:
+
+http://fosswire.com/post/2007/08/unixlinux-command-cheat-sheet/

@@ -1,0 +1,60 @@
+Follow the Link For Next Video: https://youtu.be/yGu_0bzbRJE
+
+Follow the Link For Previous Video: https://youtu.be/EHSTxLja-Jo
+
+To get more benefits,  Please Follow the Link and Subscribe: https://www.youtube.com/channel/UC3Bdolw5nlwMSBa3sex6R4g/playlists
+
+Current Video Description: In this video you will learn ------------------------------------------
+C# Data type conversion :
+
+Changing the type of data from one datatype to another. For example changing integer data to float and storing it in a float variable, changing any primitive data to string type. Storing derived class object reference in to base class object reference etc.
+
+There are two types of conversions:
+
+c# Implicit type conversion ( Coercion ): is a type of conversion, automatically performed by the compiler implicitly.
+
+Based on the size of data type, when we assign a variable of smaller capacity to a variable of larger capacity, compiler will implicitly converts and stores the data. 
+
+Example:
+short s =10; // short is 2 byte
+int i;   // int is of 4 byte
+i=s; // implicit type conversion
+
+c# Explicit type conversion ( Type casting ): is a type conversion, which is explicitly defined by the programmer instead of being performed by the compiler.
+
+When a larger data type variable value is converted and stored in smaller data type variable, then we need to explicitly specify the data type to which the value need to be converted. 
+
+Example:
+int i = 10; 
+short s;
+s= (short) i; // explicit type conversion
+
+byte b1 = byte.Parse("123"); // string type to primitive type
+
+String strByte = Convert.ToString(123); // primitive type to string
+
+Other Video Links : --------------------------------------------------------------------------
+
+Follow the Link to learn 2D game development with Unity:
+https://www.youtube.com/watch?v=oBkBPj6A3-c&list=PLdE8ESr9Th_t-mUBiW1avVj-m2o0iTpUR
+
+Follow the Link to learn HTML for Web Designing: https://www.youtube.com/watch?v=kP2wrUxJeCw&list=PLdE8ESr9Th_uUR1vA9h-AP4uyzZXb0lqA
+
+
+C# with Unity in Depth - Series Description:---------------------------------
+
+C# ( pronounced as C sharp ) : C# is an object oriented programming language. It's features are simple, modern, object-oriented, component-oriented, managed, robust, secured, platform independent, and general purpose programming language. It is developed at Microsoft under the initiative of Anders Hejlsberg around the year 1990. C# is a part of .NET framework. C# is based on C and C++ language. One of the utlimate programming language developed and used in variety of areas like application development, web design, game development, robotics etc.
+
+Unity ( Game Engine ) : Unity game engine is an ultimate game development platform for video game development. Unity is used by billions of game designers and game developers to develop cross-platform video games. Unity game engine supports variety of gaming platforms like pc, mobile , ios platform, play station console ,wii console etc. Unity game engine uses C# as a scripting language. It is very easy to script in unity using C# script. It is one of the standard in the game industry. Unity is developed by Unity Technologies and used to develop video games.
+
+Mono Develop ( IDE ) : We use MonoDevelop [Integrated Development Environment] supplied with unity engine. We edit, compile, run and debug all our c# codes in monodevelop. If you have strong skill in C# scripting you can create awesome games which can be easily managed, extendable, flexible, resuable and get overall control on unity games. 
+
+C# with Unity ( Tutorials ): "C# with Unity" covers C# programming language in depth, covers C# tokens, methods, arrays, class, object, inheritance, polymorphism, dynamic binding and message passing. Also we discuss various game development techniques with real time examples. 
+
+Game Vector Math: We discuss complete vector mathematics for games and simulations. We learn how to code various game mathematics and game physics concepts.
+
+Please subscribe, like, comment and share ....
+
+Thank you for watching C# with Unity tutorial series. Hope you enjoy and learn ...
+
+"Keep learning, Keep coding and Keep sharing"

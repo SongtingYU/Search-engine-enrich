@@ -1,0 +1,5 @@
+BlueprintImplementableEvents are functions that are called in C++, but have behavior defined entirely with Blueprint scripts. In this video, we'll set up our PowerUp function, and define the way this will change our Character's power level!
+
+https://d26ilriwvtzlb.cloudfront.net/3/3c/Source.zip  -  Source Code
+
+https://d26ilriwvtzlb.cloudfront.net/8/85/Source_4_4.zip  -  Source Code (4.4)

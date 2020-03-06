@@ -1,0 +1,8 @@
+You can use the [`in` operator][1]:
+
+    if &quot;blah&quot; not in somestring: 
+        continue
+    
+
+
+  [1]: https://docs.python.org/reference/expressions.html#membership-test-details

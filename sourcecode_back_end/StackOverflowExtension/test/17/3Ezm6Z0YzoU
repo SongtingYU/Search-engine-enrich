@@ -1,0 +1,11 @@
+Walk through install of VirtualBox and installing a Win7 32 os into it. I would recommend having at least 2 cpus in your computer and at least 4 Gig of memory.
+Step 1: Get the correct flavour of VirtualBox for your OS here http://www.virtualbox.org/
+Step 2: Get the Virtual Microsoft Image install - select the one you need http://www.modern.ie/en-us/virtualization-tools#downloads there are also many Linux images out there if you do a quick search.
+
+Many different options here, useful for testing against different browser options as well as sandboxing software that you don't want on your main computer; or that won't work on your main OS.
+
+Step 3: I set up a specific folder for sharing between the VM and the Host system.
+Step 4: Install VirtualBox
+Step 5: Import the image and configure
+Step 6: Using the shared directory get the software into the VM to run and test.
+Step 7: Enjoy not breaking your main computer system while fiddling with development tools.

@@ -1,0 +1,6 @@
+This Excel trick uses an old Excel Function FILES to get the list of all  the file names (or specific file names) in a specific folder in Excel. It uses an old excel function FILES that does not work in worksheet, but works in named ranges. All you need is this formula with the folder address.
+
+To get the folder address, save the excel file in the same folder and use this formula - =SUBSTITUTE(CELL("filename"),RIGHT(CELL("filename"),LEN(CELL("filename"))-FIND("@",SUBSTITUTE(CELL("filename"),"\","@",LEN(CELL("filename"))-LEN(SUBSTITUTE(CELL("filename"),"\",""))),1)),"*")
+
+Here is a step-by-step written tutorial:
+http://trumpexcel.com/2015/01/list-of-file-names-from-a-folder-in-excel/

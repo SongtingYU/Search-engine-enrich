@@ -1,0 +1,42 @@
+Can you tell me how Python interpreter works?
+
+Python's interpreter essentially eliminates the need for a compiler by interpreting the code at run time.
+
+That's why it does not have a compiler, since the interpreter replaces it. But how does it work?
+
+Variables point to a value at runtime, and the interpreter uses their value at runtime based on their type.
+
+How do you declare the variable type?
+
+You do not have to declare variables with Python's interpreter, though the language does have standard variable types like integer.
+
+Glad to know something about it is standard.
+
+Python determines the type of every variable and its value at runtime, though that could change each time you run it.
+
+That does not sound too reliable.
+
+One of the benefits of the Python interpreter is your ability to type code directly into it.
+
+How is that a benefit?
+
+The interpreter can test that code right then, speeding up testing and diagnosis.
+Reading a variable that doesn't have a value the interpreter can figure out results in a runtime error.
+
+Because you are running it immediately, instead of waiting for compiling, you find those bugs faster.
+
+Yes. Python's interpreter looks at the types present in each code module as it is run.
+
+Then you find the bugs in the code.
+
+Python does not generate code at runtime, even with the interpreter.
+
+But re-interpreting it each time will probably slow it down.
+
+The Python interpreter is slower than C++, but it also makes the code more flexible. And you do not have to compile it to run it, meaning you can run it immediately.
+
+I remember the XKCD joke about programmers always having the excuse that they are not wasting time, they are waiting on the compiling.
+
+And that's not a waste. Python's garbage collector automatically allocates and de-allocates memory as the interpreter runs, avoiding some of the problems compiled code can come up with.
+
+That's probably why I've never run into a Python error, but tons of Java errors.

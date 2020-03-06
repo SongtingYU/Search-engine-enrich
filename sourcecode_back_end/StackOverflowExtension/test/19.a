@@ -1,0 +1,125 @@
+Arguments are [passed by assignment][1]. The rationale behind this is twofold:
+
+1. the parameter passed in is actually a _reference_ to an object (but the reference is passed by value)
+2. some data types are mutable, but others aren&#39;t
+
+So:
+
+* If you pass a *mutable* object into a method, the method gets a reference to that same object and you can mutate it to your heart&#39;s delight, but if you rebind the reference in the method, the outer scope will know nothing about it, and after you&#39;re done, the outer reference will still point at the original object. 
+
+* If you pass an *immutable* object to a method, you still can&#39;t rebind the outer reference, and you can&#39;t even mutate the object.
+
+To make it even more clear, let&#39;s have some examples. 
+
+List - a mutable type
+-----
+
+**Let&#39;s try to modify the list that was passed to a method:**
+
+    def try_to_change_list_contents(the_list):
+        print &#39;got&#39;, the_list
+        the_list.append(&#39;four&#39;)
+        print &#39;changed to&#39;, the_list
+
+    outer_list = [&#39;one&#39;, &#39;two&#39;, &#39;three&#39;]
+    
+    print &#39;before, outer_list =&#39;, outer_list
+    try_to_change_list_contents(outer_list)
+    print &#39;after, outer_list =&#39;, outer_list
+
+Output:
+
+&lt;!-- language: none --&gt;
+
+    before, outer_list = [&#39;one&#39;, &#39;two&#39;, &#39;three&#39;]
+    got [&#39;one&#39;, &#39;two&#39;, &#39;three&#39;]
+    changed to [&#39;one&#39;, &#39;two&#39;, &#39;three&#39;, &#39;four&#39;]
+    after, outer_list = [&#39;one&#39;, &#39;two&#39;, &#39;three&#39;, &#39;four&#39;]
+
+Since the parameter passed in is a reference to `outer_list`, not a copy of it, we can use the mutating list methods to change it and have the changes reflected in the outer scope.
+
+
+**Now let&#39;s see what happens when we try to change the reference that was passed in as a parameter:**
+
+    def try_to_change_list_reference(the_list):
+        print &#39;got&#39;, the_list
+        the_list = [&#39;and&#39;, &#39;we&#39;, &#39;can&#39;, &#39;not&#39;, &#39;lie&#39;]
+        print &#39;set to&#39;, the_list
+    
+    outer_list = [&#39;we&#39;, &#39;like&#39;, &#39;proper&#39;, &#39;English&#39;]
+    
+    print &#39;before, outer_list =&#39;, outer_list
+    try_to_change_list_reference(outer_list)
+    print &#39;after, outer_list =&#39;, outer_list
+
+Output:
+
+&lt;!-- language: none --&gt;
+
+    before, outer_list = [&#39;we&#39;, &#39;like&#39;, &#39;proper&#39;, &#39;English&#39;]
+    got [&#39;we&#39;, &#39;like&#39;, &#39;proper&#39;, &#39;English&#39;]
+    set to [&#39;and&#39;, &#39;we&#39;, &#39;can&#39;, &#39;not&#39;, &#39;lie&#39;]
+    after, outer_list = [&#39;we&#39;, &#39;like&#39;, &#39;proper&#39;, &#39;English&#39;]
+
+Since the `the_list` parameter was passed by value, assigning a new list to it had no effect that the code outside the method could see. The `the_list` was a copy of the `outer_list` reference, and we had `the_list` point to a new list, but there was no way to change where `outer_list` pointed.
+
+String - an immutable type
+----
+
+**It&#39;s immutable, so there&#39;s nothing we can do to change the contents of the string**
+
+**Now, let&#39;s try to change the reference**
+
+    def try_to_change_string_reference(the_string):
+        print &#39;got&#39;, the_string
+        the_string = &#39;In a kingdom by the sea&#39;
+        print &#39;set to&#39;, the_string
+    
+    outer_string = &#39;It was many and many a year ago&#39;
+    
+    print &#39;before, outer_string =&#39;, outer_string
+    try_to_change_string_reference(outer_string)
+    print &#39;after, outer_string =&#39;, outer_string
+
+Output:
+
+&lt;!-- language: none --&gt;
+
+    before, outer_string = It was many and many a year ago
+    got It was many and many a year ago
+    set to In a kingdom by the sea
+    after, outer_string = It was many and many a year ago
+
+Again, since the `the_string` parameter was passed by value, assigning a new string to it had no effect that the code outside the method could see. The `the_string` was a copy of the `outer_string` reference, and we had `the_string` point to a new string, but there was no way to change where `outer_string` pointed.
+
+I hope this clears things up a little.
+
+**EDIT:** It&#39;s been noted that this doesn&#39;t answer the question that @David originally asked, &quot;Is there something I can do to pass the variable by actual reference?&quot;. Let&#39;s work on that.
+
+How do we get around this?
+----
+As @[Andrea](#986031)&#39;s answer shows, you could return the new value. This doesn&#39;t change the way things are passed in, but does let you get the information you want back out:
+
+    def return_a_whole_new_string(the_string):
+        new_string = something_to_do_with_the_old_string(the_string)
+        return new_string
+
+    # then you could call it like
+    my_string = return_a_whole_new_string(my_string)
+
+If you really wanted to avoid using a return value, you could create a class to hold your value and pass it into the function or use an existing class, like a list:
+
+    def use_a_wrapper_to_simulate_pass_by_reference(stuff_to_change):
+        new_string = something_to_do_with_the_old_string(stuff_to_change[0])
+        stuff_to_change[0] = new_string
+
+    # then you could call it like
+    wrapper = [my_string]
+    use_a_wrapper_to_simulate_pass_by_reference(wrapper)
+
+    do_something_with(wrapper[0])
+
+Although this seems a little cumbersome.
+
+
+  [1]: http://docs.python.org/3/faq/programming.html#how-do-i-write-a-function-with-output-parameters-call-by-reference

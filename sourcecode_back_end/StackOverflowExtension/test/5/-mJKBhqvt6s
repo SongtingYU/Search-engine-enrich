@@ -1,0 +1,19 @@
+Writing a function to iterate over a String in Java and build a new string where some replacements have been made.
+
+1) What is the name of my function?
+
+2) What is the return type of my function?
+
+3) What is the parameter sent to the function?
+
+4) What will this function replace with the number 3?
+
+5) How many letters does substring access on each iteration of the loop?
+
+6) Why did I save the result of the call to substring in the variable let?
+
+7) Why do I check let using equalsIgnoreCase?
+
+8) What gets concatenated onto s if the current letter is NOT the target letter?
+
+9) Write a function called AtoAt that replaces any occurrence of the letter a with the @ symbol.

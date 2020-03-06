@@ -1,0 +1,3 @@
+Series playlist: http://www.youtube.com/playlist?list=PLG59E6Un18vgYleWjrk09rYuKI9JzrG2u&feature=view_all
+
+In this brief tutorial, I give a first introduction to the Python IDLE interface. IDLE provides an interpreter window, into which expressions and commands can be typed for immediate evaluation (and where the output of programs is printed), and a separate Editor window can be opened for each python file that you are working with. Programs are run by selecting a menu option or pressing function key F5, in contrast to the PyScripter interface, that provides a "play" button. Your python files are colour-coded by syntax.

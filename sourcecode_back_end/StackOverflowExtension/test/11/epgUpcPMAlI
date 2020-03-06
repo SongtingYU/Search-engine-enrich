@@ -1,0 +1,30 @@
+How To Fix "Application Error 0xc0000142"
+
+The application was unable to start correctly (0xc0000142). Click OK to close the application.
+Windows applications sometimes fail to load. But why? It’ll not tell you, it will instead show a generic and pointless “Application Error” message. The only thing you can do here is close the application and search on the Internet for that cryptic error code. And maybe it’s the reason why you are seeing this tutorial.
+
+The problem
+Windows tells you that the application was unable to start. You can try a hundred times, but the error does not solve  itself magically, because it’s not casual. The problem is that the DLL that launches the application is unsigned or digitally no longer valid. And it’s not up to you, maybe you just downloaded the program from the official site.
+
+The solution
+
+1)Go to Run and type Regedit and hit enter.
+
+2)Now you are into windows registry so be careful don't just play with it, now go to the following address:
+HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows\AppInit_Dlls
+
+3)Double click LoadAppInit_DLLs and change the value from 1 to 0. 
+
+4)Click OK to confirm and exit. Now launch the compromised program and it’ll start.
+Note: some applications may change that value back to 1 after they get launched!
+
+If above doesn't work for you then try this:
+To solve this problem, we needed to use an advanced Windows Sysinternals Tool called Autoruns for Windows:
+
+http://technet.microsoft.com/en-ca/sysinternals/bb963902.aspx
+
+Launch the program and look for the following tab:  AppInit.  This will basically tell you if a dll is unsigned or digitally
+no longer valid on your computer.  All you have to do is rename each dll listed, one at a time and launch the product to 
+determine the problematic dll.
+
+Thanks for watching guys, please subscribe to how to channel for more tutorials :)

@@ -1,0 +1,1 @@
+What does `if __name__ == &quot;__main__&quot;:` do?

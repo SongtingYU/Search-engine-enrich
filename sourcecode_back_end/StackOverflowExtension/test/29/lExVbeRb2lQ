@@ -1,0 +1,38 @@
+SSIS Video Scenario:
+How to Export All tables of a database to Excel Files with Datetime in SSIS Package
+
+In this video we are going to learn how to export all the tables from SQL server Database to Excel File. An Excel file will be created for each table. The file name will be schemaName_TableName. Also Sheet Name will be SchemaName_TableName. You can change your selected query which returns list of tables to write data for views as well or some selected tables.
+
+Link for script used in the video
+http://www.techbrothersit.com/2016/03/how-to-export-all-tables-of-database-to.html
+
+Check out our other videos on Dynamic Excel Source and Dynamic Excel Destination in SSIS Video Tutorial playlist
+
+Excel Source and Destinations (Script Task- Dynamic)
+How to Load Data from Excel Files when Number of Columns can decrease or order is changed in Excel Sheet
+How to Load Only Matching Column Data to SQL Server Table from Multiple Excel Files (Single Sheet per file) Dynamically in SSIS Package
+How to Load Excel File Names with Sheet Names ,Row Count,Last Modified Date, File Size in SQL Server Table
+How to Load Multiple Excel Files with Multiple Sheets to Single SQL Server Table by using SSIS Package
+How to Load Matching Sheets from Excel to Table and Log Not Matching Sheets Information in SQL Server Table
+How to create Table for each sheet in Excel Files and load data to it dynamically in SSIS Package
+How to Create Table per Excel File and Load all Sheets Data Dynamically in SSIS Package by using Script Task 
+How to create CSV file per Excel File and Load All Sheets from Excel File to it in SSIS Package
+How to Create CSV File for Each Excel Sheet from Excel Files in SSIS Package
+How to Load Excel File Name and Sheet Name with Data to SQL Server in SSIS Package
+How to Import data from Multiple Excel Sheets with a pattern of sheet names from Multiple Excel File in SSIS Package
+How to import Data from Excel Files for specific Sheet Name to SQL Server Table in SSIS Package
+Load Data To Tables according to Excel Sheet Names from Excel Files dynamically in SSIS Package
+How to Load Excel Files with Single/ Multiple Sheets to SQL Server Tables according to Excel File Name Dynamically
+How to Read Excel Sheet Data after Skipping Rows in SSIS Package by using Script Task 
+How to read data from Excel Sheet and Load to Multiple Tables by using Script Task in SSIS Package
+How to create Excel File Dynamically from SQL server Table/View by using Script Task in SSIS Package
+How to create Excel File Dynamically for Stored Procedure Results in SSIS Package by using Script Task
+How to Export SQL Server Tables from Database to Excel File Dynamically in SSIS Package by using Script Task
+How to Convert CSV/Text Files to Excel Files in SSIS Package by using Script Task
+How to Load All CSV Files to Excel Sheets ( Sheet Per CSV) in single Excel File in SSIS Package
+How to Load All CSV Files to Single Excel Sheet with File Names in an Excel File Dynamically in SSIS Package
+How to Create Sample Excel file with Sheet from each table with Top 1000 Rows per sheet in SSIS Package
+How to Export Data to Multiple Excel Sheets from Single SQL Server Table in SSIS Package
+How to split large table data into multiple Excel Sheets on Single Excel File by using SSIS Package
+How to Export All tables of a database to Excel Files with Date-time in SSIS Package
+How to read Cell Value from Excel by using Script Task in SSIS Package

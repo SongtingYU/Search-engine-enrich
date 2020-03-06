@@ -1,0 +1,24 @@
+This Ruby on Rails tutorial explores how to use embedded Ruby (ERb) to add code to View templates. Watch more at http://www.lynda.com/Ruby-on-Rails-3-tutorials/essential-training/55960-2.html?utm_medium=viral&utm_source=youtube&utm_campaign=videoupload-55960-0503
+
+This specific tutorial is just a single movie from chapter five of the Ruby on Rails 3 Essential Training course presented by lynda.com author Kevin Skoglund. The complete Ruby on Rails 3 Essential Training course has a total duration of 12 hours and explores the fundamental and best practices for working with the Rails framework
+
+Ruby on Rails 3 Essential Training table of contents:
+
+Introduction 
+1. What is Ruby on Rails?
+2. Installing Ruby and Rails on a Mac
+3. Installing Ruby on Rails on a Windows Machine
+4. Getting Started   
+5. Controllers, Views, and Dynamic Content  
+6. Databases and Migrations   
+7. Models, ActiveRecord, and ActiveRelation   
+8. Associations
+9. Controllers and CRUD 
+10. Layouts, Partials, and View Helpers 
+11. Forms 
+12. Data Validation  
+13. User Authentication 
+14. Improving the Simple CMS 
+15. Debugging and Error Handling 
+16. Introducing More Advanced Topics  
+Conclusion

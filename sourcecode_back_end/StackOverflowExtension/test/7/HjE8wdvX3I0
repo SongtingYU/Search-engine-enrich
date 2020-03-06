@@ -1,0 +1,13 @@
+How to API enable your CICS applications in 10 minutes
+
+Abstract:
+APIs have become the de facto standard for application integration. z/OS Connect is IBM’s strategic solution for API enablement of z/OS based applications. In this short video we show you how to create a REST API from a CICS application, and discover and invoke the API.
+The demo starts by looking at the CICS sample Catalog Manager application. Then we show a Bluemix application that enhances the user interface with images, email notifications and address validation. The Bluemix application uses a z/OS Connect API to access the CICS managed catalog.
+We show how the API is created and deployed using the z/OS Connect Enterprise Edition API Editor. And we finish by discovering and invoking the API from a REST client.
+More information on the scenario can be found in the z/OS Connect Enterprise Edition V2.0 Getting Started Guide 
+http://www.ibm.com/support/techdocs/atsmastr.nsf/WebIndex/WP102604   
+For more information on the IBM Client Center Montpellier:
+http://www.ibm.com/ibm/clientcenter/montpellier/
+
+And follow us  
+@IBMCCMPL

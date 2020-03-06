@@ -1,0 +1,1 @@
+Using global variables in a function other than the one that created them

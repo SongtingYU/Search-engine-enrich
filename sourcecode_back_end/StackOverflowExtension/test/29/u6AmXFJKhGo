@@ -1,0 +1,15 @@
+In this video tutorial you will learn how to create fixed with text file from SQL Server and add date time to it by using SQL Server Integration Services (SSIS ) Package. 
+
+In this video you will also learn
+How to create SSIS Package from scratch
+How to rename SSIS Package in SSIS Project
+How to use Data Flow Task in SSIS Package
+How to use OLE DB Source in SSIS Package to read data from SQL Server Table by using SQL Command
+How to use Flat file Destination transformation to create fixed width text file in SSIS Package
+How to write expressions in SSIS Package
+How to use Functions such as getdate() in SSIS Package
+How to Extract Date and Time from Getdate() function in SSIS Package
+
+
+To Follow Step by Step this SSIS video tutorial By Tech Brothers
+http://www.techbrothersit.com/2014/12/ssis-videos.html

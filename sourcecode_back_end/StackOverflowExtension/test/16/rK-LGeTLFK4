@@ -1,0 +1,8 @@
+This video tutorial will help you to understand and correctly use Python 3 for loops. The demonstrated examples show
+- how to iterate directly over a sequence,
+- how to iterate over a generated sequence of indices
+- the len, enumerate, range, reversed and sum built in functions
+- the continue key word and
+- how to compute the average of the squares of a list of numbers.
+
+This screencast was recorded using the Kate text editor, pudb3 debugger, ipython3 shell and Kazam screencaster on Kubuntu 14.04.

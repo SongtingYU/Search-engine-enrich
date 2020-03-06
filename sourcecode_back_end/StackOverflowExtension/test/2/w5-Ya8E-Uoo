@@ -1,0 +1,9 @@
+How to transport request file move from one system to another SAP system manually   ?
+1. Release your transports from System A.
+2. Go to the directories /usr/sap/trans/data  & /usr/sap/trans/cofile at
+OS level of system A.
+3. Copy the files relevant to the transport number from both these directories of system A.
+4. Go to the directories /usr/sap/trans/data  & /usr/sap/trans/cofile at OS level of system B.
+5. Put these files in these directories and change the permission  of the file.
+6. In system B, Go to STMS , Double click Select system B , Under Menu select Extras , Other Requests, Add.
+7. Put the transport number as in the system A, and also check Import again.

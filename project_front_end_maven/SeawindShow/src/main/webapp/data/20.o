@@ -1,0 +1,16 @@
+<h2>Chaining comparison operators:</h2>
+
+<pre><code>&gt;&gt;&gt; x = 5
+&gt;&gt;&gt; 1 &lt; x &lt; 10
+True
+&gt;&gt;&gt; 10 &lt; x &lt; 20 
+False
+&gt;&gt;&gt; x &lt; 10 &lt; x*10 &lt; 100
+True
+&gt;&gt;&gt; 10 &gt; x &lt;= 9
+True
+&gt;&gt;&gt; 5 == x &gt; 4
+True
+</code></pre>
+
+<p>In case you're thinking it's doing <code>1 &lt; x</code>, which comes out as <code>True</code>, and then comparing <code>True &lt; 10</code>, which is also <code>True</code>, then no, that's really not what happens (see the last example.) It's really translating into <code>1 &lt; x and x &lt; 10</code>, and <code>x &lt; 10 and 10 &lt; x * 10 and x*10 &lt; 100</code>, but with less typing and each term is only evaluated once.</p>

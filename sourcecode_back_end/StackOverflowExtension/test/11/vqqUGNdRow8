@@ -1,0 +1,40 @@
+webinaction.co.uk
+The PDO object takes a maximum of four parameters, of which only three are obligatory, so we start out by creating a new instance of the PDO class and assigning this to the object $db:
+$db = new PDO()
+
+Each of our three parameters will be enclosed in single quotes and separated by commas:
+$db = new PDO('', '', '' )
+
+For the first of these three required parameters, we need to specify the Data Source Name (or DSN). For MySQL this starts with the prefix mysql:
+$db = new PDO('mysql: ', '', '' )
+
+This is followed by host= and the name of the host where the database is, which is “localhost”, followed by a semicolon:
+$db = PDO('mysql:host=localhost; ', '', '' )
+
+Then dbname= and the name of the database, which is ‘testdb’, followed by a semicolon again:
+$db = PDO('mysql:host=localhost;dbname=testdb; ', '', '' )
+
+Then, very important, the character set of the database. We can see in the SQL file that the default character set is UTF-8 which is what we should be using, so we set that here in the connection using charset=utf8:
+$db = PDO( 'mysql:host=localhost;dbname=testdb;charset=utf8 ', ' ', ' ' )
+
+and that’s the end of the first parameter.
+
+The next two parameters are the username and password. Because this database is on our local machine we can safely connect to it using ‘root’ as the username and no password – just empty single quotes.
+$db = PDO( 'mysql:host=localhost;dbname=testdb;charset=utf8', 'root', '' )
+
+At the stage of putting the project online we would have to create a more secure username and password and use those instead.
+
+Finish it all off as always in PHP with a semicolon at the end of the line:
+$db = PDO( 'mysql:host=localhost;dbname=testdb;charset=utf8', 'root', '' );
+
+That’s the connection done. We’ll save that as ‘connect.php’, and we can check it by doing var_dump($db) and we should get the following cryptic message returned to the browser: ‘object(PDO)#1 (0) { }’.
+
+If you get that, it means you’ve connected successfully to the database.
+
+If that’s too cryptic to convince you of our success, make a change to the PDO parameters to introduce an error. Change the database name and we instead get a message ‘Fatal Error – Unknown database’.
+
+Change that back and change any of the other details and you’ll get a Fatal Error with an appropriate indication of what is wrong each time.
+
+So, we’ve connected successfully but when we introduce an error we get an ugly and very informative error message. This is useful in development, but it’s not what we would want our end users to see – it’s not just ugly, it also gives away information about our system.
+
+In the next lesson we’ll use try … catch to prevent this uncontrolled error message being returned and instead we will cause the program to fail gracefully without giving away any information about how our system works.

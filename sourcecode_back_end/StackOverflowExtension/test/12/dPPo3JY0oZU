@@ -1,0 +1,11 @@
+if not a:
+  print "List is empty"
+
+Using the implicit booleanness of the empty list is quite pythonic.
+
+Source: http://stackoverflow.com/questions/53513/best-way-to-check-if-a-list-is-empty
+
+http://minhthang.name.vn
+Do not forget to
+LIKE, SHARE, SUBSCRIBE
+and feel free to ask me questions or discuss with everyone :]

@@ -1,0 +1,119 @@
+create sequence in sql server
+
+In this video we will discuss sequence object in SQL Server.
+
+Sequence object
+Introduced in SQL Server 2012
+Generates sequence of numeric values in an ascending or descending order
+
+Syntax : 
+
+CREATE SEQUENCE [schema_name . ] sequence_name
+    [ AS [ built_in_integer_type | user-defined_integer_type ] ]
+    [ START WITH [constant] ]
+    [ INCREMENT BY [constant] ]
+    [ { MINVALUE [ [constant] ] } | { NO MINVALUE } ]
+    [ { MAXVALUE [ [constant] ] } | { NO MAXVALUE } ]
+    [ CYCLE | { NO CYCLE } ]
+    [ { CACHE [ [constant] ] } | { NO CACHE } ]
+    [ ; ]
+
+DataType - Built-in integer type (tinyint , smallint, int, bigint, decimal etc...) or user-defined integer type. Default bigint.
+START WITH - The first value returned by the sequence object
+INCREMENT BY - The value to increment or decrement by. The value will be decremented if a negative value is specified.
+MINVALUE - Minimum value for the sequence object
+MAXVALUE - Maximum value for the sequence object
+CYCLE - Specifies whether the sequence object should restart when the max value (for incrementing sequence object) or min value (for decrementing sequence object) is reached. Default is NO CYCLE, which throws an error when minimum or maximum value is exceeded.
+CACHE - Cache sequence values for performance. Default value is CACHE. 
+
+Creating the Incrementing Sequence : The following code create a Sequence object that starts with 1 and increments by 1
+
+CREATE SEQUENCE [dbo].[SequenceObject] 
+AS INT
+START WITH 1
+INCREMENT BY 1
+
+Generating the Next Sequence Value : Now we have a sequence object created. To generate the sequence value use NEXT VALUE FOR clause
+SELECT NEXT VALUE FOR [dbo].[SequenceObject]
+
+Output : 1
+
+Every time you execute the above query the sequence value will be incremented by 1. I executed the above query 5 times, so the current sequence value is 5.
+
+Retrieving the current sequence value : If you want to see what the current Sequence value before generating the next, use sys.sequences
+
+SELECT *
+FROM sys.sequences
+WHERE name = 'SequenceObject' 
+
+Alter the Sequence object to reset the sequence value : 
+ALTER SEQUENCE [SequenceObject]
+RESTART WITH 1
+
+Select the next sequence value to make sure the value starts from 1
+SELECT NEXT VALUE FOR [dbo].[SequenceObject]
+
+Using sequence value in an INSERT query : 
+
+CREATE TABLE Employees
+(
+ Id INT PRIMARY KEY,
+ Name NVARCHAR(50),
+ Gender NVARCHAR(10)
+)
+
+-- Generate and insert Sequence values
+INSERT INTO Employees VALUES (NEXT VALUE for [dbo].[SequenceObject], 'Ben', 'Male')
+INSERT INTO Employees VALUES (NEXT VALUE for [dbo].[SequenceObject], 'Sara', 'Female')
+
+-- Select the data from the table
+SELECT * FROM Employees
+
+Creating the decrementing Sequence : The following code create a Sequence object that starts with 100 and decrements by 1
+
+CREATE SEQUENCE [dbo].[SequenceObject] 
+AS INT
+START WITH 100
+INCREMENT BY -1
+
+Specifying MIN and MAX values for the sequence : Use the MINVALUE and MAXVALUE arguments to specify the MIN and MAX values respectively.
+
+Step 1 : Create the Sequence object
+CREATE SEQUENCE [dbo].[SequenceObject]
+  START WITH 100
+  INCREMENT BY 10
+  MINVALUE 100
+  MAXVALUE 150
+
+Step 2 : Retrieve the next sequence value. The sequence value starts at 100. Every time we call NEXT VALUE, the value will be incremented by 10. 
+SELECT NEXT VALUE FOR [dbo].[SequenceObject]
+
+If you call NEXT VALUE, when the value reaches 150 (MAXVALUE), you will get the following error
+The sequence object 'SequenceObject' has reached its minimum or maximum value. Restart the sequence object to allow new values to be generated.
+
+Recycling Sequence values : When the sequence object has reached it's maximum value, and if you want to restart from the minimum value, set CYCLE option
+
+ALTER SEQUENCE [dbo].[SequenceObject]
+  INCREMENT BY 10
+  MINVALUE 100
+  MAXVALUE 150
+  CYCLE
+
+At this point, whe the sequence object has reached it's maximum value, and if you ask for the NEXT VALUE, sequence object starts from the minimum value again which in this case is 100.
+
+To improve performance, the Sequence object values can be cached using the CACHE option. When the values are cached they are read from the memory instead of from the disk, which improves the performance. When the cache option is specified you can also specify the size of th cache , that is the number of values to cache.
+
+The following example, creates the sequence object with 10 values cached. When the 11th value is requested, the next 10 values will be cached again.
+
+CREATE SEQUENCE [dbo].[SequenceObject]
+  START WITH 1
+  INCREMENT BY 1
+  CACHE 10
+
+Using SQL Server Graphical User Interface (GUI) to create the sequence object : 
+1. Expand the database folder
+2. Expand Programmability folder
+3. Right click on Sequences folder
+4. Select New Sequence
+
+Next video : Difference between SEQUENCE and IDENTITY in SQL Server

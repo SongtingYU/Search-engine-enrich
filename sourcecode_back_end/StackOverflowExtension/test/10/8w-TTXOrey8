@@ -1,0 +1,71 @@
+This is how you update your Yi Dash Camera from the Chinese firmware to the International version. 
+
+See our Yi review here: https://youtu.be/SRycas4M4DY
+
+Warning - there is a chance you will irreparably damage your device.  I am not responsible for any problems.  
+
+Instructions:
+
+1. Get a Desktop/Laptop, SD Card Reader, microSD Card and a minimum 1amp microUSB charger ready
+
+2. Copy the serial number from the menu/label on the bottom of the camera.  Take only the first 14 characters.  
+
+3. Write the serial number into a word processor and change the letters “CN” into “US”
+
+4. Save as “SN.txt” 
+
+5. Create a blank file and name it “engmode”, no file extension.
+Download the file here: https://drive.google.com/file/d/0ByKO_8KOf2FQaUZNU3g0ekV6ZW8/view?usp=sharing
+
+6. Copy both files onto your SD card.  
+
+7. Insert the SD card back into the camera and power it on using your USB charger.
+
+8. Once you see the engineering menu, scroll down until you see number 8 - Exit.  Select it.  
+
+9. Go into the regular settings menu and select factory reset.  If it doesn't reboot try turning off the camera manually.  If it fails press the "reset" button the side of the camera next to the microUSB port.
+
+10. Once it reboots, exit ENG mode again and enter the settings menu and check if your serial number shows “US”
+
+11. If good, power off your card and insert it back into your reader.  Format it. 
+
+12. Download the “FWCARC10.bin” file from XiaoYi’s page:  http://www.yitechnology.com/support/firmware_en.html
+
+Alternatively from my Google Drive folder: http://bit.ly/FWCARC10
+
+13. Add the .zip file extension by renaming by file.  
+
+14. Unzip this file using your favourite program (7-Zip, WinRAR, Windows).  
+
+14. Add the .bin extension to the 10MB file you extracted.  
+
+15.  Copy this file to your SD Card.  
+
+16. Insert this card back into your card and power it on again using the power cable. 
+
+17. Your camera should start updating your camera, once finished, accept all prompts.
+
+18. Format your card and you are finished!  
+
+For the current English firmware see: https://dashcamtalk.com/xiaomi-yi-dash-cam/#Firmware
+
+- - - 
+Andrej shared some technical help for anyone having problems with changing the serial:
+
+1. I flashed last chinese firmware (V-0.08.013) than camera again work(of course in Chinese)
+2. I again create the SN.txt file and engmode. But in first time i saved SN in UTF-8 encoding(in Notepad) and in information in camera showed me space before serial number so i see that was weird and on your video it wasn´t that.
+So i again create SN.txt  in Notepad and i choose ANSI encoding of text and i flashed it and serial number was ok without space(like on your video)
+
+- - -
+
+Thanks to scoup (scorup) for first posting the instructions on modifying the firmware.  See the full thread here (starting page 2): https://dashcamtalk.com/forum/threads/international-yi-car-dvr-info.18455/page-2
+
+- - - 
+Note from Sami of Yi Technology - Your warranty is void
+
+The company declares "to prohibit the implementation of engmode or flash SN to change the country code"This is a self-modification behavior, which will cause damage to YI Dash Camera. This is strictly prohibited by the official company. Any problems caused by improper operation is the same as Apple jailbreak. The company can not offer nor will be responsible for normal after-sales service to any modified device. 
+
+- - - 
+You might be interested in our guide on SD Cards.  Most users choose the wrong cards that are much less durable (ex Sandisk Ultra) and when used in a dash camera can fail sooner.  
+
+https://youtu.be/3QAF2flNsVc

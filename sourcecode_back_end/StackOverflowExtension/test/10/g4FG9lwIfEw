@@ -1,0 +1,113 @@
+Link for all dot net and sql server video tutorial playlists
+http://www.youtube.com/user/kudvenkat/playlists
+
+Link for slides, code samples and text version of the video
+http://csharp-video-tutorials.blogspot.com/2014/12/local-and-global-variables-in-javascript.html
+
+In JavaScript there are 2 types of variables
+1. Local variables
+2. Global variables
+
+JavaScript local variables : Local variables are the variables declared with in a function. These variables have local scope meaning these are available only inside the function that contains them. Local variables are created when a function starts, and deleted as soon as the function completes execution.
+
+function helloWorld() 
+{
+    var greeting = "Hello";
+    // The variable greeting is available in the function
+    greeting = greeting + " JavaScript";
+    alert(greeting);
+}
+
+helloWorld();
+
+// The variable greeting is not available outside the function
+// Error : 'greeting' is undefined
+alert(greeting);
+
+JavaScript global variables : Global variables are the variables declared outside a function. Global variables have global scope meaning all scripts and functions on the page can access them. The lifetime of a global variable starts with it's declaration and is deleted when the page is closed.
+
+// Global variable
+var greeting = "Hello";
+
+function helloWorld() 
+{
+    // The variable greeting is available in the function
+    greeting = greeting + " JavaScript";
+    alert(greeting);
+}
+
+helloWorld();
+
+If you assign a value to a variable that has not been declared, it will automatically become a global variable, even if it is present inside a function.
+
+function helloWorld() 
+{
+    // The variable greeting is not declared but a value is assigned. 
+    // So it will automatically become a global variable
+    greeting = "Hello JavaScript";
+}
+
+helloWorld();
+
+// Variable greeting is available outside the function
+alert(greeting);
+
+A local variable can have the same name as a global variable. Changing the value of one variable has no effect on the other. If the variable value is changed inside a function, and if a local version of the variable exists then the local variable gets modified. If the variable value is changed outside a function then the global variable gets modified.
+
+var greeting = "This is from global Variable";
+
+function helloWorld() 
+{
+    var greeting = "This is from local variable";
+    document.write(greeting + "[br/]");
+}
+
+// This line will modify the global greeting variable
+greeting += "!!!";
+
+helloWorld();
+
+document.write(greeting);
+
+Output : 
+This is from local variable
+This is from global Variable!!! 
+
+Sometimes, variable hoisting and local & global variable with the same name can cause unexpected behavior.
+
+var greeting = "This is from global Variable";
+helloWorld();
+
+function helloWorld() 
+{
+    document.write(greeting);
+    var greeting = "Hello from local variable"
+}
+
+Output :
+undefined
+
+At runtime due to variable hoisting, the above program would look more like as shown below.
+
+var greeting = "This is from global Variable";
+helloWorld();
+
+function helloWorld() 
+{
+    var greeting;
+    document.write(greeting);
+    greeting = "Hello from local variable"
+}
+
+Braces do not create scope in JavaScript : In the following example otherNumber is a global variable though it is defined inside braces. In many languages like C# and Java, braces create scope, but not JavaScript.
+
+var number = 100;
+
+if (number ] 10) 
+{
+    var otherNumber = number;
+}
+
+document.write(otherNumber);
+
+Output : 100

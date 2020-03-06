@@ -1,0 +1,64 @@
+http://studyplease.com/netbeans-4/
+
+ Console based using Netbeans
+
+Using Java, develop an application for a Quiz.
+
+Problem statement:
+
+The application creates a Quiz and displays a Progress Report. Give a suitable name for your application.
+
+The user enters his/her last name and first name at the beginning of the quiz.
+
+The quiz contains five questions about a hobby, popular music or any other individual interest.
+Each question should be a multiple-choice question with two options.
+Each question should be worth 20 marks.
+
+When the user answers the question correctly, display a congratulatory message along with the score.
+
+If the user responds to a question incorrectly, display an appropriate message.
+The user should be presented with each question continually until it is answered correctly.
+
+The application must keep a track of the number of attempts for each question.
+For any question, the user can score:
+•  20 marksàfirst attempt
+•  10 marksàsecond attempt
+•  0 marksàany additional attempt
+
+When the user ends the quiz, the application must display a well-formatted Progress Report (on the screen itself), indicating the following:
+
+- Current date and time
+- Full Name of the user
+- Marks scored for the quiz
+- Percentage score (for e.g. 60/100 would be 60%)
+- Number of attempts for each question.
+
+When the user ends the quiz, the application must display a well-formatted Progress Report (on the screen itself), indicating the following:
+
+- Current date and time
+- Full Name of the user
+- Marks scored for the quiz
+- Percentage score (for e.g. 60/100 would be 60%)
+- Number of attempts for each question.
+
+http://studyplease.com/expert-answers-242/
+
+Create a class named GirlScout that contains fields for a GirlScout’s name, troop number, and dues owed. The program should justify the following conditions:
+
+Include a constant static field that contains the last words of the GirlScout motto (“to obey the Girl Scout law”).
+
+Include overloaded constructors that allow you to set all three nonstatic GirlScout fields to default values or to parameter values.
+
+Include properties for each field.
+
+Create a class named DemoScouts that instantiates two GirlScout objects and displays their values.
+
+Create one object to use the default constructor and the other to use the constructor that requires arguments.
+
+Display the GirlScout motto.
+
+SECOND ASSIGNMENT:
+
+GUI application that prompts a user to enter an integer and display a message indicating whether the user was successful.
+
+Created a button to convert the user’s entry to an integer and display a message indicating whether the user was successful

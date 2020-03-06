@@ -1,0 +1,3 @@
+syntax: filter(function, sequence)
+
+function can be any function, including other built-in function or self-defined function, it also accept None (will return the sequence itself).

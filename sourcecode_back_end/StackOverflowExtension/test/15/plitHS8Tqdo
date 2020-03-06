@@ -1,0 +1,45 @@
+In this tutorial, I am going to teach you how to crack a password-protected website. To perform the attack, we are going to use the Hydra password cracking utility, which will allow us to brute force both the username and the password. 
+
+This tutorial is for BackTrack 5 and Kali Linux users.
+
+Recommended tutorials:
+
+How To: Create A Wordlist With Crunch
+http://youtu.be/_ZiiJT7iJ2c
+
+How To: Password Profiling With Cupp
+http://youtu.be/ANXYxDBzleg
+
+Note: It is illegal to perform this attack on any website that you do not own. The information presented in this tutorial is for educational purposes only.
+
+If Hydra is showing the wrong password, try updating Hydra using the following instructions.
+
+HOW TO UPDATE HYDRA
+
+The instructions below will guide you through the steps necessary to update Hydra from it's current version to version 7.5 (or whatever the latest version is). 
+
+Step 1: Open a web browser
+
+Step 2: Navigate to "http://www.thc.org/thc-hydra"
+
+Step 3: Click the "hydra-7.5.tar.gz" download link
+
+Note: The download link is at the bottom of the page. There may be a newer version available. If so, use the newest version instead of Hydra 7.5.
+
+Step 4: Save the hydra-7.5.tar.gz file in your Downloads folder
+
+Step 5: Open a terminal
+
+Step 6: Type "cd Downloads"
+
+Step 7: Type "tar zxvf /root/Downloads/hydra-7.5.tar.gz"
+
+Step 8: Type "cd hydra-7.5"
+
+Step 9: Type "./configure"
+
+Step 10: Type "make"
+
+Step 11: Type "make install"
+
+That's it. The update should be finished. Now, start Hydra so you can confirm that the update was successful.

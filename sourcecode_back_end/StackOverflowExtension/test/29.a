@@ -1,0 +1,24 @@
+    &gt;&gt;&gt; import datetime
+    &gt;&gt;&gt; datetime.datetime.now()
+    datetime(2009, 1, 6, 15, 8, 24, 78915)
+
+And just the time:
+
+    &gt;&gt;&gt; datetime.datetime.time(datetime.datetime.now())
+    datetime.time(15, 8, 24, 78915)
+
+The same but slightly more compact:
+
+    &gt;&gt;&gt; datetime.datetime.now().time()
+
+See the [**documentation**][1] for more info.
+
+
+To save typing, you can import the `datetime` object from the `datetime` module:
+
+    &gt;&gt;&gt; from datetime import datetime
+
+Then remove the leading `datetime.` from all the above.
+
+
+[1]: https://docs.python.org/3/library/datetime.html

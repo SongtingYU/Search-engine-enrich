@@ -1,0 +1,36 @@
+ASP.NET is a development framework for building web pages and web sites with HTML, CSS, JavaScript and server scripting.
+
+ASP.NET supports three different development models:
+Web Pages, MVC (Model View Controller), and Web Forms:
+
+Web Pages Tutorial
+
+If you are new to ASP.NET, Web Pages is the perfect place to start.
+
+Web Pages is the easiest development model for developing ASP.NET web sites.
+
+In our Web Pages tutorial you will learn how to combine HTML, CSS, JavaScript and server code, using the latest Razor server markup syntax with Visual Basic or C#.
+
+You will also learn how to extend your web pages with programmable Web Helpers, including database, video, graphics, social networking and much more.
+
+Start learning ASP.NET Web Pages now!
+
+Web Forms Tutorial
+
+Web Forms is the traditional ASP.NET model, based on event driven Web Forms and post backs.
+
+Over the years, developers have used ASP.NET Web Forms to create many of the largest websites in the world.
+
+If you want to study the design model used by many web developers over the last 10 years, this is the place to start.
+
+Who Are These Tutorials For?
+
+The tutorials above are for anyone who wants to learn to build websites on the Microsoft ASP.NET platform, from hobby-related sites, to new, modern, and fully commercial webs.
+
+Even if you are new to web programming, you should be able to follow the tutorials, but it will help if you have a basic understanding of HTML and CSS.
+
+It will also help if you have a basic understanding of scripting languages like JavaScript or VB (Visual Basic).
+
+Do you have a preference for VB over C#? Do you want to learn both languages? The good news are: In the W3Schools tutorials most code examples are in both languages.
+
+If you are a professional web developer with prior ASP.NET experience, you can still learn a lot, since these tutorials covers a lot of new ASP.NET concepts, like HTML5, CSS3, JQuery, and more.

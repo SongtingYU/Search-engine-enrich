@@ -1,0 +1,19 @@
+How to enable cmd when your cmd has been disable by your administrator:
+NOTE: This issue usually happen in computers that have too much virus...I recommended you guys should reinstall your Windows and install Antivirus program
+
+STEP 1:
+open your RUN
+STEP 2:
+type regedit
+STEP 3 :
+click HKEY_CURRNT_USER , Software ,Policies , Microsoft , System
+STEP 3:
+Click on Disable CMD
+STEP 4:
+Change the value data 1 to 0
+...
+*Tada*...Your CMD has been enable....
+Enjoy....
+Please...please, subcribe if it's worked for you :D
+
+How to Enable Registry Editor :  http://www.youtube.com/watch?v=peP1Ye6BXCg&feature=g-upl

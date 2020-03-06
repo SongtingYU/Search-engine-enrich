@@ -1,0 +1,11 @@
+Steam Cloud is great, but it's not supported by everything. Dropbox is also great. It's supported by most things. This video will show you how to set up your games savegame folders to sync to Dropbox upon any change.
+
+Then it will teach you how to set up the link on the secondary computer. Both computers should then share the save files. Pretty neat, huh?
+
+NOTE: To remove a Symbolic Link, you can either right click on the folder with the Symbolic Link icon and click 'Crop', but a much more efficient way of breaking the symbolic link is changing the name of either folder/deleting the folder it's linking to.
+
+This only works on Windows 7.
+
+Link to Link Shell Extension's site: http://schinagl.priv.at/nt/hardlinkshellext/hardlinkshellext.html
+
+Enjoy

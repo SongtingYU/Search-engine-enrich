@@ -1,0 +1,40 @@
+Don't hesitate to comment below if you have any questions or additional phrases 
+C++ and Java Chris Stork most slides stolen from John Mitchell (chapter 12 &amp;amp; 13) 
+,C++ History C++ is an object-oriented extension of C 
+C was designed by Dennis Ritchie at Bell Labs used to write Unix 
+based on BCPL C++ designed by Bjarne Stroustrup at Bell Labs His original interest at Bell was research on simulation 
+Early extensions to C are based primarily on Simula Called “C with classes” in early 1980’s Popularity increased in late 1980’s and early 1990’s Features were added incrementally Classes, templates, exceptions, multiple inheritance, type tests... ,C++ Design Goals Provide object-oriented features in C-based language, without compromising efficiency 
+Backwards compatibility with C  
+Better static type checking Data abstraction Objects and classes Prefer efficiency of compiled code where possible Important principle If you do not use a feature, your compiled code should be as efficient as if the language did not include the feature.             (compare to Smalltalk) 
+,How successful? Given the design goals and constraints,  
+this is a very well-designed language 
+Many users -- tremendous popular success However, very complicated design Many specific properties with complex behavior 
+Difficult to predict from basic principles Most serious users chose subset of language  Full language is complex and unpredictable 
+Many implementation-dependent properties Language for adventure game fans ,Further evidence Many style guides for using C++ “safely” 
+Many conventions and prohibitions to reduce complexity CORBA -- don’t inherit implementation 
+SGI compiler group -- no virtual functions Others -- ??? See Cargill’sC++ Programming Stylebook or even Stroustrup's The C++ Programming Language, 3rd ed. (also check out http://www.research.att.com/~bs/C++.html) ,Significant constraints C has specific machine model 
+Access to underlying architecture 
+No garbage collection Consistent with goal of efficiency 
+Need to manage object memory explicitly Local variables stored in activation records Objects treated as generalization of structs, so some objects may be allocated on stack 
+Stack/heap difference is visible to programmer ,Overview of C++ Additions and changes not related to objects 
+type bool 
+pass-by-reference user-defined overloading function templates exceptions  … ,C++ Object System Object-oriented features 
+Classes 
+Objects, with dynamic lookup of virtual functions Inheritance Single and multiple inheritance 
+Public and private base classes Subtyping  Tied to inheritance mechanism 
+Encapsulation ,Some good decisions Public, private, protected levels of visibility 
+Public: visible everywhere 
+Protected: within class and subclass declarations Private: visible only in class where declared Friend functions and classes Careful attention to visibility and data abstraction 
+Allow inheritance without subtyping Better control of subtyping than without private base classes 
+,Some problem areas Casts 
+Sometimes no-op, sometimes not (esp multiple inher) 
+Lack of garbage collection Memory management is error prone 
+Constructors, destructors are helpful though 
+Objects allocated on stack Better efficiency, interaction with exceptions 
+BUT assignment works badly, possible dangling ptrs Overloading Too many code selection mechanisms 
+Multiple inheritance Efforts at efficiency lead to complicated behavior 
+,Sample class:one-dimenional points class Pt {    public:       Pt(int xv);       Pt(Pt* pv);       int getX();       virtual void move(int dx);     protected:        void setX(int xv);     private:        int x;                      }; Overloaded constructor Public read access to private data Virtual function Protected write access  Private member data  
+, Virtual functions Member functions are either 
+Virtual, if explicitly declared or inherited as virtual 
+Non-virtual otherwise Virtual members Are accessed by indirection through ptr in object 
+May be redefined in derived (sub) classes Non-virtual functions

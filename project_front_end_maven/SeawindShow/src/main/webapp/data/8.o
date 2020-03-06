@@ -1,0 +1,17 @@
+<p>It is not possible to sort a dict, only to get a representation of a dict that is sorted. Dicts are inherently orderless, but other types, such as lists and tuples, are not. So you need a sorted representation, which will be a list—probably a list of tuples.</p>
+
+<p>For instance,</p>
+
+<pre><code>import operator
+x = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+sorted_x = sorted(x.items(), key=operator.itemgetter(1))
+</code></pre>
+
+<p><code>sorted_x</code> will be a list of tuples sorted by the second element in each tuple. <code>dict(sorted_x) == x</code>.</p>
+
+<p>And for those wishing to sort on keys instead of values:</p>
+
+<pre><code>import operator
+x = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
+sorted_x = sorted(x.items(), key=operator.itemgetter(0))
+</code></pre>

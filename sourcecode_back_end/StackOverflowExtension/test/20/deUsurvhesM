@@ -1,0 +1,6 @@
+How do you compare two worksheets cell by cell in the same workbook or in different workbooks? Excel VBA provides an elegant solution.
+First we define a few variables that can count the rows and columns so that we know how many cells are in use in the Excel worksheets. Next we assign the used ranges to the sheet with the maximum values. 
+Now using a nested 'for loop' we access each cell in the used range and compare them. If the cells values are not equal we write them into a new workbook and also count the difference so that we tell the user about the number of cells that were not the same and also display both the values in the compared sheets. The displayed values are in the same cells in the new workbook as they appeared in the compared worksheets and highlighted appropriately.
+We also use a command button so that the user can perform the task with a single click!
+You can find the complete macro code here:
+http://www.familycomputerclub.com/compare-two-excel-worksheets.html

@@ -1,0 +1,30 @@
+This video explains:
+
+* How to import OS Agents Reports 6.3.0 Fix Pack 2
+
+* How to access the OS agent reports in Tivoli Common Reporting (TCR) 3.1
+
+NOTE: You need to have TCR 3.1 installed in your environment and OS agents reports package downloaded. Requires Reporting Service AND/OR Vizualization Service (DASH) from the Jazz for Service Management  (JazzSM) package.
+
+ - JazzSM 1.1.2.0 for Linux (Part Number - CN54VML)
+ - TCR 3.1.2.0 for Linux (Part Number - CN54ZML)
+ - OS Agents Reports 6.3.0.2 (Part Number - CIQ3RML)
+
+Link for other operating system packages -                       http://www-01.ibm.com/support/docview.wss?uid=swg24039873
+
+We successfuly imported the OS Agent Reports in Tivoli Common Reporting. The same procedure can be used for other versions of OS Agent Reports.
+
+- If you only have the Reporting Services installed (No DASH/Vizualization Service) installed from the JazzSM package use the following link to access Tivoli Common Reporting:
+http://host.domain:port/tarf/servlet/dispatch
+
+For details - http://www-01.ibm.com/support/knowledgecenter/SSEKCU_1.1.2.0/com.ibm.psc.doc_1.1.2.0/tcr_original/ttcr_login.html?cp=SSEKCU_1.1.2.0%2F6-1-0-0&lang=en
+
+- If you are installing the reports on Windows. Download the reports package. Copy the reports folder "IBM Tivoli Monitoring OS Agents Reports.zip" UNDER C:\AGENT_REPORTS\reports\cognos_reports\osagents TO C:\Program Files\IBM\JazzSM\reporting\cognos\deployment (or the location where JazzSM is installed). Once this is done the import can be initiated.
+
+
+Check out all our other posts and updates: 
+===============================
+Academy Blogs:                    http://ow.ly/Otue0
+Academy Videos:                  http://ow.ly/PIKFz
+Academy Google+:               http://ow.ly/Dj3nn
+Academy Twitter Handle:    http://ow.ly/Dj35c

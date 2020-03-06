@@ -1,0 +1,13 @@
+Here is another way to enable and disable the administrator account on Windows 8 or 8.1.
+
+Watch the video in HD 720p in full screen mode.
+
+Enable: net user administrator /active:yes
+
+Disable: net user administrator /active:no
+
+Rate if the video is helpful.
+
+Comment if you have questions.
+
+Subscribe for more videos.

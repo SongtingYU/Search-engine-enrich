@@ -1,0 +1,12 @@
+Ferramentas do módulo os para manipulação de diretórios
+chdir
+mkdir
+rmdir
+listdir
+walk
+
+Bibliografia:
+Programming Python - pg 91, 100, 101, 136, 137
+
+ropbox:
+https://www.dropbox.com/sh/t0lvoxb2fxfhctx/AABIYnYyvqPby6oq0NkQWpRaa

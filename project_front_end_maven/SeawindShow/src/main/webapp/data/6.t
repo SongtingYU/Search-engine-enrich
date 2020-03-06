@@ -1,0 +1,1 @@
+How to make a chain of function decorators in Python?

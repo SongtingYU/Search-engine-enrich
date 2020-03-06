@@ -1,0 +1,37 @@
+Playlist: https://www.youtube.com/playlist?list=PLkYQC_7i1Rm-XlvV5xgxcVslIU574vpsB
+
+In this tutorial we did a Simple Data Transfer over network between PC and Raspberry-Pi using UDP Protocol. We created a Datagram Socket to interface and transfer the data bits.
+
+Server Code:
+import os
+from socket import *
+host = ""
+port = 13000
+buf = 1024
+addr = (host, port)
+ServerSocket = socket(AF_INET, SOCK_DGRAM)
+ServerSocket.bind(addr)
+print "Waiting for Connections...."
+while True:
+    (data, addr) = ServerSocket.recvfrom(buf)
+    print "Receiving Data from: " + addr
+    print "Received Data: " + data
+    print "\n"
+    if data == "exit":
+        break
+    path='/home/pi/share/name.txt'
+    file1=file(path,'w')
+    if os.path.isfile(path):
+     print("File Exists")
+     file1.truncate()
+        file1.write(data)
+        file1.close()
+    else:
+        file1.write(data)
+        file1.close()
+
+ServerSocket.close()
+os._exit(0)
+
+Credits:
+Background Music : https://www.youtube.com/user/Vercittyfilms

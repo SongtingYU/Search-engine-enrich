@@ -1,0 +1,71 @@
+Link for code samples used in the demo
+http://csharp-video-tutorials.blogspot.com/2014/01/part-18-throwing-fault-exceptions-from_26.html
+
+Link for all dot net and sql server video tutorial playlists
+http://www.youtube.com/user/kudvenkat/playlists
+
+This is continuation to Part 17. Please watch Part 17, before proceeding.
+
+In this video we will discuss throwing FaultException from a WCF service. The first question that normally comes to our mind at this point is that, why can't we simply throw .NET exceptions instead of Fault exceptions.
+
+A WCF service should be throwing a FaultException or FaultException[T] instead of Dot Net exceptions. This is because of the following 2 reasons.
+1. An unhandled .NET exception will cause the channel between the client and the server to fault. Once the channel is in a faulted state we cannot use the client proxy anymore. We will have to re-create the proxy. We discussed this in Part 17 of the WCF tutorial. On the other hand faultexceptions will not cause the communication channel to fault.
+2. As .NET exceptions are platform specific, they can only be understood by a client that is also .NET. If you want the WCF service to be interoperable, then the service should be throwing FaultExceptions.
+
+Please Note: FaultException[T] allows us to create strongly typed SOAP faults. We will discuss this in our next video.
+
+CalculatorService.cs:
+using System.ServiceModel;
+namespace CalculatorService
+{
+    public class CalculatorService : ICalculatorService
+    {
+        public int Divide(int Numerator, int Denominator)
+        {
+            if (Denominator == 0)
+                throw new FaultException("Denomintor cannot be ZERO", new FaultCode("DivideByZeroFault"));
+
+            return Numerator / Denominator;
+        }
+    }
+}
+
+Client application:
+using System;
+using System.ServiceModel;
+using System.Windows.Forms;
+
+namespace WidowsClient
+{
+    public partial class Form1 : Form
+    {
+        CalculatorService.CalculatorServiceClient client = null;
+        
+        public Form1()
+        {
+            InitializeComponent();
+            client = new CalculatorService.CalculatorServiceClient();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int numerator = Convert.ToInt32(textBox1.Text);
+                int denominator = Convert.ToInt32(textBox2.Text);
+
+                label1.Text = client.Divide(numerator, denominator).ToString();
+            }
+            catch (FaultException faultException)
+            {
+                label1.Text = faultException.Code.Name + " - " + faultException.Message;
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            client = new CalculatorService.CalculatorServiceClient();
+            MessageBox.Show("A new instance of the proxy class is created");
+        }
+    }
+}

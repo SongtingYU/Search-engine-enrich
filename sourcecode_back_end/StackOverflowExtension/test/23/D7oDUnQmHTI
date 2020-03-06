@@ -1,0 +1,12 @@
+Multiple Inheritance in PHP
+
+In this tutorial i have shown how to implement multiple inheritance in php. First i have created class as TGP nad then interface as  I_TGP and again one class as MultipleI and extented the class TGP and implemented the interface I_TGP.
+
+This video is for learning PHP and develop websites using  PHP and MYSQL. The aim is to teach the Web Designing/Development in a step-by-step guided approach.  
+
+Intro Track By : Danish Shaikh
+
+-~-~~-~~~-~~-~-
+Please watch: "Registration Form In PHP adn MYSQL" 
+https://www.youtube.com/watch?v=jQCiU85q2vs
+-~-~~-~~~-~~-~-

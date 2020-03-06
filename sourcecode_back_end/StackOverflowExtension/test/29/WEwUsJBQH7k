@@ -1,0 +1,1 @@
+In this week's screencast we discuss timezone and datetime in python, we discuss terminology and layout the concepts for dealing with and handling datetimes with timezones in python. We then go on to introduce a datetime module named Delorean.

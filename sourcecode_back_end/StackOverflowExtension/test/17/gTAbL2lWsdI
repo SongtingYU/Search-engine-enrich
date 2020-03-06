@@ -1,0 +1,1 @@
+Demonstration of how to use Oracle's SQL Loader to load flat file data into a database; log, bad, and discard files are addressed, along with troubleshooting load errors

@@ -1,0 +1,10 @@
+3:03 Click to skip the Introduction to Lesson 11.
+There is not challenge program for Lesson 11.
+
+Lesson 11 looks at built in functions inherent to Python. Functions like print(), input(), and int() have already been introduced. This lesson also introduces abs(), max(), min(), and pow(). Key terms such as arguments and function calls are introduced, and the concept of functions returning a single value are also explored.
+
+This is an introductory series of Python tutorials. This course, from start to finish, is designed to help someone who has never programmed before learn the basics of coding in Python. As this series continues, we examine more advanced Python techniques, functions, and methods.
+
+You can download a copy of Python from http://www.python.org/downloads/.
+
+Keep in mind this tutorial is using an older version of Python, v3.2.5. You will need to click on the "View Older Releases" button to use this specific version. Using the newer versions will not be an issue at this point, but when the lesson proceeds to basic graphics, the Pygame Module we'll use does not support v3.3+ at this time.

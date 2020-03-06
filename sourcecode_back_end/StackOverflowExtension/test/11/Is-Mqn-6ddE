@@ -1,0 +1,12 @@
+Method 1: Using the console registry tool
+Click Start, Run and type this command exactly as given below: (better - Copy and paste) - REG add HKCU\Software\Policies\Microsoft\Windows\System /v DisableCMD /t REG_DWORD /d 0 /f
+
+Method 2: Edit the registry directly
+Open Registry Editor (Regedit.exe) and navigate to:
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\System]
+In the right-pane, double-click DisableCMD and set it's data to 0
+
+Method 3: Using Group Policy Editor in Windows XP Professional.
+Click Start, Run, type gpedit.msc and click OK.
+Navigate to User Configuration \ Administrative Templates \ System
+Double-click the Prevent access to the command prompt

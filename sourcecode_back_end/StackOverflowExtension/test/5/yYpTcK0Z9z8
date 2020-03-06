@@ -1,0 +1,10 @@
+Demo of SlopPy: An error-tolerant Python interpreter that facilitates sloppy programming
+
+http://www.pgbovine.net/SlopPy.html
+
+
+SlopPy (Sloppy Python) is a modified Python interpreter that ensures your scripts will never crash.
+
+Whenever SlopPy encounters an uncaught exception, instead of crashing the script, it will create a special NA ("Not Available") object, make it the result of the current expression, and continue executing normally. Whenever an NA object appears in an expression, SlopPy propagates it according to special rules. For example, all unary and binary operations involving NA will return NA, and attempts to add NA to a collection will do nothing.
+
+SlopPy allows imperfect scripts to finish executing and produce partial results (and a log of all exceptions), which can be much more informative than simply crashing at the first uncaught exception. It's a drop-in replacement for the Python 2.6 interpreter, so it should work seamlessly with all of your existing scripts and 3rd-party libraries with no run-time slowdown.
